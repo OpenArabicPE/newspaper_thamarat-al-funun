@@ -7,8 +7,8 @@
       <fileDesc>
          <titleStmt>
             <title>Fihrist</title>
-             <author>Hudā Ṣayāḥ</author>
-             <editor>Till Grallert</editor>
+             <author xml:id="pers_HS"><persName><forename>Hudā</forename> <surname>Ṣiyāḥ</surname></persName></author>
+             <editor xml:id="pers_TG"><persName><forename>Till</forename> <surname>Grallert</surname></persName></editor>
          </titleStmt>
          <publicationStmt>
             <p>Publication information</p>        
@@ -17,6 +17,10 @@
             <p>Information about the source</p>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+          <change when="2017-10-24">Added structural mark-up and cleaned the data with a mix of manual and automated changes</change>
+          <change when="2017-10-23">Created this file through conversion from CSV using regular expression</change>
+      </revisionDesc>
   </teiHeader>
   <text xml:lang="ar">
         <body>
@@ -25,7 +29,6 @@
                 <div type="section">
                     <head>اثار</head>
                     <list>
-                  <pb ed="print" n="36"/>
                   <item>
                      <bibl>36 <title level="a">صناديق تحتوي جثث حكام في مصر</title>
                             <author>الاهرام</author>,, <biblScope unit="volume" from="7" to="7">7</biblScope> 
@@ -216,7 +219,7 @@
                 <div type="section">
                     <head>اجتماع</head>
                     <list>
-                  <pb ed="print" n="37"/>
+                  
                   <item>
                      <bibl>37 <title level="a">الاتحاد</title>
                             <author>مجلة سورية</author>,1875, <biblScope unit="volume" from="1" to="1">1</biblScope> 
@@ -18543,7 +18546,7 @@
                 <div type="section">
                     <head>سياسة</head>
                     <list>
-                  <pb ed="print" n="128"/>
+                  
                   <item>
                      <bibl>128 <title level="a">مركز المانيا في اوروبا </title>
                             <author>المجلة </author>,, <biblScope unit="volume" from="24" to="24">24</biblScope> 
@@ -19253,7 +19256,7 @@
                 <div type="section">
                     <head>صحافة</head>
                     <list>
-                  <pb ed="print" n="132"/>
+                  
                   <item>
                      <bibl>132 <title level="a">ظهور مجلة الجنة للبستاني</title>
                             <author>المجلة</author>,, <biblScope unit="volume" from="1" to="1">1</biblScope> 
