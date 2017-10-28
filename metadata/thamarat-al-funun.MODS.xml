@@ -1,0 +1,1856 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/modsbp_parameters.xsl"?><modsCollection xmlns:tei="http://www.tei-c.org/ns/1.0"
+                xmlns:mods="http://www.loc.gov/mods/v3"
+                xmlns="http://www.loc.gov/mods/v3"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
+   <mods>
+      <titleInfo>
+         <title lang="ar">ثمرات الفنون</title>
+         <subTitle lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</subTitle>
+         <subTitle lang="ar">صدورها في يوم الثلاثا من كل اسبوع</subTitle>
+         <title lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+         <subTitle lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</subTitle>
+         <subTitle lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-thulāthā min kull usbūʿ</subTitle>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local">periodical</genre>
+      <genre authority="marcgt">periodical</genre>
+      <name type="personal" xml:lang="ar">
+         <namePart type="family" xml:lang="">قباني</namePart>
+         <namePart type="given" xml:lang="">عبد القادر</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+         </role>
+      </name>
+      <originInfo>
+         <edition xml:lang="en"/>
+         <place>
+                        <placeTerm type="text" xml:lang="ar">بيروت</placeTerm>
+                        <placeTerm type="text" xml:lang="ar-Latn-x-ijmes">Bayrūt</placeTerm>
+                        <placeTerm type="text" xml:lang="en">Beirut</placeTerm>
+                        <placeTerm type="text" xml:lang="fr">Beyrouth</placeTerm>
+                     </place>
+                        <publisher xml:lang="ar">مطبعة جمعية الفنون</publisher>
+                        <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</publisher>
+                     <dateIssued encoding="w3cdtf">1875-04-20</dateIssued>
+         <issuance>continuing</issuance>
+      </originInfo>
+      <part>
+         <detail type="volume">
+            <number>1</number>
+         </detail>
+         <detail type="issue">
+            <number>1</number>
+         </detail>
+         <extent unit="pages">
+            <start>1</start>
+            <end>4</end>
+         </extent>
+      </part>
+      <accessCondition/>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods>
+      <titleInfo>
+         <title lang="ar">ثمرات الفنون</title>
+         <subTitle lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</subTitle>
+         <subTitle lang="ar">صدورها في يوم الثلاثا من كل اسبوع</subTitle>
+         <title lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+         <subTitle lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</subTitle>
+         <subTitle lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-thulāthā min kull usbūʿ</subTitle>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local">periodical</genre>
+      <genre authority="marcgt">periodical</genre>
+      <name type="personal" xml:lang="ar">
+         <namePart type="family" xml:lang="">قباني</namePart>
+         <namePart type="given" xml:lang="">عبد القادر</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+         </role>
+      </name>
+      <originInfo>
+         <edition xml:lang="en"/>
+         <place>
+                        <placeTerm type="text" xml:lang="ar">بيروت</placeTerm>
+                        <placeTerm type="text" xml:lang="ar-Latn-x-ijmes">Bayrūt</placeTerm>
+                        <placeTerm type="text" xml:lang="en">Beirut</placeTerm>
+                        <placeTerm type="text" xml:lang="fr">Beyrouth</placeTerm>
+                     </place>
+                        <publisher xml:lang="ar">مطبعة جمعية الفنون</publisher>
+                        <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</publisher>
+                     <dateIssued encoding="w3cdtf">1875-04-27</dateIssued>
+         <issuance>continuing</issuance>
+      </originInfo>
+      <part>
+         <detail type="volume">
+            <number>1</number>
+         </detail>
+         <detail type="issue">
+            <number>2</number>
+         </detail>
+         <extent unit="pages">
+            <start>1</start>
+            <end>4</end>
+         </extent>
+      </part>
+      <accessCondition/>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods>
+      <titleInfo>
+         <title lang="ar">ثمرات الفنون</title>
+         <subTitle lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</subTitle>
+         <subTitle lang="ar">صدورها في يوم الثلاثا من كل اسبوع</subTitle>
+         <title lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+         <subTitle lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</subTitle>
+         <subTitle lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-thulāthā min kull usbūʿ</subTitle>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local">periodical</genre>
+      <genre authority="marcgt">periodical</genre>
+      <name type="personal" xml:lang="ar">
+         <namePart type="family" xml:lang="">قباني</namePart>
+         <namePart type="given" xml:lang="">عبد القادر</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+         </role>
+      </name>
+      <originInfo>
+         <edition xml:lang="en"/>
+         <place>
+                        <placeTerm type="text" xml:lang="ar">بيروت</placeTerm>
+                        <placeTerm type="text" xml:lang="ar-Latn-x-ijmes">Bayrūt</placeTerm>
+                        <placeTerm type="text" xml:lang="en">Beirut</placeTerm>
+                        <placeTerm type="text" xml:lang="fr">Beyrouth</placeTerm>
+                     </place>
+                        <publisher xml:lang="ar">مطبعة جمعية الفنون</publisher>
+                        <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</publisher>
+                     <dateIssued encoding="w3cdtf">1875-05-04</dateIssued>
+         <issuance>continuing</issuance>
+      </originInfo>
+      <part>
+         <detail type="volume">
+            <number>1</number>
+         </detail>
+         <detail type="issue">
+            <number>3</number>
+         </detail>
+         <extent unit="pages">
+            <start>1</start>
+            <end>4</end>
+         </extent>
+      </part>
+      <accessCondition/>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods>
+      <titleInfo>
+         <title lang="ar">ثمرات الفنون</title>
+         <subTitle lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</subTitle>
+         <subTitle lang="ar">صدورها في يوم الثلاثا من كل اسبوع</subTitle>
+         <title lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+         <subTitle lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</subTitle>
+         <subTitle lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-thulāthā min kull usbūʿ</subTitle>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local">periodical</genre>
+      <genre authority="marcgt">periodical</genre>
+      <name type="personal" xml:lang="ar">
+         <namePart type="family" xml:lang="">قباني</namePart>
+         <namePart type="given" xml:lang="">عبد القادر</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+         </role>
+      </name>
+      <originInfo>
+         <edition xml:lang="en"/>
+         <place>
+                        <placeTerm type="text" xml:lang="ar">بيروت</placeTerm>
+                        <placeTerm type="text" xml:lang="ar-Latn-x-ijmes">Bayrūt</placeTerm>
+                        <placeTerm type="text" xml:lang="en">Beirut</placeTerm>
+                        <placeTerm type="text" xml:lang="fr">Beyrouth</placeTerm>
+                     </place>
+                        <publisher xml:lang="ar">مطبعة جمعية الفنون</publisher>
+                        <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</publisher>
+                     <dateIssued encoding="w3cdtf">1875-05-11</dateIssued>
+         <issuance>continuing</issuance>
+      </originInfo>
+      <part>
+         <detail type="volume">
+            <number>1</number>
+         </detail>
+         <detail type="issue">
+            <number>4</number>
+         </detail>
+         <extent unit="pages">
+            <start>1</start>
+            <end>4</end>
+         </extent>
+      </part>
+      <accessCondition/>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods>
+      <titleInfo>
+         <title lang="ar">ثمرات الفنون</title>
+         <subTitle lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</subTitle>
+         <subTitle lang="ar">صدورها في يوم الثلاثا من كل اسبوع</subTitle>
+         <title lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+         <subTitle lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</subTitle>
+         <subTitle lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-thulāthā min kull usbūʿ</subTitle>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local">periodical</genre>
+      <genre authority="marcgt">periodical</genre>
+      <name type="personal" xml:lang="ar">
+         <namePart type="family" xml:lang="">قباني</namePart>
+         <namePart type="given" xml:lang="">عبد القادر</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+         </role>
+      </name>
+      <originInfo>
+         <edition xml:lang="en"/>
+         <place>
+                        <placeTerm type="text" xml:lang="ar">بيروت</placeTerm>
+                        <placeTerm type="text" xml:lang="ar-Latn-x-ijmes">Bayrūt</placeTerm>
+                        <placeTerm type="text" xml:lang="en">Beirut</placeTerm>
+                        <placeTerm type="text" xml:lang="fr">Beyrouth</placeTerm>
+                     </place>
+                        <publisher xml:lang="ar">مطبعة جمعية الفنون</publisher>
+                        <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</publisher>
+                     <dateIssued encoding="w3cdtf">1875-05-18</dateIssued>
+         <issuance>continuing</issuance>
+      </originInfo>
+      <part>
+         <detail type="volume">
+            <number>1</number>
+         </detail>
+         <detail type="issue">
+            <number>5</number>
+         </detail>
+         <extent unit="pages">
+            <start>1</start>
+            <end>4</end>
+         </extent>
+      </part>
+      <accessCondition/>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods>
+      <titleInfo>
+         <title lang="ar">ثمرات الفنون</title>
+         <subTitle lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</subTitle>
+         <subTitle lang="ar">صدورها في يوم الثلاثا من كل اسبوع</subTitle>
+         <title lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+         <subTitle lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</subTitle>
+         <subTitle lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-thulāthā min kull usbūʿ</subTitle>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local">periodical</genre>
+      <genre authority="marcgt">periodical</genre>
+      <name type="personal" xml:lang="ar">
+         <namePart type="family" xml:lang="">قباني</namePart>
+         <namePart type="given" xml:lang="">عبد القادر</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+         </role>
+      </name>
+      <originInfo>
+         <edition xml:lang="en"/>
+         <place>
+                        <placeTerm type="text" xml:lang="ar">بيروت</placeTerm>
+                        <placeTerm type="text" xml:lang="ar-Latn-x-ijmes">Bayrūt</placeTerm>
+                        <placeTerm type="text" xml:lang="en">Beirut</placeTerm>
+                        <placeTerm type="text" xml:lang="fr">Beyrouth</placeTerm>
+                     </place>
+                        <publisher xml:lang="ar">مطبعة جمعية الفنون</publisher>
+                        <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</publisher>
+                     <dateIssued encoding="w3cdtf">1875-05-25</dateIssued>
+         <issuance>continuing</issuance>
+      </originInfo>
+      <part>
+         <detail type="volume">
+            <number>1</number>
+         </detail>
+         <detail type="issue">
+            <number>6</number>
+         </detail>
+         <extent unit="pages">
+            <start>1</start>
+            <end>4</end>
+         </extent>
+      </part>
+      <accessCondition/>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods>
+      <titleInfo>
+         <title lang="ar">ثمرات الفنون</title>
+         <subTitle lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</subTitle>
+         <subTitle lang="ar">صدورها في يوم الثلاثا من كل اسبوع</subTitle>
+         <title lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+         <subTitle lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</subTitle>
+         <subTitle lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-thulāthā min kull usbūʿ</subTitle>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local">periodical</genre>
+      <genre authority="marcgt">periodical</genre>
+      <name type="personal" xml:lang="ar">
+         <namePart type="family" xml:lang="">قباني</namePart>
+         <namePart type="given" xml:lang="">عبد القادر</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+         </role>
+      </name>
+      <originInfo>
+         <edition xml:lang="en"/>
+         <place>
+                        <placeTerm type="text" xml:lang="ar">بيروت</placeTerm>
+                        <placeTerm type="text" xml:lang="ar-Latn-x-ijmes">Bayrūt</placeTerm>
+                        <placeTerm type="text" xml:lang="en">Beirut</placeTerm>
+                        <placeTerm type="text" xml:lang="fr">Beyrouth</placeTerm>
+                     </place>
+                        <publisher xml:lang="ar">مطبعة جمعية الفنون</publisher>
+                        <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</publisher>
+                     <dateIssued encoding="w3cdtf">1875-06-01</dateIssued>
+         <issuance>continuing</issuance>
+      </originInfo>
+      <part>
+         <detail type="volume">
+            <number>1</number>
+         </detail>
+         <detail type="issue">
+            <number>7</number>
+         </detail>
+         <extent unit="pages">
+            <start>1</start>
+            <end>4</end>
+         </extent>
+      </part>
+      <accessCondition/>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods>
+      <titleInfo>
+         <title lang="ar">ثمرات الفنون</title>
+         <subTitle lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</subTitle>
+         <subTitle lang="ar">صدورها في يوم الثلاثا من كل اسبوع</subTitle>
+         <title lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+         <subTitle lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</subTitle>
+         <subTitle lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-thulāthā min kull usbūʿ</subTitle>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local">periodical</genre>
+      <genre authority="marcgt">periodical</genre>
+      <name type="personal" xml:lang="ar">
+         <namePart type="family" xml:lang="">قباني</namePart>
+         <namePart type="given" xml:lang="">عبد القادر</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+         </role>
+      </name>
+      <originInfo>
+         <edition xml:lang="en"/>
+         <place>
+                        <placeTerm type="text" xml:lang="ar">بيروت</placeTerm>
+                        <placeTerm type="text" xml:lang="ar-Latn-x-ijmes">Bayrūt</placeTerm>
+                        <placeTerm type="text" xml:lang="en">Beirut</placeTerm>
+                        <placeTerm type="text" xml:lang="fr">Beyrouth</placeTerm>
+                     </place>
+                        <publisher xml:lang="ar">مطبعة جمعية الفنون</publisher>
+                        <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</publisher>
+                     <dateIssued encoding="w3cdtf">1875-06-08</dateIssued>
+         <issuance>continuing</issuance>
+      </originInfo>
+      <part>
+         <detail type="volume">
+            <number>1</number>
+         </detail>
+         <detail type="issue">
+            <number>8</number>
+         </detail>
+         <extent unit="pages">
+            <start>1</start>
+            <end>4</end>
+         </extent>
+      </part>
+      <accessCondition/>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods>
+      <titleInfo>
+         <title lang="ar">ثمرات الفنون</title>
+         <subTitle lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</subTitle>
+         <subTitle lang="ar">صدورها في يوم الثلاثا من كل اسبوع</subTitle>
+         <title lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+         <subTitle lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</subTitle>
+         <subTitle lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-thulāthā min kull usbūʿ</subTitle>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local">periodical</genre>
+      <genre authority="marcgt">periodical</genre>
+      <name type="personal" xml:lang="ar">
+         <namePart type="family" xml:lang="">قباني</namePart>
+         <namePart type="given" xml:lang="">عبد القادر</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+         </role>
+      </name>
+      <originInfo>
+         <edition xml:lang="en"/>
+         <place>
+                        <placeTerm type="text" xml:lang="ar">بيروت</placeTerm>
+                        <placeTerm type="text" xml:lang="ar-Latn-x-ijmes">Bayrūt</placeTerm>
+                        <placeTerm type="text" xml:lang="en">Beirut</placeTerm>
+                        <placeTerm type="text" xml:lang="fr">Beyrouth</placeTerm>
+                     </place>
+                        <publisher xml:lang="ar">مطبعة جمعية الفنون</publisher>
+                        <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</publisher>
+                     <dateIssued encoding="w3cdtf">1875-06-15</dateIssued>
+         <issuance>continuing</issuance>
+      </originInfo>
+      <part>
+         <detail type="volume">
+            <number>1</number>
+         </detail>
+         <detail type="issue">
+            <number>9</number>
+         </detail>
+         <extent unit="pages">
+            <start>1</start>
+            <end>4</end>
+         </extent>
+      </part>
+      <accessCondition/>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods>
+      <titleInfo>
+         <title lang="ar">ثمرات الفنون</title>
+         <subTitle lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</subTitle>
+         <subTitle lang="ar">صدورها في يوم الثلاثا من كل اسبوع</subTitle>
+         <title lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+         <subTitle lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</subTitle>
+         <subTitle lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-thulāthā min kull usbūʿ</subTitle>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local">periodical</genre>
+      <genre authority="marcgt">periodical</genre>
+      <name type="personal" xml:lang="ar">
+         <namePart type="family" xml:lang="">قباني</namePart>
+         <namePart type="given" xml:lang="">عبد القادر</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+         </role>
+      </name>
+      <originInfo>
+         <edition xml:lang="en"/>
+         <place>
+                        <placeTerm type="text" xml:lang="ar">بيروت</placeTerm>
+                        <placeTerm type="text" xml:lang="ar-Latn-x-ijmes">Bayrūt</placeTerm>
+                        <placeTerm type="text" xml:lang="en">Beirut</placeTerm>
+                        <placeTerm type="text" xml:lang="fr">Beyrouth</placeTerm>
+                     </place>
+                        <publisher xml:lang="ar">مطبعة جمعية الفنون</publisher>
+                        <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</publisher>
+                     <dateIssued encoding="w3cdtf">1875-06-22</dateIssued>
+         <issuance>continuing</issuance>
+      </originInfo>
+      <part>
+         <detail type="volume">
+            <number>1</number>
+         </detail>
+         <detail type="issue">
+            <number>10</number>
+         </detail>
+         <extent unit="pages">
+            <start>1</start>
+            <end>4</end>
+         </extent>
+      </part>
+      <accessCondition/>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods>
+      <titleInfo>
+         <title lang="ar">ثمرات الفنون</title>
+         <subTitle lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</subTitle>
+         <subTitle lang="ar">صدورها في يوم الثلاثا من كل اسبوع</subTitle>
+         <title lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+         <subTitle lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</subTitle>
+         <subTitle lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-thulāthā min kull usbūʿ</subTitle>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local">periodical</genre>
+      <genre authority="marcgt">periodical</genre>
+      <name type="personal" xml:lang="ar">
+         <namePart type="family" xml:lang="">قباني</namePart>
+         <namePart type="given" xml:lang="">عبد القادر</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+         </role>
+      </name>
+      <originInfo>
+         <edition xml:lang="en"/>
+         <place>
+                        <placeTerm type="text" xml:lang="ar">بيروت</placeTerm>
+                        <placeTerm type="text" xml:lang="ar-Latn-x-ijmes">Bayrūt</placeTerm>
+                        <placeTerm type="text" xml:lang="en">Beirut</placeTerm>
+                        <placeTerm type="text" xml:lang="fr">Beyrouth</placeTerm>
+                     </place>
+                        <publisher xml:lang="ar">مطبعة جمعية الفنون</publisher>
+                        <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</publisher>
+                     <dateIssued encoding="w3cdtf">1875-06-29</dateIssued>
+         <issuance>continuing</issuance>
+      </originInfo>
+      <part>
+         <detail type="volume">
+            <number>1</number>
+         </detail>
+         <detail type="issue">
+            <number>11</number>
+         </detail>
+         <extent unit="pages">
+            <start>1</start>
+            <end>4</end>
+         </extent>
+      </part>
+      <accessCondition/>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods>
+      <titleInfo>
+         <title lang="ar">ثمرات الفنون</title>
+         <subTitle lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</subTitle>
+         <subTitle lang="ar">صدورها في يوم الثلاثا من كل اسبوع</subTitle>
+         <title lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+         <subTitle lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</subTitle>
+         <subTitle lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-thulāthā min kull usbūʿ</subTitle>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local">periodical</genre>
+      <genre authority="marcgt">periodical</genre>
+      <name type="personal" xml:lang="ar">
+         <namePart type="family" xml:lang="">قباني</namePart>
+         <namePart type="given" xml:lang="">عبد القادر</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+         </role>
+      </name>
+      <originInfo>
+         <edition xml:lang="en"/>
+         <place>
+                        <placeTerm type="text" xml:lang="ar">بيروت</placeTerm>
+                        <placeTerm type="text" xml:lang="ar-Latn-x-ijmes">Bayrūt</placeTerm>
+                        <placeTerm type="text" xml:lang="en">Beirut</placeTerm>
+                        <placeTerm type="text" xml:lang="fr">Beyrouth</placeTerm>
+                     </place>
+                        <publisher xml:lang="ar">مطبعة جمعية الفنون</publisher>
+                        <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</publisher>
+                     <dateIssued encoding="w3cdtf">1875-07-06</dateIssued>
+         <issuance>continuing</issuance>
+      </originInfo>
+      <part>
+         <detail type="volume">
+            <number>1</number>
+         </detail>
+         <detail type="issue">
+            <number>12</number>
+         </detail>
+         <extent unit="pages">
+            <start>1</start>
+            <end>4</end>
+         </extent>
+      </part>
+      <accessCondition/>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods>
+      <titleInfo>
+         <title lang="ar">ثمرات الفنون</title>
+         <subTitle lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</subTitle>
+         <subTitle lang="ar">صدورها في يوم الثلاثا من كل اسبوع</subTitle>
+         <title lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+         <subTitle lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</subTitle>
+         <subTitle lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-thulāthā min kull usbūʿ</subTitle>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local">periodical</genre>
+      <genre authority="marcgt">periodical</genre>
+      <name type="personal" xml:lang="ar">
+         <namePart type="family" xml:lang="">قباني</namePart>
+         <namePart type="given" xml:lang="">عبد القادر</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+         </role>
+      </name>
+      <originInfo>
+         <edition xml:lang="en"/>
+         <place>
+                        <placeTerm type="text" xml:lang="ar">بيروت</placeTerm>
+                        <placeTerm type="text" xml:lang="ar-Latn-x-ijmes">Bayrūt</placeTerm>
+                        <placeTerm type="text" xml:lang="en">Beirut</placeTerm>
+                        <placeTerm type="text" xml:lang="fr">Beyrouth</placeTerm>
+                     </place>
+                        <publisher xml:lang="ar">مطبعة جمعية الفنون</publisher>
+                        <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</publisher>
+                     <dateIssued encoding="w3cdtf">1875-07-13</dateIssued>
+         <issuance>continuing</issuance>
+      </originInfo>
+      <part>
+         <detail type="volume">
+            <number>1</number>
+         </detail>
+         <detail type="issue">
+            <number>13</number>
+         </detail>
+         <extent unit="pages">
+            <start>1</start>
+            <end>4</end>
+         </extent>
+      </part>
+      <accessCondition/>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods>
+      <titleInfo>
+         <title lang="ar">ثمرات الفنون</title>
+         <subTitle lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</subTitle>
+         <subTitle lang="ar">صدورها في يوم الثلاثا من كل اسبوع</subTitle>
+         <title lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+         <subTitle lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</subTitle>
+         <subTitle lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-thulāthā min kull usbūʿ</subTitle>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local">periodical</genre>
+      <genre authority="marcgt">periodical</genre>
+      <name type="personal" xml:lang="ar">
+         <namePart type="family" xml:lang="">قباني</namePart>
+         <namePart type="given" xml:lang="">عبد القادر</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+         </role>
+      </name>
+      <originInfo>
+         <edition xml:lang="en"/>
+         <place>
+                        <placeTerm type="text" xml:lang="ar">بيروت</placeTerm>
+                        <placeTerm type="text" xml:lang="ar-Latn-x-ijmes">Bayrūt</placeTerm>
+                        <placeTerm type="text" xml:lang="en">Beirut</placeTerm>
+                        <placeTerm type="text" xml:lang="fr">Beyrouth</placeTerm>
+                     </place>
+                        <publisher xml:lang="ar">مطبعة جمعية الفنون</publisher>
+                        <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</publisher>
+                     <dateIssued encoding="w3cdtf">1875-07-20</dateIssued>
+         <issuance>continuing</issuance>
+      </originInfo>
+      <part>
+         <detail type="volume">
+            <number>1</number>
+         </detail>
+         <detail type="issue">
+            <number>14</number>
+         </detail>
+         <extent unit="pages">
+            <start>1</start>
+            <end>4</end>
+         </extent>
+      </part>
+      <accessCondition/>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods>
+      <titleInfo>
+         <title lang="ar">ثمرات الفنون</title>
+         <subTitle lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</subTitle>
+         <subTitle lang="ar">صدورها في يوم الثلاثا من كل اسبوع</subTitle>
+         <title lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+         <subTitle lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</subTitle>
+         <subTitle lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-thulāthā min kull usbūʿ</subTitle>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local">periodical</genre>
+      <genre authority="marcgt">periodical</genre>
+      <name type="personal" xml:lang="ar">
+         <namePart type="family" xml:lang="">قباني</namePart>
+         <namePart type="given" xml:lang="">عبد القادر</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+         </role>
+      </name>
+      <originInfo>
+         <edition xml:lang="en"/>
+         <place>
+                        <placeTerm type="text" xml:lang="ar">بيروت</placeTerm>
+                        <placeTerm type="text" xml:lang="ar-Latn-x-ijmes">Bayrūt</placeTerm>
+                        <placeTerm type="text" xml:lang="en">Beirut</placeTerm>
+                        <placeTerm type="text" xml:lang="fr">Beyrouth</placeTerm>
+                     </place>
+                        <publisher xml:lang="ar">مطبعة جمعية الفنون</publisher>
+                        <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</publisher>
+                     <dateIssued encoding="w3cdtf">1875-07-27</dateIssued>
+         <issuance>continuing</issuance>
+      </originInfo>
+      <part>
+         <detail type="volume">
+            <number>1</number>
+         </detail>
+         <detail type="issue">
+            <number>15</number>
+         </detail>
+         <extent unit="pages">
+            <start>1</start>
+            <end>4</end>
+         </extent>
+      </part>
+      <accessCondition/>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods>
+      <titleInfo>
+         <title lang="ar">ثمرات الفنون</title>
+         <subTitle lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</subTitle>
+         <subTitle lang="ar">صدورها في يوم الثلاثا من كل اسبوع</subTitle>
+         <title lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+         <subTitle lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</subTitle>
+         <subTitle lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-thulāthā min kull usbūʿ</subTitle>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local">periodical</genre>
+      <genre authority="marcgt">periodical</genre>
+      <name type="personal" xml:lang="ar">
+         <namePart type="family" xml:lang="">قباني</namePart>
+         <namePart type="given" xml:lang="">عبد القادر</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+         </role>
+      </name>
+      <originInfo>
+         <edition xml:lang="en"/>
+         <place>
+                        <placeTerm type="text" xml:lang="ar">بيروت</placeTerm>
+                        <placeTerm type="text" xml:lang="ar-Latn-x-ijmes">Bayrūt</placeTerm>
+                        <placeTerm type="text" xml:lang="en">Beirut</placeTerm>
+                        <placeTerm type="text" xml:lang="fr">Beyrouth</placeTerm>
+                     </place>
+                        <publisher xml:lang="ar">مطبعة جمعية الفنون</publisher>
+                        <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</publisher>
+                     <dateIssued encoding="w3cdtf">1875-08-03</dateIssued>
+         <issuance>continuing</issuance>
+      </originInfo>
+      <part>
+         <detail type="volume">
+            <number>1</number>
+         </detail>
+         <detail type="issue">
+            <number>16</number>
+         </detail>
+         <extent unit="pages">
+            <start>1</start>
+            <end>4</end>
+         </extent>
+      </part>
+      <accessCondition/>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods>
+      <titleInfo>
+         <title lang="ar">ثمرات الفنون</title>
+         <subTitle lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</subTitle>
+         <subTitle lang="ar">صدورها في يوم الثلاثا من كل اسبوع</subTitle>
+         <title lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+         <subTitle lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</subTitle>
+         <subTitle lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-thulāthā min kull usbūʿ</subTitle>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local">periodical</genre>
+      <genre authority="marcgt">periodical</genre>
+      <name type="personal" xml:lang="ar">
+         <namePart type="family" xml:lang="">قباني</namePart>
+         <namePart type="given" xml:lang="">عبد القادر</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+         </role>
+      </name>
+      <originInfo>
+         <edition xml:lang="en"/>
+         <place>
+                        <placeTerm type="text" xml:lang="ar">بيروت</placeTerm>
+                        <placeTerm type="text" xml:lang="ar-Latn-x-ijmes">Bayrūt</placeTerm>
+                        <placeTerm type="text" xml:lang="en">Beirut</placeTerm>
+                        <placeTerm type="text" xml:lang="fr">Beyrouth</placeTerm>
+                     </place>
+                        <publisher xml:lang="ar">مطبعة جمعية الفنون</publisher>
+                        <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</publisher>
+                     <dateIssued encoding="w3cdtf">1875-08-10</dateIssued>
+         <issuance>continuing</issuance>
+      </originInfo>
+      <part>
+         <detail type="volume">
+            <number>1</number>
+         </detail>
+         <detail type="issue">
+            <number>17</number>
+         </detail>
+         <extent unit="pages">
+            <start>1</start>
+            <end>4</end>
+         </extent>
+      </part>
+      <accessCondition/>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods>
+      <titleInfo>
+         <title lang="ar">ثمرات الفنون</title>
+         <subTitle lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</subTitle>
+         <subTitle lang="ar">صدورها في يوم الثلاثا من كل اسبوع</subTitle>
+         <title lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+         <subTitle lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</subTitle>
+         <subTitle lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-thulāthā min kull usbūʿ</subTitle>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local">periodical</genre>
+      <genre authority="marcgt">periodical</genre>
+      <name type="personal" xml:lang="ar">
+         <namePart type="family" xml:lang="">قباني</namePart>
+         <namePart type="given" xml:lang="">عبد القادر</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+         </role>
+      </name>
+      <originInfo>
+         <edition xml:lang="en"/>
+         <place>
+                        <placeTerm type="text" xml:lang="ar">بيروت</placeTerm>
+                        <placeTerm type="text" xml:lang="ar-Latn-x-ijmes">Bayrūt</placeTerm>
+                        <placeTerm type="text" xml:lang="en">Beirut</placeTerm>
+                        <placeTerm type="text" xml:lang="fr">Beyrouth</placeTerm>
+                     </place>
+                        <publisher xml:lang="ar">مطبعة جمعية الفنون</publisher>
+                        <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</publisher>
+                     <dateIssued encoding="w3cdtf">1875-08-17</dateIssued>
+         <issuance>continuing</issuance>
+      </originInfo>
+      <part>
+         <detail type="volume">
+            <number>1</number>
+         </detail>
+         <detail type="issue">
+            <number>18</number>
+         </detail>
+         <extent unit="pages">
+            <start>1</start>
+            <end>4</end>
+         </extent>
+      </part>
+      <accessCondition/>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods>
+      <titleInfo>
+         <title lang="ar">ثمرات الفنون</title>
+         <subTitle lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</subTitle>
+         <subTitle lang="ar">صدورها في يوم الثلاثا من كل اسبوع</subTitle>
+         <title lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+         <subTitle lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</subTitle>
+         <subTitle lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-thulāthā min kull usbūʿ</subTitle>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local">periodical</genre>
+      <genre authority="marcgt">periodical</genre>
+      <name type="personal" xml:lang="ar">
+         <namePart type="family" xml:lang="">قباني</namePart>
+         <namePart type="given" xml:lang="">عبد القادر</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+         </role>
+      </name>
+      <originInfo>
+         <edition xml:lang="en"/>
+         <place>
+                        <placeTerm type="text" xml:lang="ar">بيروت</placeTerm>
+                        <placeTerm type="text" xml:lang="ar-Latn-x-ijmes">Bayrūt</placeTerm>
+                        <placeTerm type="text" xml:lang="en">Beirut</placeTerm>
+                        <placeTerm type="text" xml:lang="fr">Beyrouth</placeTerm>
+                     </place>
+                        <publisher xml:lang="ar">مطبعة جمعية الفنون</publisher>
+                        <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</publisher>
+                     <dateIssued encoding="w3cdtf">1875-08-24</dateIssued>
+         <issuance>continuing</issuance>
+      </originInfo>
+      <part>
+         <detail type="volume">
+            <number>1</number>
+         </detail>
+         <detail type="issue">
+            <number>19</number>
+         </detail>
+         <extent unit="pages">
+            <start>1</start>
+            <end>4</end>
+         </extent>
+      </part>
+      <accessCondition/>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods>
+      <titleInfo>
+         <title lang="ar">ثمرات الفنون</title>
+         <subTitle lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</subTitle>
+         <subTitle lang="ar">صدورها في يوم الثلاثا من كل اسبوع</subTitle>
+         <title lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+         <subTitle lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</subTitle>
+         <subTitle lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-thulāthā min kull usbūʿ</subTitle>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local">periodical</genre>
+      <genre authority="marcgt">periodical</genre>
+      <name type="personal" xml:lang="ar">
+         <namePart type="family" xml:lang="">قباني</namePart>
+         <namePart type="given" xml:lang="">عبد القادر</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+         </role>
+      </name>
+      <originInfo>
+         <edition xml:lang="en"/>
+         <place>
+                        <placeTerm type="text" xml:lang="ar">بيروت</placeTerm>
+                        <placeTerm type="text" xml:lang="ar-Latn-x-ijmes">Bayrūt</placeTerm>
+                        <placeTerm type="text" xml:lang="en">Beirut</placeTerm>
+                        <placeTerm type="text" xml:lang="fr">Beyrouth</placeTerm>
+                     </place>
+                        <publisher xml:lang="ar">مطبعة جمعية الفنون</publisher>
+                        <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</publisher>
+                     <dateIssued encoding="w3cdtf">1875-08-31</dateIssued>
+         <issuance>continuing</issuance>
+      </originInfo>
+      <part>
+         <detail type="volume">
+            <number>1</number>
+         </detail>
+         <detail type="issue">
+            <number>20</number>
+         </detail>
+         <extent unit="pages">
+            <start>1</start>
+            <end>4</end>
+         </extent>
+      </part>
+      <accessCondition/>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods>
+      <titleInfo>
+         <title lang="ar">ثمرات الفنون</title>
+         <subTitle lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</subTitle>
+         <subTitle lang="ar">صدورها في يوم الثلاثا من كل اسبوع</subTitle>
+         <title lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+         <subTitle lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</subTitle>
+         <subTitle lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-thulāthā min kull usbūʿ</subTitle>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local">periodical</genre>
+      <genre authority="marcgt">periodical</genre>
+      <name type="personal" xml:lang="ar">
+         <namePart type="family" xml:lang="">قباني</namePart>
+         <namePart type="given" xml:lang="">عبد القادر</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+         </role>
+      </name>
+      <originInfo>
+         <edition xml:lang="en"/>
+         <place>
+                        <placeTerm type="text" xml:lang="ar">بيروت</placeTerm>
+                        <placeTerm type="text" xml:lang="ar-Latn-x-ijmes">Bayrūt</placeTerm>
+                        <placeTerm type="text" xml:lang="en">Beirut</placeTerm>
+                        <placeTerm type="text" xml:lang="fr">Beyrouth</placeTerm>
+                     </place>
+                        <publisher xml:lang="ar">مطبعة جمعية الفنون</publisher>
+                        <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</publisher>
+                     <dateIssued encoding="w3cdtf">1875-09-07</dateIssued>
+         <issuance>continuing</issuance>
+      </originInfo>
+      <part>
+         <detail type="volume">
+            <number>1</number>
+         </detail>
+         <detail type="issue">
+            <number>21</number>
+         </detail>
+         <extent unit="pages">
+            <start>1</start>
+            <end>4</end>
+         </extent>
+      </part>
+      <accessCondition/>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods>
+      <titleInfo>
+         <title lang="ar">ثمرات الفنون</title>
+         <subTitle lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</subTitle>
+         <subTitle lang="ar">صدورها في يوم الثلاثا من كل اسبوع</subTitle>
+         <title lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+         <subTitle lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</subTitle>
+         <subTitle lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-thulāthā min kull usbūʿ</subTitle>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local">periodical</genre>
+      <genre authority="marcgt">periodical</genre>
+      <name type="personal" xml:lang="ar">
+         <namePart type="family" xml:lang="">قباني</namePart>
+         <namePart type="given" xml:lang="">عبد القادر</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+         </role>
+      </name>
+      <originInfo>
+         <edition xml:lang="en"/>
+         <place>
+                        <placeTerm type="text" xml:lang="ar">بيروت</placeTerm>
+                        <placeTerm type="text" xml:lang="ar-Latn-x-ijmes">Bayrūt</placeTerm>
+                        <placeTerm type="text" xml:lang="en">Beirut</placeTerm>
+                        <placeTerm type="text" xml:lang="fr">Beyrouth</placeTerm>
+                     </place>
+                        <publisher xml:lang="ar">مطبعة جمعية الفنون</publisher>
+                        <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</publisher>
+                     <dateIssued encoding="w3cdtf">1875-09-14</dateIssued>
+         <issuance>continuing</issuance>
+      </originInfo>
+      <part>
+         <detail type="volume">
+            <number>1</number>
+         </detail>
+         <detail type="issue">
+            <number>22</number>
+         </detail>
+         <extent unit="pages">
+            <start>1</start>
+            <end>4</end>
+         </extent>
+      </part>
+      <accessCondition/>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods>
+      <titleInfo>
+         <title lang="ar">ثمرات الفنون</title>
+         <subTitle lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</subTitle>
+         <subTitle lang="ar">صدورها في يوم الثلاثا من كل اسبوع</subTitle>
+         <title lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+         <subTitle lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</subTitle>
+         <subTitle lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-thulāthā min kull usbūʿ</subTitle>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local">periodical</genre>
+      <genre authority="marcgt">periodical</genre>
+      <name type="personal" xml:lang="ar">
+         <namePart type="family" xml:lang="">قباني</namePart>
+         <namePart type="given" xml:lang="">عبد القادر</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+         </role>
+      </name>
+      <originInfo>
+         <edition xml:lang="en"/>
+         <place>
+                        <placeTerm type="text" xml:lang="ar">بيروت</placeTerm>
+                        <placeTerm type="text" xml:lang="ar-Latn-x-ijmes">Bayrūt</placeTerm>
+                        <placeTerm type="text" xml:lang="en">Beirut</placeTerm>
+                        <placeTerm type="text" xml:lang="fr">Beyrouth</placeTerm>
+                     </place>
+                        <publisher xml:lang="ar">مطبعة جمعية الفنون</publisher>
+                        <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</publisher>
+                     <dateIssued encoding="w3cdtf">1875-09-21</dateIssued>
+         <issuance>continuing</issuance>
+      </originInfo>
+      <part>
+         <detail type="volume">
+            <number>1</number>
+         </detail>
+         <detail type="issue">
+            <number>23</number>
+         </detail>
+         <extent unit="pages">
+            <start>1</start>
+            <end>4</end>
+         </extent>
+      </part>
+      <accessCondition/>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods>
+      <titleInfo>
+         <title lang="ar">ثمرات الفنون</title>
+         <subTitle lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</subTitle>
+         <subTitle lang="ar">صدورها في يوم الثلاثا من كل اسبوع</subTitle>
+         <title lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+         <subTitle lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</subTitle>
+         <subTitle lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-thulāthā min kull usbūʿ</subTitle>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local">periodical</genre>
+      <genre authority="marcgt">periodical</genre>
+      <name type="personal" xml:lang="ar">
+         <namePart type="family" xml:lang="">قباني</namePart>
+         <namePart type="given" xml:lang="">عبد القادر</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+         </role>
+      </name>
+      <originInfo>
+         <edition xml:lang="en"/>
+         <place>
+                        <placeTerm type="text" xml:lang="ar">بيروت</placeTerm>
+                        <placeTerm type="text" xml:lang="ar-Latn-x-ijmes">Bayrūt</placeTerm>
+                        <placeTerm type="text" xml:lang="en">Beirut</placeTerm>
+                        <placeTerm type="text" xml:lang="fr">Beyrouth</placeTerm>
+                     </place>
+                        <publisher xml:lang="ar">مطبعة جمعية الفنون</publisher>
+                        <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</publisher>
+                     <dateIssued encoding="w3cdtf">1875-09-28</dateIssued>
+         <issuance>continuing</issuance>
+      </originInfo>
+      <part>
+         <detail type="volume">
+            <number>1</number>
+         </detail>
+         <detail type="issue">
+            <number>24</number>
+         </detail>
+         <extent unit="pages">
+            <start>1</start>
+            <end>4</end>
+         </extent>
+      </part>
+      <accessCondition/>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods>
+      <titleInfo>
+         <title lang="ar">ثمرات الفنون</title>
+         <subTitle lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</subTitle>
+         <subTitle lang="ar">صدورها في يوم الثلاثا من كل اسبوع</subTitle>
+         <title lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+         <subTitle lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</subTitle>
+         <subTitle lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-thulāthā min kull usbūʿ</subTitle>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local">periodical</genre>
+      <genre authority="marcgt">periodical</genre>
+      <name type="personal" xml:lang="ar">
+         <namePart type="family" xml:lang="">قباني</namePart>
+         <namePart type="given" xml:lang="">عبد القادر</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+         </role>
+      </name>
+      <originInfo>
+         <edition xml:lang="en"/>
+         <place>
+                        <placeTerm type="text" xml:lang="ar">بيروت</placeTerm>
+                        <placeTerm type="text" xml:lang="ar-Latn-x-ijmes">Bayrūt</placeTerm>
+                        <placeTerm type="text" xml:lang="en">Beirut</placeTerm>
+                        <placeTerm type="text" xml:lang="fr">Beyrouth</placeTerm>
+                     </place>
+                        <publisher xml:lang="ar">مطبعة جمعية الفنون</publisher>
+                        <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</publisher>
+                     <dateIssued encoding="w3cdtf">1875-10-05</dateIssued>
+         <issuance>continuing</issuance>
+      </originInfo>
+      <part>
+         <detail type="volume">
+            <number>1</number>
+         </detail>
+         <detail type="issue">
+            <number>25</number>
+         </detail>
+         <extent unit="pages">
+            <start>1</start>
+            <end>4</end>
+         </extent>
+      </part>
+      <accessCondition/>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods>
+      <titleInfo>
+         <title lang="ar">ثمرات الفنون</title>
+         <subTitle lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</subTitle>
+         <subTitle lang="ar">صدورها في يوم الثلاثا من كل اسبوع</subTitle>
+         <title lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+         <subTitle lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</subTitle>
+         <subTitle lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-thulāthā min kull usbūʿ</subTitle>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local">periodical</genre>
+      <genre authority="marcgt">periodical</genre>
+      <name type="personal" xml:lang="ar">
+         <namePart type="family" xml:lang="">قباني</namePart>
+         <namePart type="given" xml:lang="">عبد القادر</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+         </role>
+      </name>
+      <originInfo>
+         <edition xml:lang="en"/>
+         <place>
+                        <placeTerm type="text" xml:lang="ar">بيروت</placeTerm>
+                        <placeTerm type="text" xml:lang="ar-Latn-x-ijmes">Bayrūt</placeTerm>
+                        <placeTerm type="text" xml:lang="en">Beirut</placeTerm>
+                        <placeTerm type="text" xml:lang="fr">Beyrouth</placeTerm>
+                     </place>
+                        <publisher xml:lang="ar">مطبعة جمعية الفنون</publisher>
+                        <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</publisher>
+                     <dateIssued encoding="w3cdtf">1875-10-12</dateIssued>
+         <issuance>continuing</issuance>
+      </originInfo>
+      <part>
+         <detail type="volume">
+            <number>1</number>
+         </detail>
+         <detail type="issue">
+            <number>26</number>
+         </detail>
+         <extent unit="pages">
+            <start>1</start>
+            <end>4</end>
+         </extent>
+      </part>
+      <accessCondition/>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods>
+      <titleInfo>
+         <title lang="ar">ثمرات الفنون</title>
+         <subTitle lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</subTitle>
+         <subTitle lang="ar">صدورها في يوم الثلاثا من كل اسبوع</subTitle>
+         <title lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+         <subTitle lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</subTitle>
+         <subTitle lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-thulāthā min kull usbūʿ</subTitle>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local">periodical</genre>
+      <genre authority="marcgt">periodical</genre>
+      <name type="personal" xml:lang="ar">
+         <namePart type="family" xml:lang="">قباني</namePart>
+         <namePart type="given" xml:lang="">عبد القادر</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+         </role>
+      </name>
+      <originInfo>
+         <edition xml:lang="en"/>
+         <place>
+                        <placeTerm type="text" xml:lang="ar">بيروت</placeTerm>
+                        <placeTerm type="text" xml:lang="ar-Latn-x-ijmes">Bayrūt</placeTerm>
+                        <placeTerm type="text" xml:lang="en">Beirut</placeTerm>
+                        <placeTerm type="text" xml:lang="fr">Beyrouth</placeTerm>
+                     </place>
+                        <publisher xml:lang="ar">مطبعة جمعية الفنون</publisher>
+                        <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</publisher>
+                     <dateIssued encoding="w3cdtf">1875-10-19</dateIssued>
+         <issuance>continuing</issuance>
+      </originInfo>
+      <part>
+         <detail type="volume">
+            <number>1</number>
+         </detail>
+         <detail type="issue">
+            <number>27</number>
+         </detail>
+         <extent unit="pages">
+            <start>1</start>
+            <end>4</end>
+         </extent>
+      </part>
+      <accessCondition/>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods>
+      <titleInfo>
+         <title lang="ar">ثمرات الفنون</title>
+         <subTitle lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</subTitle>
+         <subTitle lang="ar">صدورها في يوم الثلاثا من كل اسبوع</subTitle>
+         <title lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+         <subTitle lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</subTitle>
+         <subTitle lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-thulāthā min kull usbūʿ</subTitle>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local">periodical</genre>
+      <genre authority="marcgt">periodical</genre>
+      <name type="personal" xml:lang="ar">
+         <namePart type="family" xml:lang="">قباني</namePart>
+         <namePart type="given" xml:lang="">عبد القادر</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+         </role>
+      </name>
+      <originInfo>
+         <edition xml:lang="en"/>
+         <place>
+                        <placeTerm type="text" xml:lang="ar">بيروت</placeTerm>
+                        <placeTerm type="text" xml:lang="ar-Latn-x-ijmes">Bayrūt</placeTerm>
+                        <placeTerm type="text" xml:lang="en">Beirut</placeTerm>
+                        <placeTerm type="text" xml:lang="fr">Beyrouth</placeTerm>
+                     </place>
+                        <publisher xml:lang="ar">مطبعة جمعية الفنون</publisher>
+                        <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</publisher>
+                     <dateIssued encoding="w3cdtf">1875-10-26</dateIssued>
+         <issuance>continuing</issuance>
+      </originInfo>
+      <part>
+         <detail type="volume">
+            <number>1</number>
+         </detail>
+         <detail type="issue">
+            <number>28</number>
+         </detail>
+         <extent unit="pages">
+            <start>1</start>
+            <end>4</end>
+         </extent>
+      </part>
+      <accessCondition/>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods>
+      <titleInfo>
+         <title lang="ar">ثمرات الفنون</title>
+         <subTitle lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</subTitle>
+         <subTitle lang="ar">صدورها في يوم الثلاثا من كل اسبوع</subTitle>
+         <title lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+         <subTitle lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</subTitle>
+         <subTitle lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-thulāthā min kull usbūʿ</subTitle>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local">periodical</genre>
+      <genre authority="marcgt">periodical</genre>
+      <name type="personal" xml:lang="ar">
+         <namePart type="family" xml:lang="">قباني</namePart>
+         <namePart type="given" xml:lang="">عبد القادر</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+         </role>
+      </name>
+      <originInfo>
+         <edition xml:lang="en"/>
+         <place>
+                        <placeTerm type="text" xml:lang="ar">بيروت</placeTerm>
+                        <placeTerm type="text" xml:lang="ar-Latn-x-ijmes">Bayrūt</placeTerm>
+                        <placeTerm type="text" xml:lang="en">Beirut</placeTerm>
+                        <placeTerm type="text" xml:lang="fr">Beyrouth</placeTerm>
+                     </place>
+                        <publisher xml:lang="ar">مطبعة جمعية الفنون</publisher>
+                        <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</publisher>
+                     <dateIssued encoding="w3cdtf">1875-11-02</dateIssued>
+         <issuance>continuing</issuance>
+      </originInfo>
+      <part>
+         <detail type="volume">
+            <number>1</number>
+         </detail>
+         <detail type="issue">
+            <number>29</number>
+         </detail>
+         <extent unit="pages">
+            <start>1</start>
+            <end>4</end>
+         </extent>
+      </part>
+      <accessCondition/>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods>
+      <titleInfo>
+         <title lang="ar">ثمرات الفنون</title>
+         <subTitle lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</subTitle>
+         <subTitle lang="ar">صدورها في يوم الثلاثا من كل اسبوع</subTitle>
+         <title lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+         <subTitle lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</subTitle>
+         <subTitle lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-thulāthā min kull usbūʿ</subTitle>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local">periodical</genre>
+      <genre authority="marcgt">periodical</genre>
+      <name type="personal" xml:lang="ar">
+         <namePart type="family" xml:lang="">قباني</namePart>
+         <namePart type="given" xml:lang="">عبد القادر</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+         </role>
+      </name>
+      <originInfo>
+         <edition xml:lang="en"/>
+         <place>
+                        <placeTerm type="text" xml:lang="ar">بيروت</placeTerm>
+                        <placeTerm type="text" xml:lang="ar-Latn-x-ijmes">Bayrūt</placeTerm>
+                        <placeTerm type="text" xml:lang="en">Beirut</placeTerm>
+                        <placeTerm type="text" xml:lang="fr">Beyrouth</placeTerm>
+                     </place>
+                        <publisher xml:lang="ar">مطبعة جمعية الفنون</publisher>
+                        <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</publisher>
+                     <dateIssued encoding="w3cdtf">1875-11-09</dateIssued>
+         <issuance>continuing</issuance>
+      </originInfo>
+      <part>
+         <detail type="volume">
+            <number>1</number>
+         </detail>
+         <detail type="issue">
+            <number>30</number>
+         </detail>
+         <extent unit="pages">
+            <start>1</start>
+            <end>4</end>
+         </extent>
+      </part>
+      <accessCondition/>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods>
+      <titleInfo>
+         <title lang="ar">ثمرات الفنون</title>
+         <subTitle lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</subTitle>
+         <subTitle lang="ar">صدورها في يوم الثلاثا من كل اسبوع</subTitle>
+         <title lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+         <subTitle lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</subTitle>
+         <subTitle lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-thulāthā min kull usbūʿ</subTitle>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local">periodical</genre>
+      <genre authority="marcgt">periodical</genre>
+      <name type="personal" xml:lang="ar">
+         <namePart type="family" xml:lang="">قباني</namePart>
+         <namePart type="given" xml:lang="">عبد القادر</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+         </role>
+      </name>
+      <originInfo>
+         <edition xml:lang="en"/>
+         <place>
+                        <placeTerm type="text" xml:lang="ar">بيروت</placeTerm>
+                        <placeTerm type="text" xml:lang="ar-Latn-x-ijmes">Bayrūt</placeTerm>
+                        <placeTerm type="text" xml:lang="en">Beirut</placeTerm>
+                        <placeTerm type="text" xml:lang="fr">Beyrouth</placeTerm>
+                     </place>
+                        <publisher xml:lang="ar">مطبعة جمعية الفنون</publisher>
+                        <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</publisher>
+                     <dateIssued encoding="w3cdtf">1875-11-16</dateIssued>
+         <issuance>continuing</issuance>
+      </originInfo>
+      <part>
+         <detail type="volume">
+            <number>1</number>
+         </detail>
+         <detail type="issue">
+            <number>31</number>
+         </detail>
+         <extent unit="pages">
+            <start>1</start>
+            <end>4</end>
+         </extent>
+      </part>
+      <accessCondition/>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods>
+      <titleInfo>
+         <title lang="ar">ثمرات الفنون</title>
+         <subTitle lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</subTitle>
+         <subTitle lang="ar">صدورها في يوم الخميس من كل اسبوع</subTitle>
+         <title lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+         <subTitle lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</subTitle>
+         <subTitle lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</subTitle>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local">periodical</genre>
+      <genre authority="marcgt">periodical</genre>
+      <name type="personal" xml:lang="ar">
+         <namePart type="family" xml:lang="">قباني</namePart>
+         <namePart type="given" xml:lang="">عبد القادر</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+         </role>
+      </name>
+      <originInfo>
+         <edition xml:lang="en"/>
+         <place>
+                        <placeTerm type="text" xml:lang="ar">بيروت</placeTerm>
+                        <placeTerm type="text" xml:lang="ar-Latn-x-ijmes">Bayrūt</placeTerm>
+                        <placeTerm type="text" xml:lang="en">Beirut</placeTerm>
+                        <placeTerm type="text" xml:lang="fr">Beyrouth</placeTerm>
+                     </place>
+                        <publisher xml:lang="ar">مطبعة جمعية الفنون</publisher>
+                        <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</publisher>
+                     <dateIssued encoding="w3cdtf">1875-11-25</dateIssued>
+         <issuance>continuing</issuance>
+      </originInfo>
+      <part>
+         <detail type="volume">
+            <number>1</number>
+         </detail>
+         <detail type="issue">
+            <number>32</number>
+         </detail>
+         <extent unit="pages">
+            <start>1</start>
+            <end>4</end>
+         </extent>
+      </part>
+      <accessCondition/>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods>
+      <titleInfo>
+         <title lang="ar">ثمرات الفنون</title>
+         <subTitle lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</subTitle>
+         <subTitle lang="ar">صدورها في يوم الخميس من كل اسبوع</subTitle>
+         <title lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+         <subTitle lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</subTitle>
+         <subTitle lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</subTitle>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local">periodical</genre>
+      <genre authority="marcgt">periodical</genre>
+      <name type="personal" xml:lang="ar">
+         <namePart type="family" xml:lang="">قباني</namePart>
+         <namePart type="given" xml:lang="">عبد القادر</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+         </role>
+      </name>
+      <originInfo>
+         <edition xml:lang="en"/>
+         <place>
+                        <placeTerm type="text" xml:lang="ar">بيروت</placeTerm>
+                        <placeTerm type="text" xml:lang="ar-Latn-x-ijmes">Bayrūt</placeTerm>
+                        <placeTerm type="text" xml:lang="en">Beirut</placeTerm>
+                        <placeTerm type="text" xml:lang="fr">Beyrouth</placeTerm>
+                     </place>
+                        <publisher xml:lang="ar">مطبعة جمعية الفنون</publisher>
+                        <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</publisher>
+                     <dateIssued encoding="w3cdtf">1875-12-02</dateIssued>
+         <issuance>continuing</issuance>
+      </originInfo>
+      <part>
+         <detail type="volume">
+            <number>1</number>
+         </detail>
+         <detail type="issue">
+            <number>33</number>
+         </detail>
+         <extent unit="pages">
+            <start>1</start>
+            <end>4</end>
+         </extent>
+      </part>
+      <accessCondition/>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods>
+      <titleInfo>
+         <title lang="ar">ثمرات الفنون</title>
+         <subTitle lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</subTitle>
+         <subTitle lang="ar">صدورها في يوم الخميس من كل اسبوع</subTitle>
+         <title lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+         <subTitle lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</subTitle>
+         <subTitle lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</subTitle>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local">periodical</genre>
+      <genre authority="marcgt">periodical</genre>
+      <name type="personal" xml:lang="ar">
+         <namePart type="family" xml:lang="">قباني</namePart>
+         <namePart type="given" xml:lang="">عبد القادر</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+         </role>
+      </name>
+      <originInfo>
+         <edition xml:lang="en"/>
+         <place>
+                        <placeTerm type="text" xml:lang="ar">بيروت</placeTerm>
+                        <placeTerm type="text" xml:lang="ar-Latn-x-ijmes">Bayrūt</placeTerm>
+                        <placeTerm type="text" xml:lang="en">Beirut</placeTerm>
+                        <placeTerm type="text" xml:lang="fr">Beyrouth</placeTerm>
+                     </place>
+                        <publisher xml:lang="ar">مطبعة جمعية الفنون</publisher>
+                        <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</publisher>
+                     <dateIssued encoding="w3cdtf">1875-12-09</dateIssued>
+         <issuance>continuing</issuance>
+      </originInfo>
+      <part>
+         <detail type="volume">
+            <number>1</number>
+         </detail>
+         <detail type="issue">
+            <number>34</number>
+         </detail>
+         <extent unit="pages">
+            <start>1</start>
+            <end>4</end>
+         </extent>
+      </part>
+      <accessCondition/>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods>
+      <titleInfo>
+         <title lang="ar">ثمرات الفنون</title>
+         <subTitle lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</subTitle>
+         <subTitle lang="ar">صدورها في يوم الخميس من كل اسبوع</subTitle>
+         <title lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+         <subTitle lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</subTitle>
+         <subTitle lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</subTitle>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local">periodical</genre>
+      <genre authority="marcgt">periodical</genre>
+      <name type="personal" xml:lang="ar">
+         <namePart type="family" xml:lang="">قباني</namePart>
+         <namePart type="given" xml:lang="">عبد القادر</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+         </role>
+      </name>
+      <originInfo>
+         <edition xml:lang="en"/>
+         <place>
+                        <placeTerm type="text" xml:lang="ar">بيروت</placeTerm>
+                        <placeTerm type="text" xml:lang="ar-Latn-x-ijmes">Bayrūt</placeTerm>
+                        <placeTerm type="text" xml:lang="en">Beirut</placeTerm>
+                        <placeTerm type="text" xml:lang="fr">Beyrouth</placeTerm>
+                     </place>
+                        <publisher xml:lang="ar">مطبعة جمعية الفنون</publisher>
+                        <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</publisher>
+                     <dateIssued encoding="w3cdtf">1875-12-16</dateIssued>
+         <issuance>continuing</issuance>
+      </originInfo>
+      <part>
+         <detail type="volume">
+            <number>1</number>
+         </detail>
+         <detail type="issue">
+            <number>35</number>
+         </detail>
+         <extent unit="pages">
+            <start>1</start>
+            <end>4</end>
+         </extent>
+      </part>
+      <accessCondition/>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods>
+      <titleInfo>
+         <title lang="ar">ثمرات الفنون</title>
+         <subTitle lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</subTitle>
+         <subTitle lang="ar">صدورها في يوم الخميس من كل اسبوع</subTitle>
+         <title lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+         <subTitle lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</subTitle>
+         <subTitle lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</subTitle>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local">periodical</genre>
+      <genre authority="marcgt">periodical</genre>
+      <name type="personal" xml:lang="ar">
+         <namePart type="family" xml:lang="">قباني</namePart>
+         <namePart type="given" xml:lang="">عبد القادر</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+         </role>
+      </name>
+      <originInfo>
+         <edition xml:lang="en"/>
+         <place>
+                        <placeTerm type="text" xml:lang="ar">بيروت</placeTerm>
+                        <placeTerm type="text" xml:lang="ar-Latn-x-ijmes">Bayrūt</placeTerm>
+                        <placeTerm type="text" xml:lang="en">Beirut</placeTerm>
+                        <placeTerm type="text" xml:lang="fr">Beyrouth</placeTerm>
+                     </place>
+                        <publisher xml:lang="ar">مطبعة جمعية الفنون</publisher>
+                        <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</publisher>
+                     <dateIssued encoding="w3cdtf">1875-12-23</dateIssued>
+         <issuance>continuing</issuance>
+      </originInfo>
+      <part>
+         <detail type="volume">
+            <number>1</number>
+         </detail>
+         <detail type="issue">
+            <number>36</number>
+         </detail>
+         <extent unit="pages">
+            <start>1</start>
+            <end>4</end>
+         </extent>
+      </part>
+      <accessCondition/>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+   <mods>
+      <titleInfo>
+         <title lang="ar">ثمرات الفنون</title>
+         <subTitle lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</subTitle>
+         <subTitle lang="ar">صدورها في يوم الخميس من كل اسبوع</subTitle>
+         <title lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+         <subTitle lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</subTitle>
+         <subTitle lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</subTitle>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local">periodical</genre>
+      <genre authority="marcgt">periodical</genre>
+      <name type="personal" xml:lang="ar">
+         <namePart type="family" xml:lang="">قباني</namePart>
+         <namePart type="given" xml:lang="">عبد القادر</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+         </role>
+      </name>
+      <originInfo>
+         <edition xml:lang="en"/>
+         <place>
+                        <placeTerm type="text" xml:lang="ar">بيروت</placeTerm>
+                        <placeTerm type="text" xml:lang="ar-Latn-x-ijmes">Bayrūt</placeTerm>
+                        <placeTerm type="text" xml:lang="en">Beirut</placeTerm>
+                        <placeTerm type="text" xml:lang="fr">Beyrouth</placeTerm>
+                     </place>
+                        <publisher xml:lang="ar">مطبعة جمعية الفنون</publisher>
+                        <publisher xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</publisher>
+                     <dateIssued encoding="w3cdtf">1875-12-30</dateIssued>
+         <issuance>continuing</issuance>
+      </originInfo>
+      <part>
+         <detail type="volume">
+            <number>1</number>
+         </detail>
+         <detail type="issue">
+            <number>37</number>
+         </detail>
+         <extent unit="pages">
+            <start>1</start>
+            <end>4</end>
+         </extent>
+      </part>
+      <accessCondition/>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+</modsCollection>
