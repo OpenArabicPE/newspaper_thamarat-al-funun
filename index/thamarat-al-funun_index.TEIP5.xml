@@ -49,6 +49,7 @@
                 <placeName xml:lang="en">Beirut</placeName>
               </pubPlace>
             </imprint>
+              <biblScope unit="page" from="1" to="308"/>
           </monogr>
         </biblStruct>
       </sourceDesc>
@@ -512,7 +513,7 @@
                 <biblScope from="3" to="3" unit="page" xml:id="biblScope_90.d1e791" xml:lang="ar">3</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-05-04">4 May 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-05-04">4 May 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_31.d1e796" xml:lang="ar">
@@ -528,7 +529,7 @@
                 <biblScope from="2" to="3" unit="page" xml:id="biblScope_93.d1e814" xml:lang="ar">2-3</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-05-18">18 May 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-05-18">18 May 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_32.d1e819" xml:lang="ar">
@@ -545,7 +546,7 @@
                 <biblScope from="3" to="3" unit="page" xml:id="biblScope_96.d1e837" xml:lang="ar">3</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-05-25">25 May 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-05-25">25 May 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_33.d1e842" xml:lang="ar">
@@ -562,7 +563,7 @@
                 <biblScope from="2" to="2" unit="page" xml:id="biblScope_99.d1e860" xml:lang="ar">2</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-06-22">22 June 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-06-22">22 June 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_34.d1e865" xml:lang="ar">
@@ -582,7 +583,7 @@
                 <biblScope from="3" to="3" unit="page" xml:id="biblScope_102.d1e892" xml:lang="ar">3</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-06-22">22 June 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-06-22">22 June 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_35.d1e898" xml:lang="ar">
@@ -599,7 +600,7 @@
                 <biblScope from="2" to="3" unit="page" xml:id="biblScope_105.d1e916" xml:lang="ar">2-3</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-06-29">29 June 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-06-29">29 June 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_36.d1e921" xml:lang="ar">
@@ -619,7 +620,7 @@
                 <biblScope from="3" to="4" unit="page" xml:id="biblScope_108.d1e948" xml:lang="ar">3-4</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-06-29">29 June 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-06-29">29 June 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_37.d1e953" xml:lang="ar">
@@ -636,7 +637,7 @@
                 <biblScope from="4" to="4" unit="page" xml:id="biblScope_111.d1e971" xml:lang="ar">4</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-06-29">29 June 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-06-29">29 June 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_38.d1e976" xml:lang="ar">
@@ -656,7 +657,7 @@
                 <biblScope from="2" to="3" unit="page" xml:id="biblScope_114.d1e1003" xml:lang="ar">2-3</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-07-20">20 July 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-07-20">20 July 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_39.d1e1008" xml:lang="ar">
@@ -676,7 +677,7 @@
                 <biblScope from="2" to="2" unit="page" xml:id="biblScope_117.d1e1035" xml:lang="ar">2</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-07-27">27 July 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-07-27">27 July 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_40.d1e1040" xml:lang="ar">
@@ -696,7 +697,7 @@
                 <biblScope from="3" to="4" unit="page" xml:id="biblScope_120.d1e1067" xml:lang="ar">3-4</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-11-02">2 November 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-11-02">2 November 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_41.d1e1073" xml:lang="ar">
@@ -9531,7 +9532,7 @@
                 <biblScope from="2" to="2" unit="page" xml:id="biblScope_2025.d1e17121" xml:lang="ar">2</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-04-20">20 April 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-04-20">20 April 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_676.d1e17126" xml:lang="ar">
@@ -9548,7 +9549,7 @@
                 <biblScope from="2" to="3" unit="page" xml:id="biblScope_2028.d1e17144" xml:lang="ar">2-3</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-04-20">20 April 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-04-20">20 April 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_677.d1e17149" xml:lang="ar">
@@ -9565,7 +9566,7 @@
                 <biblScope from="1" to="1" unit="page" xml:id="biblScope_2031.d1e17167" xml:lang="ar">1</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-04-27">27 April 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-04-27">27 April 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_678.d1e17172" xml:lang="ar">
@@ -9582,7 +9583,7 @@
                 <biblScope from="1" to="2" unit="page" xml:id="biblScope_2034.d1e17190" xml:lang="ar">1-2</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-04-27">27 April 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-04-27">27 April 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_679.d1e17196" xml:lang="ar">
@@ -9599,7 +9600,7 @@
                 <biblScope from="2" to="3" unit="page" xml:id="biblScope_2037.d1e17214" xml:lang="ar">2-3</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-04-27">27 April 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-04-27">27 April 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_680.d1e17219" xml:lang="ar">
@@ -9616,7 +9617,7 @@
                 <biblScope from="1" to="1" unit="page" xml:id="biblScope_2040.d1e17237" xml:lang="ar">1</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-05-04">4 May 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-05-04">4 May 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_681.d1e17242" xml:lang="ar">
@@ -9633,7 +9634,7 @@
                 <biblScope from="1" to="1" unit="page" xml:id="biblScope_2043.d1e17260" xml:lang="ar">1</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-05-11">11 May 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-05-11">11 May 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_682.d1e17265" xml:lang="ar">
@@ -9650,7 +9651,7 @@
                 <biblScope from="1" to="1" unit="page" xml:id="biblScope_2046.d1e17283" xml:lang="ar">1</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-06-01">1 June 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-06-01">1 June 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_683.d1e17288" xml:lang="ar">
@@ -9667,7 +9668,7 @@
                 <biblScope from="1" to="1" unit="page" xml:id="biblScope_2049.d1e17306" xml:lang="ar">1</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-06-08">8 June 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-06-08">8 June 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_684.d1e17311" xml:lang="ar">
@@ -9684,7 +9685,7 @@
                 <biblScope from="1" to="1" unit="page" xml:id="biblScope_2052.d1e17329" xml:lang="ar">1</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-06-22">22 June 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-06-22">22 June 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_685.d1e17335" xml:lang="ar">
@@ -9701,7 +9702,7 @@
                 <biblScope from="1" to="1" unit="page" xml:id="biblScope_2055.d1e17353" xml:lang="ar">1</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-07-13">13 July 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-07-13">13 July 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_686.d1e17358" xml:lang="ar">
@@ -9718,7 +9719,7 @@
                 <biblScope from="2" to="2" unit="page" xml:id="biblScope_2058.d1e17376" xml:lang="ar">2</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-08-03">3 August 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-08-03">3 August 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_687.d1e17381" xml:lang="ar">
@@ -9735,7 +9736,7 @@
                 <biblScope from="4" to="4" unit="page" xml:id="biblScope_2061.d1e17399" xml:lang="ar">4</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-08-17">17 August 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-08-17">17 August 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_688.d1e17404" xml:lang="ar">
@@ -9752,7 +9753,7 @@
                 <biblScope from="1" to="1" unit="page" xml:id="biblScope_2064.d1e17422" xml:lang="ar">1</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-08-24">24 August 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-08-24">24 August 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_689.d1e17427" xml:lang="ar">
@@ -9769,7 +9770,7 @@
                 <biblScope from="2" to="2" unit="page" xml:id="biblScope_2067.d1e17445" xml:lang="ar">2</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-08-24">24 August 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-08-24">24 August 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_690.d1e17450" xml:lang="ar">
@@ -9786,7 +9787,7 @@
                 <biblScope from="2" to="2" unit="page" xml:id="biblScope_2070.d1e17468" xml:lang="ar">2</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-08-24">24 August 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-08-24">24 August 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_691.d1e17474" xml:lang="ar">
@@ -9803,7 +9804,7 @@
                 <biblScope from="4" to="4" unit="page" xml:id="biblScope_2073.d1e17492" xml:lang="ar">4</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-08-24">24 August 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-08-24">24 August 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_692.d1e17497" xml:lang="ar">
@@ -9820,7 +9821,7 @@
                 <biblScope from="2" to="2" unit="page" xml:id="biblScope_2076.d1e17515" xml:lang="ar">2</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-08-31">31 August 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-08-31">31 August 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_693.d1e17520" xml:lang="ar">
@@ -9837,7 +9838,7 @@
                 <biblScope from="1" to="1" unit="page" xml:id="biblScope_2079.d1e17538" xml:lang="ar">1</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-09-07">7 September 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-09-07">7 September 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_694.d1e17543" xml:lang="ar">
@@ -9854,7 +9855,7 @@
                 <biblScope from="1" to="2" unit="page" xml:id="biblScope_2082.d1e17561" xml:lang="ar">1-2</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-09-07">7 September 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-09-07">7 September 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_695.d1e17566" xml:lang="ar">
@@ -9871,7 +9872,7 @@
                 <biblScope from="1" to="2" unit="page" xml:id="biblScope_2085.d1e17584" xml:lang="ar">1-2</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-09-14">14 September 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-09-14">14 September 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_696.d1e17589" xml:lang="ar">
@@ -9888,7 +9889,7 @@
                 <biblScope from="2" to="2" unit="page" xml:id="biblScope_2088.d1e17607" xml:lang="ar">2</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-09-14">14 September 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-09-14">14 September 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_697.d1e17613" xml:lang="ar">
@@ -9905,7 +9906,7 @@
                 <biblScope from="1" to="2" unit="page" xml:id="biblScope_2091.d1e17631" xml:lang="ar">1-2</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-09-28">28 September 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-09-28">28 September 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_698.d1e17636" xml:lang="ar">
@@ -9922,7 +9923,7 @@
                 <biblScope from="1" to="1" unit="page" xml:id="biblScope_2094.d1e17654" xml:lang="ar">1</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-10-05">5 October 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-10-05">5 October 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_699.d1e17659" xml:lang="ar">
@@ -9939,7 +9940,7 @@
                 <biblScope from="1" to="2" unit="page" xml:id="biblScope_2097.d1e17677" xml:lang="ar">1-2</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-10-12">12 October 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-10-12">12 October 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_700.d1e17682" xml:lang="ar">
@@ -9956,7 +9957,7 @@
                 <biblScope from="1" to="1" unit="page" xml:id="biblScope_2100.d1e17700" xml:lang="ar">1</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-10-26">26 October 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-10-26">26 October 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_701.d1e17705" xml:lang="ar">
@@ -9973,7 +9974,7 @@
                 <biblScope from="2" to="2" unit="page" xml:id="biblScope_2103.d1e17723" xml:lang="ar">2</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-11-09">9 November 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-11-09">9 November 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_702.d1e17728" xml:lang="ar">
@@ -9990,7 +9991,7 @@
                 <biblScope from="2" to="2" unit="page" xml:id="biblScope_2106.d1e17746" xml:lang="ar">2</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-12-02">2 December 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-12-02">2 December 1875</tei:date></tei:add>
               </bibl>
             </item>
             <pb ed="print" n="60" xml:id="pb_25.d1e17752"/>
@@ -10008,7 +10009,7 @@
                 <biblScope from="2" to="2" unit="page" xml:id="biblScope_2112.d1e17791" xml:lang="ar">2</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-12-23">23 December 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-12-23">23 December 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_705.d1e17796" xml:lang="ar">
@@ -10028,7 +10029,7 @@
                 <biblScope from="3" to="3" unit="page" xml:id="biblScope_2115.d1e17823" xml:lang="ar">3</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-12-30">30 December 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-12-30">30 December 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_706.d1e17828" xml:lang="ar">
@@ -12220,7 +12221,7 @@
                 <biblScope from="3" to="3" unit="page" xml:id="biblScope_2598.d1e21587" xml:lang="ar">3</biblScope>
                 , , 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-08-03">3 August 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-08-03">3 August 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_867.d1e21592" xml:lang="ar">
@@ -12240,7 +12241,7 @@
                 <biblScope from="3" to="3" unit="page" xml:id="biblScope_2601.d1e21619" xml:lang="ar">3</biblScope>
                 , , 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-08-10">10 August 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-08-10">10 August 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_868.d1e21624" xml:lang="ar">
@@ -12260,7 +12261,7 @@
                 <biblScope from="3" to="4" unit="page" xml:id="biblScope_2604.d1e21651" xml:lang="ar">3-4</biblScope>
                 , , 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-08-17">17 August 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-08-17">17 August 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_869.d1e21656" xml:lang="ar">
@@ -12277,7 +12278,7 @@
                 <biblScope from="3" to="3" unit="page" xml:id="biblScope_2607.d1e21674" xml:lang="ar">3</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-08-24">24 August 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-08-24">24 August 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_870.d1e21680" xml:lang="ar">
@@ -12297,7 +12298,7 @@
                 <biblScope from="3" to="4" unit="page" xml:id="biblScope_2610.d1e21707" xml:lang="ar">3-4</biblScope>
                 , , 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-08-24">24 August 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-08-24">24 August 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_871.d1e21712" xml:lang="ar">
@@ -12314,7 +12315,7 @@
                 <biblScope from="3" to="3" unit="page" xml:id="biblScope_2613.d1e21730" xml:lang="ar">3</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-08-31">31 August 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-08-31">31 August 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_872.d1e21735" xml:lang="ar">
@@ -12331,7 +12332,7 @@
                 <biblScope from="3" to="3" unit="page" xml:id="biblScope_2616.d1e21753" xml:lang="ar">3</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-09-21">21 September 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-09-21">21 September 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_873.d1e21758" xml:lang="ar">
@@ -12351,7 +12352,7 @@
                 <biblScope from="3" to="4" unit="page" xml:id="biblScope_2619.d1e21785" xml:lang="ar">3-4</biblScope>
                 , , 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-09-21">21 September 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-09-21">21 September 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_874.d1e21790" xml:lang="ar">
@@ -12371,7 +12372,7 @@
                 <biblScope from="4" to="4" unit="page" xml:id="biblScope_2622.d1e21817" xml:lang="ar">4</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-09-28">28 September 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-09-28">28 September 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_875.d1e21822" xml:lang="ar">
@@ -12405,7 +12406,7 @@
                 <biblScope from="3" to="3" unit="page" xml:id="biblScope_2628.d1e21873" xml:lang="ar">3</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-11-16">16 November 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-11-16">16 November 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_877.d1e21878" xml:lang="ar">
@@ -12421,7 +12422,7 @@
                 <biblScope from="4" to="4" unit="page" xml:id="biblScope_2631.d1e21896" xml:lang="ar">4</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-11-16">16 November 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-11-16">16 November 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_878.d1e21901" xml:lang="ar">
@@ -12441,7 +12442,7 @@
                 <biblScope from="3" to="3" unit="page" xml:id="biblScope_2634.d1e21928" xml:lang="ar">3</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-12-02">2 December 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-12-02">2 December 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_879.d1e21933" xml:lang="ar">
@@ -12461,7 +12462,7 @@
                 <biblScope from="4" to="4" unit="page" xml:id="biblScope_2637.d1e21960" xml:lang="ar">4</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-12-02">2 December 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-12-02">2 December 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_880.d1e21965" xml:lang="ar">
@@ -14445,7 +14446,7 @@
                   <biblScope from="3" to="3" unit="page" xml:id="biblScope_3054.d1e25598" xml:lang="ar">3</biblScope>
                   ,, 
                   <tei:add resp="#pers_TG">
-                    <tei:date when="1875-10-12">12 October 1875</tei:date></tei:add>
+                    <tei:date xml:lang="en" when="1875-10-12">12 October 1875</tei:date></tei:add>
                 </bibl>
               </item>
               <item xml:id="item_1019.d1e25603" xml:lang="ar">
@@ -14462,7 +14463,7 @@
                   <biblScope from="1" to="1" unit="page" xml:id="biblScope_3057.d1e25621" xml:lang="ar">1</biblScope>
                   ,, 
                   <tei:add resp="#pers_TG">
-                    <tei:date when="1875-11-09">9 November 1875</tei:date></tei:add>
+                    <tei:date xml:lang="en" when="1875-11-09">9 November 1875</tei:date></tei:add>
                 </bibl>
               </item>
               <item xml:id="item_1020.d1e25626" xml:lang="ar">
@@ -19125,7 +19126,7 @@
                 <biblScope unit="page" xml:id="biblScope_4059.d1e33759"/>
                 , 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-05-25">25 May 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-05-25">25 May 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_1354.d1e33763" xml:lang="ar">
@@ -19145,7 +19146,7 @@
                 <biblScope unit="page" xml:id="biblScope_4062.d1e33790"/>
                 , 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-06-01">1 June 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-06-01">1 June 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_1355.d1e33794" xml:lang="ar">
@@ -19165,7 +19166,7 @@
                 <biblScope unit="page" xml:id="biblScope_4065.d1e33821"/>
                 , 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-06-08">8 June 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-06-08">8 June 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_1356.d1e33825" xml:lang="ar">
@@ -19647,7 +19648,7 @@
                 <biblScope from="3" to="3" unit="page" xml:id="biblScope_4173.d1e34651" xml:lang="ar">3</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-05-18">18 May 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-05-18">18 May 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_1392.d1e34656" xml:lang="ar">
@@ -19664,7 +19665,7 @@
                 <biblScope from="3" to="4" unit="page" xml:id="biblScope_4176.d1e34674" xml:lang="ar">3-4</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-06-15">15 June 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-06-15">15 June 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_1393.d1e34679" xml:lang="ar">
@@ -21932,7 +21933,7 @@
                 <biblScope from="3" to="3" unit="page" xml:id="biblScope_4650.d1e38788" xml:lang="ar">3</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-10-19">19 October 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-10-19">19 October 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_1551.d1e38793" xml:lang="ar">
@@ -22745,7 +22746,7 @@
                 <biblScope from="3" to="3" unit="page" xml:id="biblScope_4818.d1e40253" xml:lang="ar">3</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-07-13">13 July 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-07-13">13 July 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_1607.d1e40258" xml:lang="ar">
@@ -22765,7 +22766,7 @@
                 <biblScope from="2" to="2" unit="page" xml:id="biblScope_4821.d1e40285" xml:lang="ar">2</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-07-20">20 July 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-07-20">20 July 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_1608.d1e40290" xml:lang="ar">
@@ -22785,7 +22786,7 @@
                 <biblScope from="3" to="4" unit="page" xml:id="biblScope_4824.d1e40317" xml:lang="ar">3-4</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-07-27">27 July 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-07-27">27 July 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_1609.d1e40322" xml:lang="ar">
@@ -22805,7 +22806,7 @@
                 <biblScope from="3" to="4" unit="page" xml:id="biblScope_4827.d1e40349" xml:lang="ar">3-4</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-08-03">3 August 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-08-03">3 August 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_1610.d1e40354" xml:lang="ar">
@@ -22825,7 +22826,7 @@
                 <biblScope from="3" to="3" unit="page" xml:id="biblScope_4830.d1e40381" xml:lang="ar">3</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-08-10">10 August 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-08-10">10 August 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_1611.d1e40387" xml:lang="ar">
@@ -22845,7 +22846,7 @@
                 <biblScope from="3" to="4" unit="page" xml:id="biblScope_4833.d1e40414" xml:lang="ar">3-4</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-07-13">13 July 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-07-13">13 July 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_1612.d1e40419" xml:lang="ar">
@@ -22865,7 +22866,7 @@
                 <biblScope from="3" to="4" unit="page" xml:id="biblScope_4836.d1e40446" xml:lang="ar">3-4</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-08-24">24 August 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-08-24">24 August 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_1613.d1e40451" xml:lang="ar">
@@ -22885,7 +22886,7 @@
                 <biblScope from="3" to="4" unit="page" xml:id="biblScope_4839.d1e40478" xml:lang="ar">3-4</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-08-31">31 August 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-08-31">31 August 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_1614.d1e40483" xml:lang="ar">
@@ -22905,7 +22906,7 @@
                 <biblScope from="3" to="3" unit="page" xml:id="biblScope_4842.d1e40510" xml:lang="ar">3</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-09-07">7 September 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-09-07">7 September 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_1615.d1e40515" xml:lang="ar">
@@ -22922,7 +22923,7 @@
                 <biblScope from="2" to="3" unit="page" xml:id="biblScope_4845.d1e40533" xml:lang="ar">2-3</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-10-05">5 October 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-10-05">5 October 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_1616.d1e40538" xml:lang="ar">
@@ -22942,7 +22943,7 @@
                 <biblScope from="3" to="4" unit="page" xml:id="biblScope_4848.d1e40565" xml:lang="ar">3-4</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-10-12">12 October 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-10-12">12 October 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_1617.d1e40571" xml:lang="ar">
@@ -22958,7 +22959,7 @@
                 <biblScope from="2" to="3" unit="page" xml:id="biblScope_4851.d1e40589" xml:lang="ar">2-3</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-11-25">25 November 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-11-25">25 November 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_1618.d1e40594" xml:lang="ar">
@@ -22978,7 +22979,7 @@
                 <biblScope from="4" to="4" unit="page" xml:id="biblScope_4854.d1e40621" xml:lang="ar">4</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-12-02">2 December 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-12-02">2 December 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_1619.d1e40626" xml:lang="ar">
@@ -22994,7 +22995,7 @@
                 <biblScope from="1" to="1" unit="page" xml:id="biblScope_4857.d1e40644" xml:lang="ar">1</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-12-23">23 December 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-12-23">23 December 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_1620.d1e40649" xml:lang="ar">
@@ -25628,7 +25629,7 @@
                 <biblScope from="2" to="3" unit="page" xml:id="biblScope_5415.d1e45417" xml:lang="ar">2-3</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-04-27">27 April 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-04-27">27 April 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_1806.d1e45422" xml:lang="ar">
@@ -25645,7 +25646,7 @@
                 <biblScope from="3" to="3" unit="page" xml:id="biblScope_5418.d1e45440" xml:lang="ar">3</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-10-19">19 October 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-10-19">19 October 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_1807.d1e45445" xml:lang="ar">
@@ -25662,7 +25663,7 @@
                 <biblScope from="4" to="4" unit="page" xml:id="biblScope_5421.d1e45463" xml:lang="ar">4</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-10-19">19 October 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-10-19">19 October 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_1808.d1e45469" xml:lang="ar">
@@ -29026,7 +29027,7 @@
                 <biblScope from="3" to="4" unit="page" xml:id="biblScope_6138.d1e51485" xml:lang="ar">3-4</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-04-27">27 April 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-04-27">27 April 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_2047.d1e51490" xml:lang="ar">
@@ -30603,7 +30604,7 @@
                 <biblScope from="1" to="2" unit="page" xml:id="biblScope_6468.d1e54323" xml:lang="ar">1-2</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-05-25">25 May 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-05-25">25 May 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_2157.d1e54328" xml:lang="ar">
@@ -30623,7 +30624,7 @@
                 <biblScope from="4" to="4" unit="page" xml:id="biblScope_6471.d1e54355" xml:lang="ar">4</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-06-08">8 June 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-06-08">8 June 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_2158.d1e54360" xml:lang="ar">
@@ -30640,7 +30641,7 @@
                 <biblScope from="1" to="1" unit="page" xml:id="biblScope_6474.d1e54378" xml:lang="ar">1</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-07-06">6 July 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-07-06">6 July 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_2159.d1e54383" xml:lang="ar">
@@ -30657,7 +30658,7 @@
                 <biblScope from="1" to="1" unit="page" xml:id="biblScope_6477.d1e54401" xml:lang="ar">1</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-10-19">19 October 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-10-19">19 October 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_2160.d1e54407" xml:lang="ar">
@@ -30674,7 +30675,7 @@
                 <biblScope from="1" to="1" unit="page" xml:id="biblScope_6480.d1e54425" xml:lang="ar">1</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-12-30">30 December 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-12-30">30 December 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_2161.d1e54430" xml:lang="ar">
@@ -38574,7 +38575,7 @@
                 <biblScope from="4" to="4" unit="page" xml:id="biblScope_8211.d1e68106" xml:lang="ar">4</biblScope>
                 , , 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-10-05">5 October 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-10-05">5 October 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_2738.d1e68111" xml:lang="ar">
@@ -42118,7 +42119,7 @@
                 <biblScope from="3" to="4" unit="page" xml:id="biblScope_8925.d1e74250" xml:lang="ar">3-4</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-12-16">16 December 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-12-16">16 December 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_2976.d1e74255" xml:lang="ar">
@@ -44032,7 +44033,7 @@
                 <biblScope from="2" to="2" unit="page" xml:id="biblScope_9348.d1e77585" xml:lang="ar">2</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-05-25">25 May 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-05-25">25 May 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_3117.d1e77590" xml:lang="ar">
@@ -47520,7 +47521,7 @@
                 <biblScope from="3" to="4" unit="page" xml:id="biblScope_10113.d1e83828" xml:lang="ar">3-4</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-05-25">25 May 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-05-25">25 May 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_3372.d1e83833" xml:lang="ar">
@@ -47536,7 +47537,7 @@
                 <biblScope from="3" to="3" unit="page" xml:id="biblScope_10116.d1e83851" xml:lang="ar">3</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-06-29">29 June 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-06-29">29 June 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_3373.d1e83856" xml:lang="ar">
@@ -47553,7 +47554,7 @@
                 <biblScope from="3" to="3" unit="page" xml:id="biblScope_10119.d1e83874" xml:lang="ar">3</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-10-26">26 October 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-10-26">26 October 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_3374.d1e83880" xml:lang="ar">
@@ -48372,7 +48373,7 @@
                 <biblScope from="3" to="4" unit="page" xml:id="biblScope_10299.d1e85324" xml:lang="ar">3-4</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-07-06">6 July 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-07-06">6 July 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_3434.d1e85329" xml:lang="ar">
@@ -48392,7 +48393,7 @@
                 <biblScope from="3" to="3" unit="page" xml:id="biblScope_10302.d1e85356" xml:lang="ar">3</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-11-16">16 November 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-11-16">16 November 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_3435.d1e85361" xml:lang="ar">
@@ -53488,7 +53489,7 @@
                 <biblScope from="3" to="4" unit="page" xml:id="biblScope_11364.d1e94525" xml:lang="ar">3-4</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-04-20">20 April 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-04-20">20 April 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_3789.d1e94530" xml:lang="ar">
@@ -53508,7 +53509,7 @@
                 <biblScope from="3" to="4" unit="page" xml:id="biblScope_11367.d1e94557" xml:lang="ar">3-4</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-04-27">27 April 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-04-27">27 April 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_3790.d1e94562" xml:lang="ar">
@@ -53528,7 +53529,7 @@
                 <biblScope from="3" to="4" unit="page" xml:id="biblScope_11370.d1e94589" xml:lang="ar">3-4</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-05-04">4 May 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-05-04">4 May 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_3791.d1e94594" xml:lang="ar">
@@ -53548,7 +53549,7 @@
                 <biblScope from="3" to="4" unit="page" xml:id="biblScope_11373.d1e94621" xml:lang="ar">3-4</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-05-11">11 May 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-05-11">11 May 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_3792.d1e94627" xml:lang="ar">
@@ -53565,7 +53566,7 @@
                 <biblScope from="3" to="4" unit="page" xml:id="biblScope_11376.d1e94645" xml:lang="ar">3-4</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-05-18">18 May 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-05-18">18 May 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_3793.d1e94650" xml:lang="ar">
@@ -53585,7 +53586,7 @@
                 <biblScope from="3" to="4" unit="page" xml:id="biblScope_11379.d1e94677" xml:lang="ar">3-4</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-06-08">8 June 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-06-08">8 June 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_3794.d1e94682" xml:lang="ar">
@@ -53605,7 +53606,7 @@
                 <biblScope from="3" to="4" unit="page" xml:id="biblScope_11382.d1e94709" xml:lang="ar">3-4</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-06-15">15 June 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-06-15">15 June 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_3795.d1e94714" xml:lang="ar">
@@ -53625,7 +53626,7 @@
                 <biblScope from="3" to="4" unit="page" xml:id="biblScope_11385.d1e94741" xml:lang="ar">3-4</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-06-22">22 June 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-06-22">22 June 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_3796.d1e94746" xml:lang="ar">
@@ -53645,7 +53646,7 @@
                 <biblScope from="3" to="4" unit="page" xml:id="biblScope_11388.d1e94773" xml:lang="ar">3-4</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-07-20">20 July 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-07-20">20 July 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_3797.d1e94778" xml:lang="ar">
@@ -53665,7 +53666,7 @@
                 <biblScope from="3" to="4" unit="page" xml:id="biblScope_11391.d1e94805" xml:lang="ar">3-4</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-11-25">25 November 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-11-25">25 November 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_3798.d1e94811" xml:lang="ar">
@@ -53681,7 +53682,7 @@
                 <biblScope from="4" to="4" unit="page" xml:id="biblScope_11394.d1e94829" xml:lang="ar">4</biblScope>
                 ,, 
                 <tei:add resp="#pers_TG">
-                  <tei:date when="1875-12-09">9 December 1875</tei:date></tei:add>
+                  <tei:date xml:lang="en" when="1875-12-09">9 December 1875</tei:date></tei:add>
               </bibl>
             </item>
             <item xml:id="item_3799.d1e94834" xml:lang="ar">
