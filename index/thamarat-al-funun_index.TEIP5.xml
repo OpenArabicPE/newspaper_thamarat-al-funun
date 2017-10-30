@@ -2996,71 +2996,45 @@
                 ,</bibl>
             </item>
             <pb ed="print" n="41" xml:id="pb_6.d1e3430" facs="#facs_46"/>
-            <item xml:id="item_142.d1e3432" xml:lang="ar">
-              <bibl xml:id="bibl_142.d1e3434" xml:lang="ar">
-                <title level="j" xml:id="title_284.d1e3435" xml:lang="ar">ثمرات الفنون</title>, 
-                <title level="a" xml:id="title_285.d1e3438" xml:lang="ar">اجتماع</title>
-                ,
-                <author xml:id="author_143.d1e3441" xml:lang="ar">1-1</author>
-                <biblScope from="10" to="10" unit="volume" xml:id="biblScope_424.d1e3444" xml:lang="ar">10</biblScope>
-                ,
-                <biblScope from="476" to="476" unit="issue" xml:id="biblScope_425.d1e3447" xml:lang="ar">476</biblScope>
-                ,
-                <biblScope from="2" to="2" unit="page" xml:id="biblScope_426.d1e3450" xml:lang="ar">2</biblScope>
-                ,</bibl>
-            </item>
-            <item xml:id="item_143.d1e3455" xml:lang="ar">
-              <bibl xml:id="bibl_143.d1e3457" xml:lang="ar">
-                <title level="j" xml:id="title_286.d1e3458" xml:lang="ar">ثمرات الفنون</title>, 
-                <title level="a" xml:id="title_287.d1e3461" xml:lang="ar">الاشتغال بالفن</title>
-                ,
-                <author xml:id="author_144.d1e3464" xml:lang="ar">1-1</author>
-                <biblScope from="10" to="10" unit="volume" xml:id="biblScope_427.d1e3467" xml:lang="ar">10</biblScope>
-                ,
-                <biblScope from="477" to="477" unit="issue" xml:id="biblScope_428.d1e3470" xml:lang="ar">477</biblScope>
-                ,
-                <biblScope from="2" to="2" unit="page" xml:id="biblScope_429.d1e3473" xml:lang="ar">2</biblScope>
-                ,</bibl>
-            </item>
-            <item xml:id="item_144.d1e3478" xml:lang="ar">
-              <bibl xml:id="bibl_144.d1e3480" xml:lang="ar">
-                <title level="j" xml:id="title_288.d1e3481" xml:lang="ar">ثمرات الفنون</title>, 
-                <title level="a" xml:id="title_289.d1e3484" xml:lang="ar">الاداب الإجتماعية</title>
-                ,
-                <author xml:id="author_145.d1e3487" xml:lang="ar">1-1</author>
-                <biblScope from="10" to="10" unit="volume" xml:id="biblScope_430.d1e3490" xml:lang="ar">10</biblScope>
-                ,
-                <biblScope from="478" to="478" unit="issue" xml:id="biblScope_431.d1e3493" xml:lang="ar">478</biblScope>
-                ,
-                <biblScope from="2" to="2" unit="page" xml:id="biblScope_432.d1e3496" xml:lang="ar">2</biblScope>
-                ,</bibl>
-            </item>
-            <item xml:id="item_145.d1e3502" xml:lang="ar">
-              <bibl xml:id="bibl_145.d1e3504" xml:lang="ar">
-                <title level="j" xml:id="title_290.d1e3505" xml:lang="ar">ثمرات الفنون</title>, 
-                <title level="a" xml:id="title_291.d1e3508" xml:lang="ar">علاقة المحبة</title>
-                ,
-                <author xml:id="author_146.d1e3511" xml:lang="ar">1-1</author>
-                <biblScope from="10" to="10" unit="volume" xml:id="biblScope_433.d1e3514" xml:lang="ar">10</biblScope>
-                ,
-                <biblScope from="476" to="476" unit="issue" xml:id="biblScope_434.d1e3517" xml:lang="ar">476</biblScope>
-                ,
-                <biblScope from="2" to="2" unit="page" xml:id="biblScope_435.d1e3520" xml:lang="ar">2</biblScope>
-                ,</bibl>
-            </item>
-            <item xml:id="item_146.d1e3525" xml:lang="ar">
-              <bibl xml:id="bibl_146.d1e3527" xml:lang="ar">
-                <title level="j" xml:id="title_292.d1e3528" xml:lang="ar">ثمرات الفنون</title>, 
-                <title level="a" xml:id="title_293.d1e3531" xml:lang="ar">ادب المجالسة والمحاضرة</title>
-                ,
-                <author xml:id="author_147.d1e3534" xml:lang="ar">1-1</author>
-                <biblScope from="10" to="10" unit="volume" xml:id="biblScope_436.d1e3537" xml:lang="ar">10</biblScope>
-                ,
-                <biblScope from="476" to="476" unit="issue" xml:id="biblScope_437.d1e3540" xml:lang="ar">476</biblScope>
-                ,
-                <biblScope from="2" to="2" unit="page" xml:id="biblScope_438.d1e3543" xml:lang="ar">2</biblScope>
-                ,</bibl>
-            </item>
+            <item xml:id="item_143.d1e3455" xml:lang="ar"> <bibl xml:id="bibl_143.d1e3457"
+                            xml:lang="ar"> <title level="j" xml:id="title_286.d1e3458" xml:lang="ar"
+                            >ثمرات الفنون</title>, <title level="a" xml:id="title_287.d1e3461"
+                            xml:lang="ar">الاشتغال بالفن</title> , <author
+                            xml:id="author_144.d1e3464" xml:lang="ar">1-1</author> <biblScope
+                            from="10" to="10" unit="volume" xml:id="biblScope_424.d1e3444"
+                            xml:lang="ar">10</biblScope> , <biblScope from="476" to="476"
+                            unit="issue" xml:id="biblScope_425.d1e3447" xml:lang="ar"
+                            >476</biblScope> , <biblScope from="2" to="2" unit="page"
+                            xml:id="biblScope_426.d1e3450" xml:lang="ar">2</biblScope> ,</bibl> </item>
+            <item xml:id="item_144.d1e3478" xml:lang="ar"> <bibl xml:id="bibl_144.d1e3480"
+                            xml:lang="ar"> <title level="j" xml:id="title_288.d1e3481" xml:lang="ar"
+                            >ثمرات الفنون</title>, <title level="a" xml:id="title_289.d1e3484"
+                            xml:lang="ar">الاداب الإجتماعية</title> , <author
+                            xml:id="author_145.d1e3487" xml:lang="ar">1-1</author> <biblScope
+                            from="10" to="10" unit="volume" xml:id="biblScope_427.d1e3467"
+                            xml:lang="ar">10</biblScope> , <biblScope from="477" to="477"
+                            unit="issue" xml:id="biblScope_428.d1e3470" xml:lang="ar"
+                            >477</biblScope> , <biblScope from="2" to="2" unit="page"
+                            xml:id="biblScope_429.d1e3473" xml:lang="ar">2</biblScope>  ,</bibl> </item>
+            <item xml:id="item_145.d1e3502" xml:lang="ar"> <bibl xml:id="bibl_145.d1e3504"
+                            xml:lang="ar"> <title level="j" xml:id="title_290.d1e3505" xml:lang="ar"
+                            >ثمرات الفنون</title>, <title level="a" xml:id="title_291.d1e3508"
+                            xml:lang="ar">علاقة المحبة</title> , <author xml:id="author_146.d1e3511"
+                            xml:lang="ar">1-1</author> <biblScope from="10" to="10" unit="volume"
+                            xml:id="biblScope_430.d1e3490" xml:lang="ar">10</biblScope> , <biblScope
+                            from="478" to="478" unit="issue" xml:id="biblScope_431.d1e3493"
+                            xml:lang="ar">478</biblScope> , <biblScope from="2" to="2" unit="page"
+                            xml:id="biblScope_432.d1e3496" xml:lang="ar">2</biblScope>  ,</bibl> </item>
+            <item xml:id="item_146.d1e3525" xml:lang="ar"> <bibl xml:id="bibl_146.d1e3527"
+                            xml:lang="ar"> <title level="j" xml:id="title_292.d1e3528" xml:lang="ar"
+                            >ثمرات الفنون</title>, <title level="a" xml:id="title_293.d1e3531"
+                            xml:lang="ar">ادب المجالسة والمحاضرة</title> , <author
+                            xml:id="author_147.d1e3534" xml:lang="ar">1-1</author> <biblScope
+                            from="10" to="10" unit="volume" xml:id="biblScope_436.d1e3537"
+                            xml:lang="ar">10</biblScope> , <biblScope from="479" to="479"
+                            unit="issue" xml:id="biblScope_437.d1e3540" xml:lang="ar"
+                            >479</biblScope> , <biblScope from="2" to="2" unit="page"
+                            xml:id="biblScope_438.d1e3543" xml:lang="ar">2</biblScope> ,</bibl> </item>
             <item xml:id="item_147.d1e3548" xml:lang="ar">
               <bibl xml:id="bibl_147.d1e3550" xml:lang="ar">
                 <title level="j" xml:id="title_294.d1e3551" xml:lang="ar">ثمرات الفنون</title>, 
