@@ -39235,22 +39235,19 @@
                 <biblScope from="1" to="2" unit="page" xml:id="biblScope_8163.d1e67665" xml:lang="ar">1-2</biblScope>
                 ,</bibl>
             </item>
-            <item xml:id="item_2722.d1e67670" xml:lang="ar">
-              <bibl xml:id="bibl_2722.d1e67672" xml:lang="ar">
-                <title level="j" xml:id="title_5442.d1e67673" xml:lang="ar">ثمرات الفنون</title>, 
-                <title level="a" xml:id="title_5443.d1e67676" xml:lang="ar">
-                  خطاب 
-                  <persName ref="viaf:28125663"/>
-                  بنادي الحرية</title>, 
-                <author xml:id="author_2723.d1e67679" xml:lang="ar">
-                  <del resp="#pers_TG">المجلة</del></author>, 
-                <biblScope from="35" to="35" unit="volume" xml:id="biblScope_8164.d1e67682" xml:lang="ar">35</biblScope>
-                , 
-                <biblScope from="1677" to="1677" unit="issue" xml:id="biblScope_8165.d1e67685" xml:lang="ar">1677</biblScope>
-                , 
-                <biblScope from="2" to="3" unit="page" xml:id="biblScope_8166.d1e67688" xml:lang="ar">2-3</biblScope>
-                , </bibl>
-            </item>
+            <item xml:id="item_2722.d1e67670" xml:lang="ar"> <bibl xml:id="bibl_2722.d1e67672"
+                            xml:lang="ar"> <title level="j" xml:id="title_5442.d1e67673"
+                            xml:lang="ar">ثمرات الفنون</title>, <title level="a"
+                            xml:id="title_5443.d1e67676" xml:lang="ar"> خطاب <persName
+                            ref="viaf:28125663"><forename>رفيق</forename>
+                            <surname>العظم</surname></persName> ب<placeName>نادي الحرية</placeName></title>, <author
+                            xml:id="author_2723.d1e67679" xml:lang="ar"> <del resp="#pers_TG"
+                            >المجلة</del></author>, <biblScope from="35" to="35" unit="volume"
+                            xml:id="biblScope_8164.d1e67682" xml:lang="ar"
+                            >35</biblScope> , <biblScope from="1677" to="1677" unit="issue"
+                            xml:id="biblScope_8165.d1e67685" xml:lang="ar"
+                            >1677</biblScope> , <biblScope from="2" to="3" unit="page"
+                            xml:id="biblScope_8166.d1e67688" xml:lang="ar">2-3</biblScope> , </bibl> </item>
             <item xml:id="item_2723.d1e67693" xml:lang="ar">
               <bibl xml:id="bibl_2723.d1e67695" xml:lang="ar">
                 <title level="j" xml:id="title_5444.d1e67696" xml:lang="ar">ثمرات الفنون</title>, 
@@ -39298,23 +39295,19 @@
                 <biblScope unit="issue" xml:id="biblScope_8177.d1e67794"/>
                 <biblScope unit="page" xml:id="biblScope_8178.d1e67796"/></bibl>
             </item>
-            <item xml:id="item_2727.d1e67800" xml:lang="ar">
-              <bibl xml:id="bibl_2727.d1e67802" xml:lang="ar">
-                <title level="j" xml:id="title_5452.d1e67803" xml:lang="ar">ثمرات الفنون</title>, 
-                <title level="a" xml:id="title_5453.d1e67806" xml:lang="ar">الحرية وتأثيرها في البلاد الحجازية</title>
-                , 
-                <author xml:id="author_2728.d1e67809" xml:lang="ar">
-                  <persName xml:lang="ar">
-                    <forename xml:lang="ar">عبد القادر</forename>
-                    <surname xml:lang="ar">عثمان</surname></persName>
-                </author>, 
-                <biblScope from="35" to="35" unit="volume" xml:id="biblScope_8179.d1e67821" xml:lang="ar">35</biblScope>
-                , 
-                <biblScope from="680" to="680" unit="issue" xml:id="biblScope_8180.d1e67824" xml:lang="ar">680</biblScope>
-                , 
-                <biblScope from="1" to="2" unit="page" xml:id="biblScope_8181.d1e67827" xml:lang="ar">1-2</biblScope>
-                ,</bibl>
-            </item>
+            <item xml:id="item_2727.d1e67800" xml:lang="ar"> <bibl xml:id="bibl_2727.d1e67802"
+                            xml:lang="ar"> <title level="j" xml:id="title_5452.d1e67803"
+                            xml:lang="ar">ثمرات الفنون</title>, <title level="a"
+                            xml:id="title_5453.d1e67806" xml:lang="ar"
+                            >الحرية وتأثيرها في البلاد الحجازية</title> , <author
+                            xml:id="author_2728.d1e67809" xml:lang="ar"> <persName xml:lang="ar">
+                            <forename xml:lang="ar">عبد القادر</forename> <surname xml:lang="ar"
+                            >عثمان</surname></persName> </author>, <biblScope from="35" to="35"
+                            unit="volume" xml:id="biblScope_8179.d1e67821" xml:lang="ar"
+                            >35</biblScope> , <biblScope from="1680" to="1680" unit="issue"
+                            xml:id="biblScope_8180.d1e67824" xml:lang="ar"
+                            >1680</biblScope> , <biblScope from="1" to="2" unit="page"
+                            xml:id="biblScope_8181.d1e67827" xml:lang="ar">1-2</biblScope> ,</bibl> </item>
             <item xml:id="item_2728.d1e67832" xml:lang="ar">
               <bibl xml:id="bibl_2728.d1e67834" xml:lang="ar">
                 <title level="j" xml:id="title_5454.d1e67835" xml:lang="ar">ثمرات الفنون</title>, 
@@ -39476,20 +39469,18 @@
                   <tei:date when="1875-10-05" xml:lang="en">5 October 1875</tei:date></tei:add>
               </bibl>
             </item>
-            <item xml:id="item_2738.d1e68111" xml:lang="ar">
-              <bibl xml:id="bibl_2738.d1e68113" xml:lang="ar">
-                <title level="j" xml:id="title_5474.d1e68114" xml:lang="ar">ثمرات الفنون</title>, 
-                <title level="a" xml:id="title_5475.d1e68117" xml:lang="ar">احصاء للجرائد الانكليزية</title>
-                ,
-                <author xml:id="author_2739.d1e68120" xml:lang="ar">
-                  <del resp="#pers_TG">المجلة</del></author>,
-                <biblScope from="1" to="1" unit="volume" xml:id="biblScope_8212.d1e68123" xml:lang="ar">1</biblScope>
-                ,
-                <biblScope from="51" to="51" unit="issue" xml:id="biblScope_8213.d1e68126" xml:lang="ar">51</biblScope>
-                ,
-                <biblScope from="2" to="2" unit="page" xml:id="biblScope_8214.d1e68129" xml:lang="ar">2</biblScope>
-                ,</bibl>
-            </item>
+            <item xml:id="item_2738.d1e68111" xml:lang="ar"> <bibl xml:id="bibl_2738.d1e68113"
+                            xml:lang="ar"> <title level="j" xml:id="title_5474.d1e68114"
+                            xml:lang="ar">ثمرات الفنون</title>, <title level="a"
+                            xml:id="title_5475.d1e68117" xml:lang="ar"
+                            >احصاء للجرائد الانكليزية</title> , <author
+                            xml:id="author_2739.d1e68120" xml:lang="ar"> <del resp="#pers_TG"
+                            >المجلة</del></author>, <biblScope from="2" to="2" unit="volume"
+                            xml:id="biblScope_8212.d1e68123" xml:lang="ar"
+                            >2</biblScope> , <biblScope from="51" to="51" unit="issue"
+                            xml:id="biblScope_8213.d1e68126" xml:lang="ar"
+                            >51</biblScope> , <biblScope from="2" to="2" unit="page"
+                            xml:id="biblScope_8214.d1e68129" xml:lang="ar">2</biblScope> ,</bibl> </item>
             <item xml:id="item_2739.d1e68134" xml:lang="ar">
               <bibl xml:id="bibl_2739.d1e68136" xml:lang="ar">
                 <title level="j" xml:id="title_5476.d1e68137" xml:lang="ar">ثمرات الفنون</title>, 
