@@ -9768,24 +9768,17 @@
                 <biblScope from="3" to="4" unit="page" xml:id="biblScope_1884.d1e15849" xml:lang="ar">3-4</biblScope>
                 ,</bibl>
             </item>
-            <item xml:id="item_629.d1e15854" xml:lang="ar">
-              <bibl xml:id="bibl_629.d1e15856" xml:lang="ar">
-                <title level="j" xml:id="title_1258.d1e15857" xml:lang="ar">ثمرات الفنون</title>, 
-                <title level="a" xml:id="title_1259.d1e15860" xml:lang="ar">انتهاز الفرص سبب النجاح</title>
-                ,
-                <author xml:id="author_630.d1e15863" xml:lang="ar">
-                  <persName xml:lang="ar">
-                    <forename xml:lang="ar">مصباح</forename>
-                    <surname xml:lang="ar">طبارة</surname></persName>
-                </author>,
-                <biblScope from="34" to="34" unit="volume" xml:id="biblScope_1885.d1e15875" xml:lang="ar">34</biblScope>
-                ,
-                <biblScope from="..." to="..." unit="issue" xml:id="biblScope_1886.d1e15878" xml:lang="ar">...</biblScope>
-                ,
-                <biblScope from=".." to=".." unit="page" xml:id="biblScope_1887.d1e15881" xml:lang="ar">..</biblScope>
-                ,
-                                , .., , </bibl>
-            </item>
+            <item xml:id="item_629.d1e15854" xml:lang="ar"> <bibl xml:id="bibl_629.d1e15856"
+                            xml:lang="ar"> <title level="j" xml:id="title_1258.d1e15857"
+                            xml:lang="ar">ثمرات الفنون</title>, <title level="a"
+                            xml:id="title_1259.d1e15860" xml:lang="ar"
+                            >انتهاز الفرص سبب النجاح</title> , <author xml:id="author_630.d1e15863"
+                            xml:lang="ar"> <persName xml:lang="ar"> <forename xml:lang="ar"
+                            >مصباح</forename> <surname xml:lang="ar">طبارة</surname></persName>
+                            </author>, <biblScope from="34" to="34" unit="volume" xml:lang="ar"
+                            >34</biblScope> , <biblScope from="1616" to="1616" unit="issue"
+                            xml:lang="ar">1616</biblScope> , <biblScope from="2" to="3" unit="page"
+                            xml:lang="ar">2-3</biblScope> ,</bibl> </item>
             <pb ed="print" n="57" xml:id="pb_22.d1e15886" facs="#facs_62"/>
             <item xml:id="item_631.d1e15907" xml:lang="ar">
               <bibl xml:id="bibl_631.d1e15909" xml:lang="ar">
