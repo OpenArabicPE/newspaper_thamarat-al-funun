@@ -26,6 +26,7 @@
                         <xsl:element name="tei:add">
                            <xsl:attribute name="resp" select="'#pers_TG'"/>
                            <xsl:element name="tei:date">
+                               <xsl:attribute name="xml:lang" select="'en'"/>
                             <xsl:attribute name="when">
                                 <xsl:value-of select="$v_bibl-master/descendant-or-self::tei:biblStruct[descendant::tei:biblScope[@unit='volume']/@from=$v_volume][descendant::tei:biblScope[@unit='issue']/@from=$v_issue]/descendant::tei:date[1]/@when"/>
                             </xsl:attribute>
