@@ -1865,37 +1865,25 @@
                 <biblScope from="3" to="3" unit="page" xml:id="biblScope_162.d1e1410" xml:lang="ar">3</biblScope>
                 ,</bibl>
             </item>
-            <item xml:id="item_55.d1e1415" xml:lang="ar">
-              <bibl xml:id="bibl_55.d1e1417" xml:lang="ar">
-                <title level="j" xml:id="title_110.d1e1418" xml:lang="ar">ثمرات الفنون</title>, 
-                <title level="a" xml:id="title_111.d1e1421" xml:lang="ar">ضبط التصرفات العامة بالقوانين</title>
-                ,
-                <author xml:id="author_56.d1e1424" xml:lang="ar">
-                  <del resp="#pers_TG">المجلة</del></author>,
-                <biblScope unit="volume" xml:id="biblScope_163.d1e1427"/>
-                <biblScope unit="issue" xml:id="biblScope_164.d1e1429"/>
-                <biblScope unit="page" xml:id="biblScope_165.d1e1431"/></bibl>
-            </item>
-            <item xml:id="item_56.d1e1435" xml:lang="ar">
-              <bibl xml:id="bibl_56.d1e1437" xml:lang="ar">
-                <title level="j" xml:id="title_112.d1e1438" xml:lang="ar">ثمرات الفنون</title>, 
-                <title level="a" xml:id="title_113.d1e1441" xml:lang="ar">جمعية الهلال الاحمر</title>
-                ,
-                <author xml:id="author_57.d1e1444" xml:lang="ar">
-                  <del resp="#pers_TG">المجلة</del></author>,
-                <biblScope unit="volume" xml:id="biblScope_166.d1e1447"/>
-                <biblScope unit="issue" xml:id="biblScope_167.d1e1449"/>
-                <biblScope unit="page" xml:id="biblScope_168.d1e1451"/></bibl>
-            </item>
-            <item xml:id="item_57.d1e1455" xml:lang="ar">
-              <bibl xml:id="bibl_57.d1e1457" xml:lang="ar">
-                <title level="j" xml:id="title_114.d1e1458" xml:lang="ar">ثمرات الفنون</title>, 
-                <title level="a" xml:id="title_115.d1e1461"/>
-                <author xml:id="author_58.d1e1463"/>
-                <biblScope unit="volume" xml:id="biblScope_169.d1e1465"/>
-                <biblScope unit="issue" xml:id="biblScope_170.d1e1467"/>
-                <biblScope unit="page" xml:id="biblScope_171.d1e1469"/></bibl>
-            </item>
+            <item xml:id="item_55.d1e1415" xml:lang="ar"> <bibl xml:id="bibl_55.d1e1417"
+                            xml:lang="ar"> <title level="j" xml:id="title_110.d1e1418" xml:lang="ar"
+                            >ثمرات الفنون</title>, <title level="a" xml:id="title_111.d1e1421"
+                            xml:lang="ar">ضبط التصرفات العامة بالقوانين</title> , <author
+                            xml:id="author_56.d1e1424" xml:lang="ar"> <del resp="#pers_TG"
+                            >المجلة</del></author>,   <biblScope from="3" to="3" unit="volume"
+                            xml:lang="ar">3</biblScope><biblScope from="115" to="115" unit="issue"
+                            xml:lang="ar">115</biblScope><biblScope from="3" to="3" unit="page"
+                            xml:lang="ar">3</biblScope></bibl> </item>
+            <item xml:id="item_56.d1e1435" xml:lang="ar"> <bibl xml:id="bibl_56.d1e1437"
+                            xml:lang="ar"> <title level="j" xml:id="title_112.d1e1438" xml:lang="ar"
+                            >ثمرات الفنون</title>, <title level="a" xml:id="title_113.d1e1441"
+                            xml:lang="ar">جمعية الهلال الاحمر</title> , <author
+                            xml:id="author_57.d1e1444" xml:lang="ar"> <del resp="#pers_TG"
+                            >المجلة</del></author>, <biblScope unit="volume"
+                            xml:id="biblScope_166.d1e1447" from="3" to="3">3</biblScope> <biblScope
+                            unit="issue" xml:id="biblScope_167.d1e1449" from="221" to="221"
+                            >221</biblScope> <biblScope unit="page" xml:id="biblScope_168.d1e1451"
+                            from="4" to="4">4</biblScope></bibl> </item>
             <pb ed="print" n="38" xml:id="pb_3.d1e1473" facs="#facs_43"/>
             <item xml:id="item_59.d1e1495" xml:lang="ar">
               <bibl xml:id="bibl_59.d1e1497" xml:lang="ar">
@@ -2307,18 +2295,16 @@
                 <biblScope from="4" to="4" unit="page" xml:id="biblScope_261.d1e2179" xml:lang="ar">4</biblScope>
                 ,</bibl>
             </item>
-            <item xml:id="item_88.d1e2185" xml:lang="ar">
-              <bibl xml:id="bibl_88.d1e2187" xml:lang="ar">
-                <title level="j" xml:id="title_176.d1e2188" xml:lang="ar">ثمرات الفنون</title>, 
-                <title level="a" xml:id="title_177.d1e2191" xml:lang="ar">اهمية الفصل بالنسبة للقول</title>
-                ,
-                <author xml:id="author_89.d1e2194" xml:lang="ar">
-                  <del resp="#pers_TG">المجلة</del></author>,
-                <biblScope from="5" to="5" unit="volume" xml:id="biblScope_262.d1e2197" xml:lang="ar">5</biblScope>
-                ,
-                <biblScope unit="issue" xml:id="biblScope_263.d1e2200"/>
-                <biblScope unit="page" xml:id="biblScope_264.d1e2202"/></bibl>
-            </item>
+            <item xml:id="item_88.d1e2185" xml:lang="ar"> <bibl xml:id="bibl_88.d1e2187"
+                            xml:lang="ar"> <title level="j" xml:id="title_176.d1e2188" xml:lang="ar"
+                            >ثمرات الفنون</title>, <title level="a" xml:id="title_177.d1e2191"
+                            xml:lang="ar">اهمية الفصل بالنسبة للقول</title> , <author
+                            xml:id="author_89.d1e2194" xml:lang="ar"> <del resp="#pers_TG"
+                            >المجلة</del></author>, <biblScope from="5" to="5" unit="volume"
+                            xml:id="biblScope_262.d1e2197" xml:lang="ar">5</biblScope> , <biblScope
+                            unit="issue" xml:id="biblScope_263.d1e2200" from="258" to="258"
+                            >258</biblScope> <biblScope unit="page" xml:id="biblScope_264.d1e2202"
+                            from="4" to="4">4</biblScope></bibl></item>
             <pb ed="print" n="39" xml:id="pb_4.d1e2206" facs="#facs_44"/>
             <item xml:id="item_90.d1e2227" xml:lang="ar">
               <bibl xml:id="bibl_90.d1e2229" xml:lang="ar">
@@ -2668,20 +2654,15 @@
                 <biblScope from="1" to="1" unit="page" xml:id="biblScope_342.d1e2801" xml:lang="ar">1</biblScope>
                 ,</bibl>
             </item>
-            <item xml:id="item_115.d1e2806" xml:lang="ar">
-              <bibl xml:id="bibl_115.d1e2808" xml:lang="ar">
-                <title level="j" xml:id="title_230.d1e2809" xml:lang="ar">ثمرات الفنون</title>, 
-                <title level="a" xml:id="title_231.d1e2812" xml:lang="ar">.............</title>
-                ,
-                <author xml:id="author_116.d1e2815" xml:lang="ar">
-                  <del resp="#pers_TG">المجلة</del></author>,
-                <biblScope from=".." to=".." unit="volume" xml:id="biblScope_343.d1e2818" xml:lang="ar">..</biblScope>
-                ,
-                <biblScope from=".." to=".." unit="issue" xml:id="biblScope_344.d1e2821" xml:lang="ar">..</biblScope>
-                ,
-                <biblScope from=".." to=".." unit="page" xml:id="biblScope_345.d1e2824" xml:lang="ar">..</biblScope>
-                ,</bibl>
-            </item>
+            <item xml:id="item_115.d1e2806" xml:lang="ar"> <bibl xml:id="bibl_115.d1e2808"
+                            xml:lang="ar"> <title level="j" xml:id="title_230.d1e2809" xml:lang="ar"
+                            >ثمرات الفنون</title>, <title level="a" xml:id="title_231.d1e2812"
+                            xml:lang="ar">مساؤى الخمرة</title> , <author xml:id="author_116.d1e2815"
+                            xml:lang="ar"> <del resp="#pers_TG">المجلة</del></author>,<biblScope
+                            from="8" to="8" unit="volume" xml:lang="ar">8</biblScope> <biblScope
+                            from="378" to="378" unit="issue" xml:lang="ar"
+                            >378</biblScope>, <biblScope from="1" to="1" unit="page" xml:lang="ar"
+                            >1</biblScope> ,</bibl> </item>
             <pb ed="print" n="40" xml:id="pb_5.d1e2829" facs="#facs_45"/>
             <item xml:id="item_117.d1e2851" xml:lang="ar">
               <bibl xml:id="bibl_117.d1e2853" xml:lang="ar">
