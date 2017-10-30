@@ -50,22 +50,7 @@
         </biblStruct>
       </sourceDesc>
     </fileDesc>
-    <revisionDesc xml:id="revisionDesc_1.d1e45"><tei:change when="2017-10-30" who="#pers_TG">Linked all <tei:tag>pb ed="print"</tei:tag> to the corresponding facsimile</tei:change>
-      <tei:change when="2017-10-30" who="#pers_TG">Linked all 
-        <tei:tag>pb ed="print"</tei:tag>
-        to the corresponding facsimile</tei:change>
-      <tei:change when="2017-10-30" who="#pers_TG">Linked all 
-        <tei:tag>pb ed="print"</tei:tag>
-        to the corresponding facsimile</tei:change>
-      <tei:change when="2017-10-29" who="#pers_TG">Linked all 
-        <tei:tag>pb ed="print"</tei:tag>
-        to the corresponding facsimile</tei:change>
-      <tei:change when="2017-10-29" who="#pers_TG">Linked all 
-        <tei:tag>pb ed="print"</tei:tag>
-        to the corresponding facsimile</tei:change>
-      <tei:change when="2017-10-29" who="#pers_TG">Linked all 
-        <tei:tag>pb ed="print"</tei:tag>
-        to the corresponding facsimile</tei:change>
+    <revisionDesc xml:id="revisionDesc_1.d1e45">
       <tei:change when="2017-10-29" who="#pers_TG">Linked all 
         <tei:tag>pb ed="print"</tei:tag>
         to the corresponding facsimile</tei:change>
@@ -485,15 +470,11 @@
     </tei:surface>
     <tei:surface xml:id="facs_130">
       <tei:graphic mimeType="image/jpeg" url="../images/index/Thamarat al_Founoun-Index-130.jpg" xml:id="facs_130-g_2"/>
+        <tei:graphic mimeType="image/jpeg" url="../images/index/Thamarat al_Founoun-Index-132.jpg" xml:id="facs_130-g_3"/>
     </tei:surface>
     <tei:surface xml:id="facs_131">
       <tei:graphic mimeType="image/jpeg" url="../images/index/Thamarat al_Founoun-Index-131.jpg" xml:id="facs_131-g_2"/>
-    </tei:surface>
-    <tei:surface xml:id="facs_132">
-      <tei:graphic mimeType="image/jpeg" url="../images/index/Thamarat al_Founoun-Index-132.jpg" xml:id="facs_132-g_2"/>
-    </tei:surface>
-    <tei:surface xml:id="facs_133">
-      <tei:graphic mimeType="image/jpeg" url="../images/index/Thamarat al_Founoun-Index-133.jpg" xml:id="facs_133-g_2"/>
+        <tei:graphic mimeType="image/jpeg" url="../images/index/Thamarat al_Founoun-Index-133.jpg" xml:id="facs_131-g_3"/>
     </tei:surface>
     <tei:surface xml:id="facs_134">
       <tei:graphic mimeType="image/jpeg" url="../images/index/Thamarat al_Founoun-Index-134.jpg" xml:id="facs_134-g_2"/>
@@ -37182,17 +37163,8 @@
                 <biblScope from="3" to="3" unit="page" xml:id="biblScope_7704.d1e64050" xml:lang="ar">3</biblScope>
                 ,</bibl>
             </item>
-            <item xml:id="item_2569.d1e64055" xml:lang="ar"> <bibl xml:id="bibl_2569.d1e64057"
-                            xml:lang="ar"> <title level="j" xml:id="title_5136.d1e64058"
-                            xml:lang="ar">ثمرات الفنون</title>, <title level="a"
-                            xml:id="title_5137.d1e64061" xml:lang="ar"
-                            >المسالة الارمنية</title> , <author xml:id="author_2570.d1e64064"
-                            xml:lang="ar"> <del resp="#pers_TG">المجلة</del></author>, <biblScope
-                            from="17" to="17" unit="volume" xml:lang="ar"
-                            >17</biblScope> , <biblScope from="813" to="813" unit="issue"
-                            xml:lang="ar">813</biblScope> , <biblScope from="2" to="3" unit="page"
-                            xml:lang="ar">2-3</biblScope></bibl> </item>
-            <pb ed="print" facs="#facs_132" n="126" xml:id="pb_92.d1e64075"/>
+            <item xml:id="item_2569.d1e64055" xml:lang="ar"> <bibl xml:id="bibl_2569.d1e64057" xml:lang="ar"> <title level="j" xml:id="title_5136.d1e64058" xml:lang="ar">ثمرات الفنون</title>, <title level="a" xml:id="title_5137.d1e64061" xml:lang="ar">المسالة الارمنية</title> , <author xml:id="author_2570.d1e64064" xml:lang="ar"> <del resp="#pers_TG">المجلة</del></author>, <biblScope from="17" to="17" unit="volume" xml:lang="ar">17</biblScope> , <biblScope from="813" to="813" unit="issue" xml:lang="ar">813</biblScope> , <biblScope from="2" to="3" unit="page" xml:lang="ar">2-3</biblScope></bibl> </item>
+            <pb ed="print" facs="#facs_134" n="126" xml:id="pb_92.d1e64075"/>
             <item xml:id="item_2571.d1e64097" xml:lang="ar">
               <bibl xml:id="bibl_2571.d1e64099" xml:lang="ar">
                 <title level="j" xml:id="title_5140.d1e64100" xml:lang="ar">ثمرات الفنون</title>, 
@@ -37614,7 +37586,7 @@
                 <biblScope unit="issue" xml:id="biblScope_7799.d1e64793"/>
                 <biblScope unit="page" xml:id="biblScope_7800.d1e64795"/></bibl>
             </item>
-            <pb ed="print" facs="#facs_133" n="127" xml:id="pb_93.d1e64799"/>
+            <pb ed="print" facs="#facs_135" n="127" xml:id="pb_93.d1e64799"/>
             <item xml:id="item_2602.d1e64821" xml:lang="ar">
               <bibl xml:id="bibl_2602.d1e64823" xml:lang="ar">
                 <title level="j" xml:id="title_5202.d1e64824" xml:lang="ar">ثمرات الفنون</title>, 
@@ -38028,7 +38000,7 @@
                 <biblScope from="1" to="2" unit="page" xml:id="biblScope_7893.d1e65509" xml:lang="ar">1-2</biblScope>
                 ,</bibl>
             </item>
-            <pb ed="print" facs="#facs_134" n="128"/>
+            <pb ed="print" facs="#facs_136" n="128"/>
             <item xml:id="item_2632.d1e65526" xml:lang="ar">
               <bibl xml:id="bibl_2632.d1e65528" xml:lang="ar">
                 <title level="j" xml:id="title_5262.d1e65529" xml:lang="ar">ثمرات الفنون</title>, 
@@ -38451,7 +38423,7 @@
                 <biblScope from="2" to="3" unit="page" xml:id="biblScope_7983.d1e66243" xml:lang="ar">2-3</biblScope>
                 ,</bibl>
             </item>
-            <pb ed="print" facs="#facs_135" n="129" xml:id="pb_95.d1e66248"/>
+            <pb ed="print" facs="#facs_137" n="129" xml:id="pb_95.d1e66248"/>
             <item xml:id="item_2663.d1e66269" xml:lang="ar">
               <bibl xml:id="bibl_2663.d1e66271" xml:lang="ar">
                 <title level="j" xml:id="title_5324.d1e66272" xml:lang="ar">ثمرات الفنون</title>, 
@@ -38873,7 +38845,7 @@
                 <biblScope from="6" to="6" unit="page" xml:id="biblScope_8076.d1e66986" xml:lang="ar">6</biblScope>
                 ,</bibl>
             </item>
-            <pb ed="print" facs="#facs_136" n="130" xml:id="pb_96.d1e66991"/>
+            <pb ed="print" facs="#facs_138" n="130" xml:id="pb_96.d1e66991"/>
             <item xml:id="item_2694.d1e67012" xml:lang="ar">
               <bibl xml:id="bibl_2694.d1e67014" xml:lang="ar">
                 <title level="j" xml:id="title_5386.d1e67015" xml:lang="ar">ثمرات الفنون</title>, 
@@ -39296,7 +39268,7 @@
                 <biblScope from="3" to="3" unit="page" xml:id="biblScope_8169.d1e67720" xml:lang="ar">3</biblScope>
                 ,</bibl>
             </item>
-            <pb ed="print" facs="#facs_137" n="131" xml:id="pb_97.d1e67725"/>
+            <pb ed="print" facs="#facs_139" n="131" xml:id="pb_97.d1e67725"/>
             <item xml:id="item_2725.d1e67747" xml:lang="ar">
               <bibl xml:id="bibl_2725.d1e67749" xml:lang="ar">
                 <title level="j" xml:id="title_5448.d1e67750" xml:lang="ar">ثمرات الفنون</title>, 
@@ -39481,7 +39453,7 @@
             </item>
           </list>
         </div>
-        <pb ed="print" facs="#facs_138" n="132" xml:id="pb_98.d1e68079"/>
+        <pb ed="print" facs="#facs_140" n="132" xml:id="pb_98.d1e68079"/>
         <div type="section" xml:id="div_4.d1e68081" xml:lang="ar">
           <head xml:id="head_4.d1e68083" xml:lang="ar">صحافة</head>
           <list xml:id="list_4.d1e68086" xml:lang="ar">
@@ -39960,7 +39932,7 @@
                 <biblScope from="3" to="3" unit="page" xml:id="biblScope_8298.d1e68832" xml:lang="ar">3</biblScope>
                 , </bibl>
             </item>
-            <pb ed="print" facs="#facs_139" n="133" xml:id="pb_99.d1e68837"/>
+            <pb ed="print" facs="#facs_141" n="133" xml:id="pb_99.d1e68837"/>
             <item xml:id="item_2768.d1e68858" xml:lang="ar">
               <bibl xml:id="bibl_2768.d1e68860" xml:lang="ar">
                 <title level="j" xml:id="title_5534.d1e68861" xml:lang="ar">ثمرات الفنون</title>, 
@@ -40407,7 +40379,7 @@
                 <biblScope from="1" to="1" unit="page" xml:id="biblScope_8391.d1e69611" xml:lang="ar">1</biblScope>
                 ,</bibl>
             </item>
-            <pb ed="print" facs="#facs_140" n="134" xml:id="pb_100.d1e69616"/>
+            <pb ed="print" facs="#facs_142" n="134" xml:id="pb_100.d1e69616"/>
             <item xml:id="item_2798.d1e69618" xml:lang="ar">
               <bibl xml:id="bibl_2798.d1e69620" xml:lang="ar">
                 <title level="j" xml:id="title_5594.d1e69621" xml:lang="ar">ثمرات الفنون</title>, 
@@ -40845,7 +40817,7 @@
                 <biblScope from=".........." to=".........." unit="page" xml:id="biblScope_8481.d1e70335" xml:lang="ar">..........</biblScope>
                 ,</bibl>
             </item>
-            <pb ed="print" facs="#facs_141" n="135" xml:id="pb_101.d1e70340"/>
+            <pb ed="print" facs="#facs_143" n="135" xml:id="pb_101.d1e70340"/>
             <item xml:id="item_2828.d1e70342" xml:lang="ar">
               <bibl xml:id="bibl_2828.d1e70344" xml:lang="ar">
                 <title level="j" xml:id="title_5654.d1e70345" xml:lang="ar">ثمرات الفنون</title>, 
@@ -41281,7 +41253,7 @@
                 <biblScope from="2" to="2" unit="page" xml:id="biblScope_8571.d1e71059" xml:lang="ar">2</biblScope>
                 ,</bibl>
             </item>
-            <pb ed="print" facs="#facs_142" n="136" xml:id="pb_102.d1e71064"/>
+            <pb ed="print" facs="#facs_144" n="136" xml:id="pb_102.d1e71064"/>
             <item xml:id="item_2858.d1e71067" xml:lang="ar">
               <bibl xml:id="bibl_2858.d1e71069" xml:lang="ar">
                 <title level="j" xml:id="title_5714.d1e71070" xml:lang="ar">ثمرات الفنون</title>, 
@@ -41743,7 +41715,7 @@
                 <biblScope from="3" to="3" unit="page" xml:id="biblScope_8661.d1e71873" xml:lang="ar">3</biblScope>
                 ,</bibl>
             </item>
-            <pb ed="print" facs="#facs_143" n="137" xml:id="pb_103.d1e71879"/>
+            <pb ed="print" facs="#facs_145" n="137" xml:id="pb_103.d1e71879"/>
             <item xml:id="item_2888.d1e71881" xml:lang="ar">
               <bibl xml:id="bibl_2888.d1e71883" xml:lang="ar">
                 <title level="j" xml:id="title_5774.d1e71884" xml:lang="ar">ثمرات الفنون</title>, 
@@ -42211,7 +42183,7 @@
                 <biblScope from="6" to="6" unit="page" xml:id="biblScope_8751.d1e72724" xml:lang="ar">6</biblScope>
                 ,</bibl>
             </item>
-            <pb ed="print" facs="#facs_144" n="138" xml:id="pb_104.d1e72729"/>
+            <pb ed="print" facs="#facs_146" n="138" xml:id="pb_104.d1e72729"/>
             <item xml:id="item_2919.d1e72750" xml:lang="ar">
               <bibl xml:id="bibl_2919.d1e72752" xml:lang="ar">
                 <title level="j" xml:id="title_5836.d1e72753" xml:lang="ar">ثمرات الفنون</title>, 
@@ -42672,7 +42644,7 @@
                 <biblScope from="6" to="6" unit="page" xml:id="biblScope_8844.d1e73566" xml:lang="ar">6</biblScope>
                 ,</bibl>
             </item>
-            <pb ed="print" facs="#facs_145" n="139" xml:id="pb_105.d1e73571"/>
+            <pb ed="print" facs="#facs_147" n="139" xml:id="pb_105.d1e73571"/>
             <item xml:id="item_2950.d1e73592" xml:lang="ar">
               <bibl xml:id="bibl_2950.d1e73594" xml:lang="ar">
                 <title level="j" xml:id="title_5898.d1e73595" xml:lang="ar">ثمرات الفنون</title>, 
@@ -43022,7 +42994,7 @@
                 <biblScope from="4" to="4" unit="page" xml:id="biblScope_8919.d1e74196" xml:lang="ar">4</biblScope>
                 ,</bibl>
             </item>
-            <pb ed="print" facs="#facs_146" n="140" xml:id="pb_106.d1e74201"/>
+            <pb ed="print" facs="#facs_148" n="140" xml:id="pb_106.d1e74201"/>
           </list>
         </div>
         <div type="section" xml:lang="ar">
@@ -43464,7 +43436,7 @@
                 <biblScope from="3" to="3" unit="page" xml:id="biblScope_9012.d1e74958" xml:lang="ar">3</biblScope>
                 ,</bibl>
             </item>
-            <pb ed="print" facs="#facs_147" n="141" xml:id="pb_107.d1e74963"/>
+            <pb ed="print" facs="#facs_149" n="141" xml:id="pb_107.d1e74963"/>
             <item xml:id="item_3006.d1e74984" xml:lang="ar">
               <bibl xml:id="bibl_3006.d1e74986" xml:lang="ar">
                 <title level="j" xml:id="title_6010.d1e74987" xml:lang="ar">ثمرات الفنون</title>, 
@@ -43865,7 +43837,7 @@
                 <biblScope from="7" to="8" unit="page" xml:id="biblScope_9102.d1e75649" xml:lang="ar">7-8</biblScope>
                 ,</bibl>
             </item>
-            <pb ed="print" facs="#facs_148" n="142" xml:id="pb_108.d1e75654"/>
+            <pb ed="print" facs="#facs_150" n="142" xml:id="pb_108.d1e75654"/>
             <item xml:id="item_3036.d1e75675" xml:lang="ar">
               <bibl xml:id="bibl_3036.d1e75677" xml:lang="ar">
                 <title level="j" xml:id="title_6070.d1e75678" xml:lang="ar">ثمرات الفنون</title>, 
@@ -44256,7 +44228,7 @@
                 <biblScope from="7" to="7" unit="page" xml:id="biblScope_9189.d1e76328" xml:lang="ar">7</biblScope>
                 ,</bibl>
             </item>
-            <pb ed="print" facs="#facs_149" n="143" xml:id="pb_109.d1e76333"/>
+            <pb ed="print" facs="#facs_151" n="143" xml:id="pb_109.d1e76333"/>
             <item xml:id="item_3065.d1e76354" xml:lang="ar">
               <bibl xml:id="bibl_3065.d1e76356" xml:lang="ar">
                 <title level="j" xml:id="title_6128.d1e76357" xml:lang="ar">ثمرات الفنون</title>, 
@@ -44677,7 +44649,7 @@
                 <biblScope from="6" to="7" unit="page" xml:id="biblScope_9282.d1e77079" xml:lang="ar">6-7</biblScope>
                 ,</bibl>
             </item>
-            <pb ed="print" facs="#facs_150" n="144" xml:id="pb_110.d1e77084"/>
+            <pb ed="print" facs="#facs_152" n="144" xml:id="pb_110.d1e77084"/>
             <item xml:id="item_3096.d1e77106" xml:lang="ar">
               <bibl xml:id="bibl_3096.d1e77108" xml:lang="ar">
                 <title level="j" xml:id="title_6190.d1e77109" xml:lang="ar">ثمرات الفنون</title>, 
@@ -44940,7 +44912,7 @@
                 <biblScope from="7" to="7" unit="page" xml:id="biblScope_9342.d1e77541" xml:lang="ar">7</biblScope>
                 ,</bibl>
             </item>
-            <pb ed="print" facs="#facs_151" n="145" xml:id="pb_111.d1e77546"/>
+            <pb ed="print" facs="#facs_153" n="145" xml:id="pb_111.d1e77546"/>
           </list>
         </div>
         <div type="section" xml:lang="ar">
@@ -45356,7 +45328,7 @@
                 <biblScope from="..." to="..." unit="page" xml:id="biblScope_9435.d1e78264" xml:lang="ar">...</biblScope>
                 ,</bibl>
             </item>
-            <pb ed="print" facs="#facs_152" n="146" xml:id="pb_112.d1e78269"/>
+            <pb ed="print" facs="#facs_154" n="146" xml:id="pb_112.d1e78269"/>
             <item xml:id="item_3147.d1e78290" xml:lang="ar">
               <bibl xml:id="bibl_3147.d1e78292" xml:lang="ar">
                 <title level="j" xml:id="title_6292.d1e78293" xml:lang="ar">ثمرات الفنون</title>, 
@@ -45782,7 +45754,7 @@
                 <biblScope from="3" to="3" unit="page" xml:id="biblScope_9528.d1e79034" xml:lang="ar">3</biblScope>
                 ,</bibl>
             </item>
-            <pb ed="print" facs="#facs_153" n="147" xml:id="pb_113.d1e79039"/>
+            <pb ed="print" facs="#facs_155" n="147" xml:id="pb_113.d1e79039"/>
             <item xml:id="item_3178.d1e79061" xml:lang="ar">
               <bibl xml:id="bibl_3178.d1e79063" xml:lang="ar">
                 <title level="j" xml:id="title_6354.d1e79064" xml:lang="ar">ثمرات الفنون</title>, 
@@ -46208,7 +46180,7 @@
                 <biblScope from="7" to="7" unit="page" xml:id="biblScope_9621.d1e79796" xml:lang="ar">7</biblScope>
                 ,</bibl>
             </item>
-            <pb ed="print" facs="#facs_154" n="148" xml:id="pb_114.d1e79801"/>
+            <pb ed="print" facs="#facs_156" n="148" xml:id="pb_114.d1e79801"/>
             <item xml:id="item_3209.d1e79822" xml:lang="ar">
               <bibl xml:id="bibl_3209.d1e79824" xml:lang="ar">
                 <title level="j" xml:id="title_6416.d1e79825" xml:lang="ar">ثمرات الفنون</title>, 
@@ -46626,7 +46598,7 @@
                 ,
                 <biblScope unit="page" xml:id="biblScope_9714.d1e80548"/></bibl>
             </item>
-            <pb ed="print" facs="#facs_155" n="149" xml:id="pb_115.d1e80552"/>
+            <pb ed="print" facs="#facs_157" n="149" xml:id="pb_115.d1e80552"/>
             <item xml:id="item_3240.d1e80573" xml:lang="ar">
               <bibl xml:id="bibl_3240.d1e80575" xml:lang="ar">
                 <title level="j" xml:id="title_6478.d1e80576" xml:lang="ar">ثمرات الفنون</title>, 
@@ -47045,7 +47017,7 @@
                 <biblScope from="6" to="7" unit="page" xml:id="biblScope_9807.d1e81290" xml:lang="ar">6-7</biblScope>
                 ,</bibl>
             </item>
-            <pb ed="print" facs="#facs_156" n="150" xml:id="pb_116.d1e81295"/>
+            <pb ed="print" facs="#facs_158" n="150" xml:id="pb_116.d1e81295"/>
             <item xml:id="item_3271.d1e81317" xml:lang="ar">
               <bibl xml:id="bibl_3271.d1e81319" xml:lang="ar">
                 <title level="j" xml:id="title_6540.d1e81320" xml:lang="ar">ثمرات الفنون</title>, 
@@ -47457,7 +47429,7 @@
                 <biblScope from="3" to="3" unit="page" xml:id="biblScope_9900.d1e82025" xml:lang="ar">3</biblScope>
                 ,</bibl>
             </item>
-            <pb ed="print" facs="#facs_157" n="151" xml:id="pb_117.d1e82030"/>
+            <pb ed="print" facs="#facs_159" n="151" xml:id="pb_117.d1e82030"/>
             <item xml:id="item_3301.d1e82032" xml:lang="ar">
               <bibl xml:id="bibl_3301.d1e82034" xml:lang="ar">
                 <title level="j" xml:id="title_6600.d1e82035" xml:lang="ar">ثمرات الفنون</title>, 
@@ -47870,7 +47842,7 @@
                 <biblScope from="..." to="..." unit="page" xml:id="biblScope_9990.d1e82749" xml:lang="ar">...</biblScope>
                 ,</bibl>
             </item>
-            <pb ed="print" facs="#facs_158" n="152" xml:id="pb_118.d1e82754"/>
+            <pb ed="print" facs="#facs_160" n="152" xml:id="pb_118.d1e82754"/>
             <item xml:id="item_3332.d1e82775" xml:lang="ar">
               <bibl xml:id="bibl_3332.d1e82777" xml:lang="ar">
                 <title level="j" xml:id="title_6662.d1e82778" xml:lang="ar">ثمرات الفنون</title>, 
@@ -48317,7 +48289,7 @@
                 <biblScope from="3" to="3" unit="page" xml:id="biblScope_10083.d1e83573" xml:lang="ar">3</biblScope>
                 ,</bibl>
             </item>
-            <pb ed="print" facs="#facs_159" n="153" xml:id="pb_119.d1e83578"/>
+            <pb ed="print" facs="#facs_161" n="153" xml:id="pb_119.d1e83578"/>
           </list>
         </div>
         <div type="section" xml:lang="ar">
@@ -48424,7 +48396,7 @@
                 <biblScope from="6" to="6" unit="page" xml:id="biblScope_10107.d1e83775" xml:lang="ar">6</biblScope>
                 ,</bibl>
             </item>
-            <pb ed="print" facs="#facs_160" n="154" xml:id="pb_120.d1e83780"/>
+            <pb ed="print" facs="#facs_162" n="154" xml:id="pb_120.d1e83780"/>
           </list>
         </div>
         <div type="section" xml:lang="ar">
@@ -48857,7 +48829,7 @@
                 <biblScope from="8" to="8" unit="page" xml:id="biblScope_10200.d1e84527" xml:lang="ar">8</biblScope>
                 ,</bibl>
             </item>
-            <pb ed="print" facs="#facs_161" n="155" xml:id="pb_121.d1e84532"/>
+            <pb ed="print" facs="#facs_163" n="155" xml:id="pb_121.d1e84532"/>
             <item xml:id="item_3402.d1e84553" xml:lang="ar">
               <bibl xml:id="bibl_3402.d1e84555" xml:lang="ar">
                 <title level="j" xml:id="title_6802.d1e84556" xml:lang="ar">ثمرات الفنون</title>, 
@@ -49276,7 +49248,7 @@
                 <biblScope from="7" to="7" unit="page" xml:id="biblScope_10293.d1e85270" xml:lang="ar">7</biblScope>
                 ,</bibl>
             </item>
-            <pb ed="print" facs="#facs_162" n="156" xml:id="pb_122.d1e85275"/>
+            <pb ed="print" facs="#facs_164" n="156" xml:id="pb_122.d1e85275"/>
           </list>
         </div>
         <div type="section" xml:lang="ar">
@@ -49742,7 +49714,7 @@
                 <biblScope from="6" to="7" unit="page" xml:id="biblScope_10386.d1e86104" xml:lang="ar">6-7</biblScope>
                 ,</bibl>
             </item>
-            <pb ed="print" facs="#facs_163" n="157" xml:id="pb_123.d1e86109"/>
+            <pb ed="print" facs="#facs_165" n="157" xml:id="pb_123.d1e86109"/>
             <item xml:id="item_3464.d1e86130" xml:lang="ar">
               <bibl xml:id="bibl_3464.d1e86132" xml:lang="ar">
                 <title level="j" xml:id="title_6926.d1e86133" xml:lang="ar">ثمرات الفنون</title>, 
@@ -50181,7 +50153,7 @@
                 <biblScope from="2" to="3" unit="page" xml:id="biblScope_10479.d1e86919" xml:lang="ar">2-3</biblScope>
                 ,</bibl>
             </item>
-            <pb ed="print" facs="#facs_164" n="158" xml:id="pb_124.d1e86924"/>
+            <pb ed="print" facs="#facs_166" n="158" xml:id="pb_124.d1e86924"/>
             <item xml:id="item_3495.d1e86945" xml:lang="ar">
               <bibl xml:id="bibl_3495.d1e86947" xml:lang="ar">
                 <title level="j" xml:id="title_6988.d1e86948" xml:lang="ar">ثمرات الفنون</title>, 
@@ -50630,7 +50602,7 @@
                 <biblScope from="2" to="3" unit="page" xml:id="biblScope_10572.d1e87761" xml:lang="ar">2-3</biblScope>
                 ,</bibl>
             </item>
-            <pb ed="print" facs="#facs_165" n="159" xml:id="pb_125.d1e87766"/>
+            <pb ed="print" facs="#facs_167" n="159" xml:id="pb_125.d1e87766"/>
           </list>
         </div>
         <div type="section" xml:lang="ar">
@@ -51106,7 +51078,7 @@
                 <biblScope from="4" to="4" unit="page" xml:id="biblScope_10665.d1e88631" xml:lang="ar">4</biblScope>
                 ,</bibl>
             </item>
-            <pb ed="print" facs="#facs_166" n="160" xml:id="pb_126.d1e88636"/>
+            <pb ed="print" facs="#facs_168" n="160" xml:id="pb_126.d1e88636"/>
             <item xml:id="item_3557.d1e88657" xml:lang="ar">
               <bibl xml:id="bibl_3557.d1e88659" xml:lang="ar">
                 <title level="j" xml:id="title_7112.d1e88660" xml:lang="ar">ثمرات الفنون</title>, 
@@ -51607,7 +51579,7 @@
                 <biblScope from="2" to="3" unit="page" xml:id="biblScope_10758.d1e89590" xml:lang="ar">2-3</biblScope>
                 ,</bibl>
             </item>
-            <pb ed="print" facs="#facs_167" n="161" xml:id="pb_127.d1e89595"/>
+            <pb ed="print" facs="#facs_169" n="161" xml:id="pb_127.d1e89595"/>
             <item xml:id="item_3588.d1e89616" xml:lang="ar">
               <bibl xml:id="bibl_3588.d1e89618" xml:lang="ar">
                 <title level="j" xml:id="title_7174.d1e89619" xml:lang="ar">ثمرات الفنون</title>, 
@@ -52019,7 +51991,7 @@
                 <biblScope from="3" to="3" unit="page" xml:id="biblScope_10851.d1e90315" xml:lang="ar">3</biblScope>
                 ,</bibl>
             </item>
-            <pb ed="print" facs="#facs_168" n="162" xml:id="pb_128.d1e90320"/>
+            <pb ed="print" facs="#facs_170" n="162" xml:id="pb_128.d1e90320"/>
             <item xml:id="item_3619.d1e90342" xml:lang="ar">
               <bibl xml:id="bibl_3619.d1e90344" xml:lang="ar">
                 <title level="j" xml:id="title_7236.d1e90345" xml:lang="ar">ثمرات الفنون</title>, 
@@ -52442,7 +52414,7 @@
                 <biblScope from="3" to="3" unit="page" xml:id="biblScope_10944.d1e91041" xml:lang="ar">3</biblScope>
                 ,</bibl>
             </item>
-            <pb ed="print" facs="#facs_169" n="163" xml:id="pb_129.d1e91046"/>
+            <pb ed="print" facs="#facs_171" n="163" xml:id="pb_129.d1e91046"/>
             <item xml:id="item_3650.d1e91067" xml:lang="ar">
               <bibl xml:id="bibl_3650.d1e91069" xml:lang="ar">
                 <title level="j" xml:id="title_7298.d1e91070" xml:lang="ar">ثمرات الفنون</title>, 
@@ -52870,7 +52842,7 @@
                 <biblScope from="8" to="8" unit="page" xml:id="biblScope_11037.d1e91784" xml:lang="ar">8</biblScope>
                 ,</bibl>
             </item>
-            <pb ed="print" facs="#facs_170" n="164" xml:id="pb_130.d1e91789"/>
+            <pb ed="print" facs="#facs_172" n="164" xml:id="pb_130.d1e91789"/>
             <item xml:id="item_3681.d1e91810" xml:lang="ar">
               <bibl xml:id="bibl_3681.d1e91812" xml:lang="ar">
                 <title level="j" xml:id="title_7360.d1e91813" xml:lang="ar">ثمرات الفنون</title>, 
@@ -53291,7 +53263,7 @@
                 <biblScope from="2" to="3" unit="page" xml:id="biblScope_11130.d1e92500" xml:lang="ar">2-3</biblScope>
                 ,</bibl>
             </item>
-            <pb ed="print" facs="#facs_171" n="165" xml:id="pb_131.d1e92505"/>
+            <pb ed="print" facs="#facs_173" n="165" xml:id="pb_131.d1e92505"/>
             <item xml:id="item_3712.d1e92527" xml:lang="ar">
               <bibl xml:id="bibl_3712.d1e92529" xml:lang="ar">
                 <title level="j" xml:id="title_7422.d1e92530" xml:lang="ar">ثمرات الفنون</title>, 
@@ -53712,7 +53684,7 @@
                 <biblScope from="7" to="7" unit="page" xml:id="biblScope_11223.d1e93217" xml:lang="ar">7</biblScope>
                 ,</bibl>
             </item>
-            <pb ed="print" facs="#facs_172" n="166" xml:id="pb_132.d1e93222"/>
+            <pb ed="print" facs="#facs_174" n="166" xml:id="pb_132.d1e93222"/>
             <item xml:id="item_3743.d1e93243" xml:lang="ar">
               <bibl xml:id="bibl_3743.d1e93245" xml:lang="ar">
                 <title level="j" xml:id="title_7484.d1e93246" xml:lang="ar">ثمرات الفنون</title>, 
@@ -53982,7 +53954,7 @@
                 <biblScope from="2" to="3" unit="page" xml:id="biblScope_11283.d1e93687" xml:lang="ar">2-3</biblScope>
                 ,</bibl>
             </item>
-            <pb ed="print" facs="#facs_173" n="167" xml:id="pb_133.d1e93692"/>
+            <pb ed="print" facs="#facs_175" n="167" xml:id="pb_133.d1e93692"/>
           </list>
         </div>
         <div type="section" xml:lang="ar">
@@ -54392,7 +54364,7 @@
                 <biblScope from="3" to="3" unit="page" xml:id="biblScope_11358.d1e94471" xml:lang="ar">3</biblScope>
                 ,</bibl>
             </item>
-            <pb ed="print" facs="#facs_174" n="168" xml:id="pb_134.d1e94477"/>
+            <pb ed="print" facs="#facs_176" n="168" xml:id="pb_134.d1e94477"/>
           </list>
         </div>
         <div type="section" xml:lang="ar">
@@ -54898,7 +54870,7 @@
                 <biblScope from="3" to="3" unit="page" xml:id="biblScope_11448.d1e95363" xml:lang="ar">3</biblScope>
                 ,</bibl>
             </item>
-            <pb ed="print" facs="#facs_175" n="169" xml:id="pb_135.d1e95368"/>
+            <pb ed="print" facs="#facs_177" n="169" xml:id="pb_135.d1e95368"/>
             <item xml:id="item_3818.d1e95389" xml:lang="ar">
               <bibl xml:id="bibl_3818.d1e95391" xml:lang="ar">
                 <title level="j" xml:id="title_7634.d1e95392" xml:lang="ar">ثمرات الفنون</title>, 
@@ -55373,7 +55345,7 @@
                 <biblScope from="7" to="7" unit="page" xml:id="biblScope_11541.d1e96259" xml:lang="ar">7</biblScope>
                 ,</bibl>
             </item>
-            <pb ed="print" facs="#facs_176" n="170" xml:id="pb_136.d1e96264"/>
+            <pb ed="print" facs="#facs_178" n="170" xml:id="pb_136.d1e96264"/>
             <item xml:id="item_3849.d1e96285" xml:lang="ar">
               <bibl xml:id="bibl_3849.d1e96287" xml:lang="ar">
                 <title level="j" xml:id="title_7696.d1e96288" xml:lang="ar">ثمرات الفنون</title>, 
@@ -55865,7 +55837,7 @@
                 <biblScope from="1" to="1" unit="page" xml:id="biblScope_11634.d1e97200" xml:lang="ar">1</biblScope>
                 ,</bibl>
             </item>
-            <pb ed="print" facs="#facs_177" n="171" xml:id="pb_137.d1e97205"/>
+            <pb ed="print" facs="#facs_179" n="171" xml:id="pb_137.d1e97205"/>
             <item xml:id="item_3880.d1e97227" xml:lang="ar">
               <bibl xml:id="bibl_3880.d1e97229" xml:lang="ar">
                 <title level="j" xml:id="title_7758.d1e97230" xml:lang="ar">ثمرات الفنون</title>, 
@@ -56348,7 +56320,7 @@
                 <biblScope from="1" to="1" unit="page" xml:id="biblScope_11727.d1e98115" xml:lang="ar">1</biblScope>
                 ,</bibl>
             </item>
-            <pb ed="print" facs="#facs_178" n="172" xml:id="pb_138.d1e98120"/>
+            <pb ed="print" facs="#facs_180" n="172" xml:id="pb_138.d1e98120"/>
             <item xml:id="item_3911.d1e98141" xml:lang="ar">
               <bibl xml:id="bibl_3911.d1e98143" xml:lang="ar">
                 <title level="j" xml:id="title_7820.d1e98144" xml:lang="ar">ثمرات الفنون</title>, 
@@ -56819,7 +56791,7 @@
                 <biblScope from="1" to="1" unit="page" xml:id="biblScope_11820.d1e99001" xml:lang="ar">1</biblScope>
                 ,</bibl>
             </item>
-            <pb ed="print" facs="#facs_179" n="173" xml:id="pb_139.d1e99006"/>
+            <pb ed="print" facs="#facs_181" n="173" xml:id="pb_139.d1e99006"/>
             <item xml:id="item_3942.d1e99027" xml:lang="ar">
               <bibl xml:id="bibl_3942.d1e99029" xml:lang="ar">
                 <title level="j" xml:id="title_7882.d1e99030" xml:lang="ar">ثمرات الفنون</title>, 
@@ -57287,7 +57259,7 @@
                 <biblScope from="1" to="1" unit="page" xml:id="biblScope_11913.d1e99879" xml:lang="ar">1</biblScope>
                 ,</bibl>
             </item>
-            <pb ed="print" facs="#facs_180" n="174" xml:id="pb_140.d1e99884"/>
+            <pb ed="print" facs="#facs_182" n="174" xml:id="pb_140.d1e99884"/>
             <item xml:id="item_3973.d1e99906" xml:lang="ar">
               <bibl xml:id="bibl_3973.d1e99908" xml:lang="ar">
                 <title level="j" xml:id="title_7944.d1e99909" xml:lang="ar">ثمرات الفنون</title>, 
@@ -57749,7 +57721,7 @@
                 <biblScope from="...." to="...." unit="page" xml:id="biblScope_12006.d1e100739" xml:lang="ar">....</biblScope>
                 ,</bibl>
             </item>
-            <pb ed="print" facs="#facs_181" n="175" xml:id="pb_141.d1e100744"/>
+            <pb ed="print" facs="#facs_183" n="175" xml:id="pb_141.d1e100744"/>
             <item xml:id="item_4004.d1e100765" xml:lang="ar">
               <bibl xml:id="bibl_4004.d1e100767" xml:lang="ar">
                 <title level="j" xml:id="title_8006.d1e100768" xml:lang="ar">ثمرات الفنون</title>, 
@@ -58218,7 +58190,7 @@
                 <biblScope from="8" to="8" unit="page" xml:id="biblScope_12099.d1e101625" xml:lang="ar">8</biblScope>
                 ,</bibl>
             </item>
-            <pb ed="print" facs="#facs_182" n="176" xml:id="pb_142.d1e101630"/>
+            <pb ed="print" facs="#facs_184" n="176" xml:id="pb_142.d1e101630"/>
             <item xml:id="item_4035.d1e101651" xml:lang="ar">
               <bibl xml:id="bibl_4035.d1e101653" xml:lang="ar">
                 <title level="j" xml:id="title_8068.d1e101654" xml:lang="ar">ثمرات الفنون</title>, 
@@ -58660,7 +58632,7 @@
                 <biblScope from=".." to=".." unit="page" xml:id="biblScope_12189.d1e102458" xml:lang="ar">..</biblScope>
                 ,</bibl>
             </item>
-            <pb ed="print" facs="#facs_183" n="177" xml:id="pb_143.d1e102463"/>
+            <pb ed="print" facs="#facs_185" n="177" xml:id="pb_143.d1e102463"/>
             <item xml:id="item_4065.d1e102485" xml:lang="ar">
               <bibl xml:id="bibl_4065.d1e102487" xml:lang="ar">
                 <title level="j" xml:id="title_8128.d1e102488" xml:lang="ar">ثمرات الفنون</title>, 
@@ -59136,7 +59108,7 @@
                 <biblScope from="5" to="5" unit="page" xml:id="biblScope_12282.d1e103354" xml:lang="ar">5</biblScope>
                 ,</bibl>
             </item>
-            <pb ed="print" facs="#facs_184" n="178" xml:id="pb_144.d1e103360"/>
+            <pb ed="print" facs="#facs_186" n="178" xml:id="pb_144.d1e103360"/>
             <item xml:id="item_4096.d1e103381" xml:lang="ar">
               <bibl xml:id="bibl_4096.d1e103383" xml:lang="ar">
                 <title level="j" xml:id="title_8190.d1e103384" xml:lang="ar">ثمرات الفنون</title>, 
@@ -59581,7 +59553,7 @@
                 <biblScope from="6" to="6" unit="page" xml:id="biblScope_12372.d1e104192" xml:lang="ar">6</biblScope>
                 ,</bibl>
             </item>
-            <pb ed="print" facs="#facs_185" n="179" xml:id="pb_145.d1e104197"/>
+            <pb ed="print" facs="#facs_187" n="179" xml:id="pb_145.d1e104197"/>
             <item xml:id="item_4126.d1e104218" xml:lang="ar">
               <bibl xml:id="bibl_4126.d1e104220" xml:lang="ar">
                 <title level="j" xml:id="title_8250.d1e104221" xml:lang="ar">ثمرات الفنون</title>, 
@@ -59977,7 +59949,7 @@
                 <biblScope from="5" to="5" unit="page" xml:id="biblScope_12447.d1e104949" xml:lang="ar">5</biblScope>
                 ,</bibl>
             </item>
-            <pb ed="print" facs="#facs_186" n="180" xml:id="pb_146.d1e104954"/>
+            <pb ed="print" facs="#facs_188" n="180" xml:id="pb_146.d1e104954"/>
           </list>
         </div>
         <div type="section" xml:lang="ar">
@@ -60440,7 +60412,7 @@
                 ,
                                 , …, , </bibl>
             </item>
-            <pb ed="print" facs="#facs_187" n="181" xml:id="pb_147.d1e105796"/>
+            <pb ed="print" facs="#facs_189" n="181" xml:id="pb_147.d1e105796"/>
             <item xml:id="item_4182.d1e105818" xml:lang="ar">
               <bibl xml:id="bibl_4182.d1e105820" xml:lang="ar">
                 <title level="j" xml:id="title_8362.d1e105821" xml:lang="ar">ثمرات الفنون</title>, 
@@ -60748,7 +60720,7 @@
             </item>
           </list>
         </div>
-        <pb ed="print" facs="#facs_188" n="182" xml:id="pb_148.d1e106399"/>
+        <pb ed="print" facs="#facs_190" n="182" xml:id="pb_148.d1e106399"/>
         <div type="section" xml:lang="ar">
           <head xml:lang="ar">مسرح</head>
           <list xml:lang="ar">
@@ -61042,7 +61014,7 @@
                 <biblScope from="5" to="5" unit="page" xml:id="biblScope_12660.d1e106936" xml:lang="ar">5</biblScope>
                 ,</bibl>
             </item>
-            <pb ed="print" facs="#facs_189" n="183" xml:id="pb_149.d1e106941"/>
+            <pb ed="print" facs="#facs_191" n="183" xml:id="pb_149.d1e106941"/>
             <item xml:id="item_4221.d1e106944" xml:lang="ar">
               <bibl xml:id="bibl_4221.d1e106946" xml:lang="ar">
                 <title level="a" xml:id="title_8440.d1e106948" xml:lang="ar">استخدام قوة الماء</title>,
@@ -61123,125 +61095,125 @@
     </body>
     <tei:back>
       <div>
-        <tei:pb ed="print" facs="#facs_190" n="184"/>
-        <tei:pb ed="print" facs="#facs_191" n="185"/>
-        <tei:pb ed="print" facs="#facs_192" n="186"/>
-        <tei:pb ed="print" facs="#facs_193" n="187"/>
-        <tei:pb ed="print" facs="#facs_194" n="188"/>
-        <tei:pb ed="print" facs="#facs_195" n="189"/>
-        <tei:pb ed="print" facs="#facs_196" n="190"/>
-        <tei:pb ed="print" facs="#facs_197" n="191"/>
-        <tei:pb ed="print" facs="#facs_198" n="192"/>
-        <tei:pb ed="print" facs="#facs_199" n="193"/>
-        <tei:pb ed="print" facs="#facs_200" n="194"/>
-        <tei:pb ed="print" facs="#facs_201" n="195"/>
-        <tei:pb ed="print" facs="#facs_202" n="196"/>
-        <tei:pb ed="print" facs="#facs_203" n="197"/>
-        <tei:pb ed="print" facs="#facs_204" n="198"/>
-        <tei:pb ed="print" facs="#facs_205" n="199"/>
-        <tei:pb ed="print" facs="#facs_206" n="200"/>
-        <tei:pb ed="print" facs="#facs_207" n="201"/>
-        <tei:pb ed="print" facs="#facs_208" n="202"/>
-        <tei:pb ed="print" facs="#facs_209" n="203"/>
-        <tei:pb ed="print" facs="#facs_210" n="204"/>
-        <tei:pb ed="print" facs="#facs_211" n="205"/>
-        <tei:pb ed="print" facs="#facs_212" n="206"/>
-        <tei:pb ed="print" facs="#facs_213" n="207"/>
-        <tei:pb ed="print" facs="#facs_214" n="208"/>
-        <tei:pb ed="print" facs="#facs_215" n="209"/>
-        <tei:pb ed="print" facs="#facs_216" n="210"/>
-        <tei:pb ed="print" facs="#facs_217" n="211"/>
-        <tei:pb ed="print" facs="#facs_218" n="212"/>
-        <tei:pb ed="print" facs="#facs_219" n="213"/>
-        <tei:pb ed="print" facs="#facs_220" n="214"/>
-        <tei:pb ed="print" facs="#facs_221" n="215"/>
-        <tei:pb ed="print" facs="#facs_222" n="216"/>
-        <tei:pb ed="print" facs="#facs_223" n="217"/>
-        <tei:pb ed="print" facs="#facs_224" n="218"/>
-        <tei:pb ed="print" facs="#facs_225" n="219"/>
-        <tei:pb ed="print" facs="#facs_226" n="220"/>
-        <tei:pb ed="print" facs="#facs_227" n="221"/>
-        <tei:pb ed="print" facs="#facs_228" n="222"/>
-        <tei:pb ed="print" facs="#facs_229" n="223"/>
-        <tei:pb ed="print" facs="#facs_230" n="224"/>
-        <tei:pb ed="print" facs="#facs_231" n="225"/>
-        <tei:pb ed="print" facs="#facs_232" n="226"/>
-        <tei:pb ed="print" facs="#facs_233" n="227"/>
-        <tei:pb ed="print" facs="#facs_234" n="228"/>
-        <tei:pb ed="print" facs="#facs_235" n="229"/>
-        <tei:pb ed="print" facs="#facs_236" n="230"/>
-        <tei:pb ed="print" facs="#facs_237" n="231"/>
-        <tei:pb ed="print" facs="#facs_238" n="232"/>
-        <tei:pb ed="print" facs="#facs_239" n="233"/>
-        <tei:pb ed="print" facs="#facs_240" n="234"/>
-        <tei:pb ed="print" facs="#facs_241" n="235"/>
-        <tei:pb ed="print" facs="#facs_242" n="236"/>
-        <tei:pb ed="print" facs="#facs_243" n="237"/>
-        <tei:pb ed="print" facs="#facs_244" n="238"/>
-        <tei:pb ed="print" facs="#facs_245" n="239"/>
-        <tei:pb ed="print" facs="#facs_246" n="240"/>
-        <tei:pb ed="print" facs="#facs_247" n="241"/>
-        <tei:pb ed="print" facs="#facs_248" n="242"/>
-        <tei:pb ed="print" facs="#facs_249" n="243"/>
-        <tei:pb ed="print" facs="#facs_250" n="244"/>
-        <tei:pb ed="print" facs="#facs_251" n="245"/>
-        <tei:pb ed="print" facs="#facs_252" n="246"/>
-        <tei:pb ed="print" facs="#facs_253" n="247"/>
-        <tei:pb ed="print" facs="#facs_254" n="248"/>
-        <tei:pb ed="print" facs="#facs_255" n="249"/>
-        <tei:pb ed="print" facs="#facs_256" n="250"/>
-        <tei:pb ed="print" facs="#facs_257" n="251"/>
-        <tei:pb ed="print" facs="#facs_258" n="252"/>
-        <tei:pb ed="print" facs="#facs_259" n="253"/>
-        <tei:pb ed="print" facs="#facs_260" n="254"/>
-        <tei:pb ed="print" facs="#facs_261" n="255"/>
-        <tei:pb ed="print" facs="#facs_262" n="256"/>
-        <tei:pb ed="print" facs="#facs_263" n="257"/>
-        <tei:pb ed="print" facs="#facs_264" n="258"/>
-        <tei:pb ed="print" facs="#facs_265" n="259"/>
-        <tei:pb ed="print" facs="#facs_266" n="260"/>
-        <tei:pb ed="print" facs="#facs_267" n="261"/>
-        <tei:pb ed="print" facs="#facs_268" n="262"/>
-        <tei:pb ed="print" facs="#facs_269" n="263"/>
-        <tei:pb ed="print" facs="#facs_270" n="264"/>
-        <tei:pb ed="print" facs="#facs_271" n="265"/>
-        <tei:pb ed="print" facs="#facs_272" n="266"/>
-        <tei:pb ed="print" facs="#facs_273" n="267"/>
-        <tei:pb ed="print" facs="#facs_274" n="268"/>
-        <tei:pb ed="print" facs="#facs_275" n="269"/>
-        <tei:pb ed="print" facs="#facs_276" n="270"/>
-        <tei:pb ed="print" facs="#facs_277" n="271"/>
-        <tei:pb ed="print" facs="#facs_278" n="272"/>
-        <tei:pb ed="print" facs="#facs_279" n="273"/>
-        <tei:pb ed="print" facs="#facs_280" n="274"/>
-        <tei:pb ed="print" facs="#facs_281" n="275"/>
-        <tei:pb ed="print" facs="#facs_282" n="276"/>
-        <tei:pb ed="print" facs="#facs_283" n="277"/>
-        <tei:pb ed="print" facs="#facs_284" n="278"/>
-        <tei:pb ed="print" facs="#facs_285" n="279"/>
-        <tei:pb ed="print" facs="#facs_286" n="280"/>
-        <tei:pb ed="print" facs="#facs_287" n="281"/>
-        <tei:pb ed="print" facs="#facs_288" n="282"/>
-        <tei:pb ed="print" facs="#facs_289" n="283"/>
-        <tei:pb ed="print" facs="#facs_290" n="284"/>
-        <tei:pb ed="print" facs="#facs_291" n="285"/>
-        <tei:pb ed="print" facs="#facs_292" n="286"/>
-        <tei:pb ed="print" facs="#facs_293" n="287"/>
-        <tei:pb ed="print" facs="#facs_294" n="288"/>
-        <tei:pb ed="print" facs="#facs_295" n="289"/>
-        <tei:pb ed="print" facs="#facs_296" n="290"/>
-        <tei:pb ed="print" facs="#facs_297" n="291"/>
-        <tei:pb ed="print" facs="#facs_298" n="292"/>
-        <tei:pb ed="print" facs="#facs_299" n="293"/>
-        <tei:pb ed="print" facs="#facs_300" n="294"/>
-        <tei:pb ed="print" facs="#facs_301" n="295"/>
-        <tei:pb ed="print" facs="#facs_302" n="296"/>
-        <tei:pb ed="print" facs="#facs_303" n="297"/>
-        <tei:pb ed="print" facs="#facs_304" n="298"/>
-        <tei:pb ed="print" facs="#facs_305" n="299"/>
-        <tei:pb ed="print" facs="#facs_306" n="300"/>
-        <tei:pb ed="print" facs="#facs_307" n="301"/>
-        <tei:pb ed="print" facs="#facs_308" n="302"/>
+        <tei:pb ed="print" facs="#facs_192" n="184"/>
+        <tei:pb ed="print" facs="#facs_193" n="185"/>
+        <tei:pb ed="print" facs="#facs_194" n="186"/>
+        <tei:pb ed="print" facs="#facs_195" n="187"/>
+        <tei:pb ed="print" facs="#facs_196" n="188"/>
+        <tei:pb ed="print" facs="#facs_197" n="189"/>
+        <tei:pb ed="print" facs="#facs_198" n="190"/>
+        <tei:pb ed="print" facs="#facs_199" n="191"/>
+        <tei:pb ed="print" facs="#facs_200" n="192"/>
+        <tei:pb ed="print" facs="#facs_201" n="193"/>
+        <tei:pb ed="print" facs="#facs_202" n="194"/>
+        <tei:pb ed="print" facs="#facs_203" n="195"/>
+        <tei:pb ed="print" facs="#facs_204" n="196"/>
+        <tei:pb ed="print" facs="#facs_205" n="197"/>
+        <tei:pb ed="print" facs="#facs_206" n="198"/>
+        <tei:pb ed="print" facs="#facs_207" n="199"/>
+        <tei:pb ed="print" facs="#facs_208" n="200"/>
+        <tei:pb ed="print" facs="#facs_209" n="201"/>
+        <tei:pb ed="print" facs="#facs_210" n="202"/>
+        <tei:pb ed="print" facs="#facs_211" n="203"/>
+        <tei:pb ed="print" facs="#facs_212" n="204"/>
+        <tei:pb ed="print" facs="#facs_213" n="205"/>
+        <tei:pb ed="print" facs="#facs_214" n="206"/>
+        <tei:pb ed="print" facs="#facs_215" n="207"/>
+        <tei:pb ed="print" facs="#facs_216" n="208"/>
+        <tei:pb ed="print" facs="#facs_217" n="209"/>
+        <tei:pb ed="print" facs="#facs_218" n="210"/>
+        <tei:pb ed="print" facs="#facs_219" n="211"/>
+        <tei:pb ed="print" facs="#facs_220" n="212"/>
+        <tei:pb ed="print" facs="#facs_221" n="213"/>
+        <tei:pb ed="print" facs="#facs_222" n="214"/>
+        <tei:pb ed="print" facs="#facs_223" n="215"/>
+        <tei:pb ed="print" facs="#facs_224" n="216"/>
+        <tei:pb ed="print" facs="#facs_225" n="217"/>
+        <tei:pb ed="print" facs="#facs_226" n="218"/>
+        <tei:pb ed="print" facs="#facs_227" n="219"/>
+        <tei:pb ed="print" facs="#facs_228" n="220"/>
+        <tei:pb ed="print" facs="#facs_229" n="221"/>
+        <tei:pb ed="print" facs="#facs_230" n="222"/>
+        <tei:pb ed="print" facs="#facs_231" n="223"/>
+        <tei:pb ed="print" facs="#facs_232" n="224"/>
+        <tei:pb ed="print" facs="#facs_233" n="225"/>
+        <tei:pb ed="print" facs="#facs_234" n="226"/>
+        <tei:pb ed="print" facs="#facs_235" n="227"/>
+        <tei:pb ed="print" facs="#facs_236" n="228"/>
+        <tei:pb ed="print" facs="#facs_237" n="229"/>
+        <tei:pb ed="print" facs="#facs_238" n="230"/>
+        <tei:pb ed="print" facs="#facs_239" n="231"/>
+        <tei:pb ed="print" facs="#facs_240" n="232"/>
+        <tei:pb ed="print" facs="#facs_241" n="233"/>
+        <tei:pb ed="print" facs="#facs_242" n="234"/>
+        <tei:pb ed="print" facs="#facs_243" n="235"/>
+        <tei:pb ed="print" facs="#facs_244" n="236"/>
+        <tei:pb ed="print" facs="#facs_245" n="237"/>
+        <tei:pb ed="print" facs="#facs_246" n="238"/>
+        <tei:pb ed="print" facs="#facs_247" n="239"/>
+        <tei:pb ed="print" facs="#facs_248" n="240"/>
+        <tei:pb ed="print" facs="#facs_249" n="241"/>
+        <tei:pb ed="print" facs="#facs_250" n="242"/>
+        <tei:pb ed="print" facs="#facs_251" n="243"/>
+        <tei:pb ed="print" facs="#facs_252" n="244"/>
+        <tei:pb ed="print" facs="#facs_253" n="245"/>
+        <tei:pb ed="print" facs="#facs_254" n="246"/>
+        <tei:pb ed="print" facs="#facs_255" n="247"/>
+        <tei:pb ed="print" facs="#facs_256" n="248"/>
+        <tei:pb ed="print" facs="#facs_257" n="249"/>
+        <tei:pb ed="print" facs="#facs_258" n="250"/>
+        <tei:pb ed="print" facs="#facs_259" n="251"/>
+        <tei:pb ed="print" facs="#facs_260" n="252"/>
+        <tei:pb ed="print" facs="#facs_261" n="253"/>
+        <tei:pb ed="print" facs="#facs_262" n="254"/>
+        <tei:pb ed="print" facs="#facs_263" n="255"/>
+        <tei:pb ed="print" facs="#facs_264" n="256"/>
+        <tei:pb ed="print" facs="#facs_265" n="257"/>
+        <tei:pb ed="print" facs="#facs_266" n="258"/>
+        <tei:pb ed="print" facs="#facs_267" n="259"/>
+        <tei:pb ed="print" facs="#facs_268" n="260"/>
+        <tei:pb ed="print" facs="#facs_269" n="261"/>
+        <tei:pb ed="print" facs="#facs_270" n="262"/>
+        <tei:pb ed="print" facs="#facs_271" n="263"/>
+        <tei:pb ed="print" facs="#facs_272" n="264"/>
+        <tei:pb ed="print" facs="#facs_273" n="265"/>
+        <tei:pb ed="print" facs="#facs_274" n="266"/>
+        <tei:pb ed="print" facs="#facs_275" n="267"/>
+        <tei:pb ed="print" facs="#facs_276" n="268"/>
+        <tei:pb ed="print" facs="#facs_277" n="269"/>
+        <tei:pb ed="print" facs="#facs_278" n="270"/>
+        <tei:pb ed="print" facs="#facs_279" n="271"/>
+        <tei:pb ed="print" facs="#facs_280" n="272"/>
+        <tei:pb ed="print" facs="#facs_281" n="273"/>
+        <tei:pb ed="print" facs="#facs_282" n="274"/>
+        <tei:pb ed="print" facs="#facs_283" n="275"/>
+        <tei:pb ed="print" facs="#facs_284" n="276"/>
+        <tei:pb ed="print" facs="#facs_285" n="277"/>
+        <tei:pb ed="print" facs="#facs_286" n="278"/>
+        <tei:pb ed="print" facs="#facs_287" n="279"/>
+        <tei:pb ed="print" facs="#facs_288" n="280"/>
+        <tei:pb ed="print" facs="#facs_289" n="281"/>
+        <tei:pb ed="print" facs="#facs_290" n="282"/>
+        <tei:pb ed="print" facs="#facs_291" n="283"/>
+        <tei:pb ed="print" facs="#facs_292" n="284"/>
+        <tei:pb ed="print" facs="#facs_293" n="285"/>
+        <tei:pb ed="print" facs="#facs_294" n="286"/>
+        <tei:pb ed="print" facs="#facs_295" n="287"/>
+        <tei:pb ed="print" facs="#facs_296" n="288"/>
+        <tei:pb ed="print" facs="#facs_297" n="289"/>
+        <tei:pb ed="print" facs="#facs_298" n="290"/>
+        <tei:pb ed="print" facs="#facs_299" n="291"/>
+        <tei:pb ed="print" facs="#facs_300" n="292"/>
+        <tei:pb ed="print" facs="#facs_301" n="293"/>
+        <tei:pb ed="print" facs="#facs_302" n="294"/>
+        <tei:pb ed="print" facs="#facs_303" n="295"/>
+        <tei:pb ed="print" facs="#facs_304" n="296"/>
+        <tei:pb ed="print" facs="#facs_305" n="297"/>
+        <tei:pb ed="print" facs="#facs_306" n="298"/>
+        <tei:pb ed="print" facs="#facs_307" n="299"/>
+        <tei:pb ed="print" facs="#facs_308" n="300"/>
+        <tei:pb ed="print" facs="#" n="301"/>
+        <tei:pb ed="print" facs="#" n="302"/>
         <tei:pb ed="print" facs="#" n="303"/>
         <tei:pb ed="print" facs="#" n="304"/>
         <tei:pb ed="print" facs="#" n="305"/>
