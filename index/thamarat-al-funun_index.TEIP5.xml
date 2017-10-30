@@ -3622,17 +3622,15 @@
                 <biblScope from="2" to="2" unit="page" xml:id="biblScope_576.d1e4607" xml:lang="ar">2</biblScope>
                 ,</bibl>
             </item>
-            <item xml:id="item_193.d1e4612" xml:lang="ar">
-              <bibl xml:id="bibl_193.d1e4614" xml:lang="ar">
-                <title level="j" xml:id="title_386.d1e4615" xml:lang="ar">ثمرات الفنون</title>, 
-                <title level="a" xml:id="title_387.d1e4618" xml:lang="ar">......</title>
-                ,
-                <author xml:id="author_194.d1e4621" xml:lang="ar">....</author>
-                <biblScope unit="volume" xml:id="biblScope_577.d1e4624"/>
-                <biblScope from="..." to="..." unit="issue" xml:id="biblScope_578.d1e4626" xml:lang="ar">...</biblScope>
-                ,
-                <biblScope unit="page" xml:id="biblScope_579.d1e4629"/></bibl>
-            </item>
+            <item xml:id="item_193.d1e4612" xml:lang="ar"> <bibl xml:id="bibl_193.d1e4614"
+                            xml:lang="ar"> <title level="j" xml:id="title_386.d1e4615" xml:lang="ar"
+                            >ثمرات الفنون</title>, <title level="a" xml:id="title_387.d1e4618"
+                            xml:lang="ar">من غالب الحق هان</title> , <author
+                            xml:id="author_194.d1e4621" xml:lang="ar">1-1</author> <biblScope
+                            from="11" to="11" unit="volume" xml:lang="ar"
+                            >11</biblScope> , <biblScope from="530" to="530" unit="issue"
+                            xml:lang="ar">530</biblScope> , <biblScope from="2" to="2" unit="page"
+                            xml:lang="ar">2</biblScope></bibl> </item>
             <pb ed="print" n="43" xml:id="pb_8.d1e4633" facs="#facs_48"/>
             <item xml:id="item_195.d1e4654" xml:lang="ar">
               <bibl xml:id="bibl_195.d1e4656" xml:lang="ar">
