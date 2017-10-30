@@ -2265,8 +2265,3069 @@
                <note n="p_weekdays-published" type="param">Thursday</note>
                <note n="p_step" type="param">daily</note>
             </tei:biblStruct>
-            <!-- volume 2, #38 -->
+            <!-- volume 1, #38 -->
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الخميس من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en">
+                     <persName xml:lang="ar">
+                        <forename>عبد القادر</forename>
+                        <surname>قباني</surname>
+                     </persName>
+                     <persName xml:lang="ar-Latn-x-ijmes">
+                        <forename>ʿAbd al-Qādir</forename>
+                        <surname>Qabbānī</surname>
+                     </persName>
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en">
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName>
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName>
+                     </publisher>
+                     <pubPlace xml:lang="en">
+                        <placeName xml:lang="ar">بيروت</placeName>
+                        <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
+                        <placeName xml:lang="en">Beirut</placeName>
+                        <placeName xml:lang="fr">Beyrouth</placeName>
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1876-01-06"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">6 January 1876</tei:date>
+                     <tei:date type="computed"
+                               when="1876-01-06"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1292-12-09"
+                               xml:lang="ar-Latn-x-ijmes">9 Dhū al-ḥijja 1292</tei:date>
+                     <tei:date type="official"
+                               when="1876-01-06"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1875-12-25"
+                               xml:lang="ar-Latn-x-ijmes">25 Kānūn al-awwal 1875</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="1" to="1" unit="volume"/>
+                  <tei:biblScope from="38" to="38" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Thursday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الخميس من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en">
+                     <persName xml:lang="ar">
+                        <forename>عبد القادر</forename>
+                        <surname>قباني</surname>
+                     </persName>
+                     <persName xml:lang="ar-Latn-x-ijmes">
+                        <forename>ʿAbd al-Qādir</forename>
+                        <surname>Qabbānī</surname>
+                     </persName>
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en">
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName>
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName>
+                     </publisher>
+                     <pubPlace xml:lang="en">
+                        <placeName xml:lang="ar">بيروت</placeName>
+                        <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
+                        <placeName xml:lang="en">Beirut</placeName>
+                        <placeName xml:lang="fr">Beyrouth</placeName>
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1876-01-13"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">13 January 1876</tei:date>
+                     <tei:date type="computed"
+                               when="1876-01-13"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1292-12-16"
+                               xml:lang="ar-Latn-x-ijmes">16 Dhū al-ḥijja 1292</tei:date>
+                     <tei:date type="official"
+                               when="1876-01-13"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1876-01-01"
+                               xml:lang="ar-Latn-x-ijmes">1 Kānūn al-thānī 1876</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="1" to="1" unit="volume"/>
+                  <tei:biblScope from="39" to="39" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Thursday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الخميس من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en">
+                     <persName xml:lang="ar">
+                        <forename>عبد القادر</forename>
+                        <surname>قباني</surname>
+                     </persName>
+                     <persName xml:lang="ar-Latn-x-ijmes">
+                        <forename>ʿAbd al-Qādir</forename>
+                        <surname>Qabbānī</surname>
+                     </persName>
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en">
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName>
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName>
+                     </publisher>
+                     <pubPlace xml:lang="en">
+                        <placeName xml:lang="ar">بيروت</placeName>
+                        <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
+                        <placeName xml:lang="en">Beirut</placeName>
+                        <placeName xml:lang="fr">Beyrouth</placeName>
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1876-01-20"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">20 January 1876</tei:date>
+                     <tei:date type="computed"
+                               when="1876-01-20"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1292-12-23"
+                               xml:lang="ar-Latn-x-ijmes">23 Dhū al-ḥijja 1292</tei:date>
+                     <tei:date type="official"
+                               when="1876-01-20"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1876-01-08"
+                               xml:lang="ar-Latn-x-ijmes">8 Kānūn al-thānī 1876</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="1" to="1" unit="volume"/>
+                  <tei:biblScope from="40" to="40" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Thursday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الخميس من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en">
+                     <persName xml:lang="ar">
+                        <forename>عبد القادر</forename>
+                        <surname>قباني</surname>
+                     </persName>
+                     <persName xml:lang="ar-Latn-x-ijmes">
+                        <forename>ʿAbd al-Qādir</forename>
+                        <surname>Qabbānī</surname>
+                     </persName>
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en">
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName>
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName>
+                     </publisher>
+                     <pubPlace xml:lang="en">
+                        <placeName xml:lang="ar">بيروت</placeName>
+                        <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
+                        <placeName xml:lang="en">Beirut</placeName>
+                        <placeName xml:lang="fr">Beyrouth</placeName>
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1876-01-27"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">27 January 1876</tei:date>
+                     <tei:date type="computed"
+                               when="1876-01-27"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1292-12-30"
+                               xml:lang="ar-Latn-x-ijmes">30 Dhū al-ḥijja 1292</tei:date>
+                     <tei:date type="official"
+                               when="1876-01-27"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1876-01-15"
+                               xml:lang="ar-Latn-x-ijmes">15 Kānūn al-thānī 1876</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="1" to="1" unit="volume"/>
+                  <tei:biblScope from="41" to="41" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Thursday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الخميس من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en">
+                     <persName xml:lang="ar">
+                        <forename>عبد القادر</forename>
+                        <surname>قباني</surname>
+                     </persName>
+                     <persName xml:lang="ar-Latn-x-ijmes">
+                        <forename>ʿAbd al-Qādir</forename>
+                        <surname>Qabbānī</surname>
+                     </persName>
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en">
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName>
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName>
+                     </publisher>
+                     <pubPlace xml:lang="en">
+                        <placeName xml:lang="ar">بيروت</placeName>
+                        <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
+                        <placeName xml:lang="en">Beirut</placeName>
+                        <placeName xml:lang="fr">Beyrouth</placeName>
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1876-02-03"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">3 February 1876</tei:date>
+                     <tei:date type="computed"
+                               when="1876-02-03"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1293-01-07"
+                               xml:lang="ar-Latn-x-ijmes">7 Muḥarram 1293</tei:date>
+                     <tei:date type="official"
+                               when="1876-02-03"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1876-01-22"
+                               xml:lang="ar-Latn-x-ijmes">22 Kānūn al-thānī 1876</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="1" to="1" unit="volume"/>
+                  <tei:biblScope from="42" to="42" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Thursday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الخميس من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en">
+                     <persName xml:lang="ar">
+                        <forename>عبد القادر</forename>
+                        <surname>قباني</surname>
+                     </persName>
+                     <persName xml:lang="ar-Latn-x-ijmes">
+                        <forename>ʿAbd al-Qādir</forename>
+                        <surname>Qabbānī</surname>
+                     </persName>
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en">
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName>
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName>
+                     </publisher>
+                     <pubPlace xml:lang="en">
+                        <placeName xml:lang="ar">بيروت</placeName>
+                        <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
+                        <placeName xml:lang="en">Beirut</placeName>
+                        <placeName xml:lang="fr">Beyrouth</placeName>
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1876-02-10"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">10 February 1876</tei:date>
+                     <tei:date type="computed"
+                               when="1876-02-10"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1293-01-14"
+                               xml:lang="ar-Latn-x-ijmes">14 Muḥarram 1293</tei:date>
+                     <tei:date type="official"
+                               when="1876-02-10"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1876-01-29"
+                               xml:lang="ar-Latn-x-ijmes">29 Kānūn al-thānī 1876</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="1" to="1" unit="volume"/>
+                  <tei:biblScope from="43" to="43" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Thursday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الخميس من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en">
+                     <persName xml:lang="ar">
+                        <forename>عبد القادر</forename>
+                        <surname>قباني</surname>
+                     </persName>
+                     <persName xml:lang="ar-Latn-x-ijmes">
+                        <forename>ʿAbd al-Qādir</forename>
+                        <surname>Qabbānī</surname>
+                     </persName>
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en">
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName>
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName>
+                     </publisher>
+                     <pubPlace xml:lang="en">
+                        <placeName xml:lang="ar">بيروت</placeName>
+                        <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
+                        <placeName xml:lang="en">Beirut</placeName>
+                        <placeName xml:lang="fr">Beyrouth</placeName>
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1876-02-17"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">17 February 1876</tei:date>
+                     <tei:date type="computed"
+                               when="1876-02-17"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1293-01-21"
+                               xml:lang="ar-Latn-x-ijmes">21 Muḥarram 1293</tei:date>
+                     <tei:date type="official"
+                               when="1876-02-17"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1876-02-05"
+                               xml:lang="ar-Latn-x-ijmes">5 Shubāṭ 1876</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="1" to="1" unit="volume"/>
+                  <tei:biblScope from="44" to="44" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Thursday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الخميس من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en">
+                     <persName xml:lang="ar">
+                        <forename>عبد القادر</forename>
+                        <surname>قباني</surname>
+                     </persName>
+                     <persName xml:lang="ar-Latn-x-ijmes">
+                        <forename>ʿAbd al-Qādir</forename>
+                        <surname>Qabbānī</surname>
+                     </persName>
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en">
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName>
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName>
+                     </publisher>
+                     <pubPlace xml:lang="en">
+                        <placeName xml:lang="ar">بيروت</placeName>
+                        <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
+                        <placeName xml:lang="en">Beirut</placeName>
+                        <placeName xml:lang="fr">Beyrouth</placeName>
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1876-02-24"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">24 February 1876</tei:date>
+                     <tei:date type="computed"
+                               when="1876-02-24"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1293-01-28"
+                               xml:lang="ar-Latn-x-ijmes">28 Muḥarram 1293</tei:date>
+                     <tei:date type="official"
+                               when="1876-02-24"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1876-02-12"
+                               xml:lang="ar-Latn-x-ijmes">12 Shubāṭ 1876</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="1" to="1" unit="volume"/>
+                  <tei:biblScope from="45" to="45" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Thursday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الخميس من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en">
+                     <persName xml:lang="ar">
+                        <forename>عبد القادر</forename>
+                        <surname>قباني</surname>
+                     </persName>
+                     <persName xml:lang="ar-Latn-x-ijmes">
+                        <forename>ʿAbd al-Qādir</forename>
+                        <surname>Qabbānī</surname>
+                     </persName>
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en">
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName>
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName>
+                     </publisher>
+                     <pubPlace xml:lang="en">
+                        <placeName xml:lang="ar">بيروت</placeName>
+                        <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
+                        <placeName xml:lang="en">Beirut</placeName>
+                        <placeName xml:lang="fr">Beyrouth</placeName>
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1876-03-02"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">2 March 1876</tei:date>
+                     <tei:date type="computed"
+                               when="1876-03-02"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1293-02-05"
+                               xml:lang="ar-Latn-x-ijmes">5 Ṣafār 1293</tei:date>
+                     <tei:date type="official"
+                               when="1876-03-02"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1876-02-19"
+                               xml:lang="ar-Latn-x-ijmes">19 Shubāṭ 1876</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="1" to="1" unit="volume"/>
+                  <tei:biblScope from="46" to="46" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Thursday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الخميس من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en">
+                     <persName xml:lang="ar">
+                        <forename>عبد القادر</forename>
+                        <surname>قباني</surname>
+                     </persName>
+                     <persName xml:lang="ar-Latn-x-ijmes">
+                        <forename>ʿAbd al-Qādir</forename>
+                        <surname>Qabbānī</surname>
+                     </persName>
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en">
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName>
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName>
+                     </publisher>
+                     <pubPlace xml:lang="en">
+                        <placeName xml:lang="ar">بيروت</placeName>
+                        <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
+                        <placeName xml:lang="en">Beirut</placeName>
+                        <placeName xml:lang="fr">Beyrouth</placeName>
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1876-03-09"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">9 March 1876</tei:date>
+                     <tei:date type="computed"
+                               when="1876-03-09"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1293-02-12"
+                               xml:lang="ar-Latn-x-ijmes">12 Ṣafār 1293</tei:date>
+                     <tei:date type="official"
+                               when="1876-03-09"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1876-02-26"
+                               xml:lang="ar-Latn-x-ijmes">26 Shubāṭ 1876</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="1" to="1" unit="volume"/>
+                  <tei:biblScope from="47" to="47" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Thursday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الخميس من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en">
+                     <persName xml:lang="ar">
+                        <forename>عبد القادر</forename>
+                        <surname>قباني</surname>
+                     </persName>
+                     <persName xml:lang="ar-Latn-x-ijmes">
+                        <forename>ʿAbd al-Qādir</forename>
+                        <surname>Qabbānī</surname>
+                     </persName>
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en">
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName>
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName>
+                     </publisher>
+                     <pubPlace xml:lang="en">
+                        <placeName xml:lang="ar">بيروت</placeName>
+                        <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
+                        <placeName xml:lang="en">Beirut</placeName>
+                        <placeName xml:lang="fr">Beyrouth</placeName>
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1876-03-16"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">16 March 1876</tei:date>
+                     <tei:date type="computed"
+                               when="1876-03-16"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1293-02-19"
+                               xml:lang="ar-Latn-x-ijmes">19 Ṣafār 1293</tei:date>
+                     <tei:date type="official"
+                               when="1876-03-16"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1876-03-04"
+                               xml:lang="ar-Latn-x-ijmes">4 Ādhār 1876</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="1" to="1" unit="volume"/>
+                  <tei:biblScope from="48" to="48" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Thursday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الخميس من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en">
+                     <persName xml:lang="ar">
+                        <forename>عبد القادر</forename>
+                        <surname>قباني</surname>
+                     </persName>
+                     <persName xml:lang="ar-Latn-x-ijmes">
+                        <forename>ʿAbd al-Qādir</forename>
+                        <surname>Qabbānī</surname>
+                     </persName>
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en">
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName>
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName>
+                     </publisher>
+                     <pubPlace xml:lang="en">
+                        <placeName xml:lang="ar">بيروت</placeName>
+                        <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
+                        <placeName xml:lang="en">Beirut</placeName>
+                        <placeName xml:lang="fr">Beyrouth</placeName>
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1876-03-23"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">23 March 1876</tei:date>
+                     <tei:date type="computed"
+                               when="1876-03-23"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1293-02-26"
+                               xml:lang="ar-Latn-x-ijmes">26 Ṣafār 1293</tei:date>
+                     <tei:date type="official"
+                               when="1876-03-23"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1876-03-11"
+                               xml:lang="ar-Latn-x-ijmes">11 Ādhār 1876</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="1" to="1" unit="volume"/>
+                  <tei:biblScope from="49" to="49" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Thursday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الخميس من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en">
+                     <persName xml:lang="ar">
+                        <forename>عبد القادر</forename>
+                        <surname>قباني</surname>
+                     </persName>
+                     <persName xml:lang="ar-Latn-x-ijmes">
+                        <forename>ʿAbd al-Qādir</forename>
+                        <surname>Qabbānī</surname>
+                     </persName>
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en">
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName>
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName>
+                     </publisher>
+                     <pubPlace xml:lang="en">
+                        <placeName xml:lang="ar">بيروت</placeName>
+                        <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
+                        <placeName xml:lang="en">Beirut</placeName>
+                        <placeName xml:lang="fr">Beyrouth</placeName>
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1876-03-30"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">30 March 1876</tei:date>
+                     <tei:date type="computed"
+                               when="1876-03-30"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1293-03-04"
+                               xml:lang="ar-Latn-x-ijmes">4 Rabīʿ al-awwal 1293</tei:date>
+                     <tei:date type="official"
+                               when="1876-03-30"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1876-03-18"
+                               xml:lang="ar-Latn-x-ijmes">18 Ādhār 1876</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="1" to="1" unit="volume"/>
+                  <tei:biblScope from="50" to="50" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Thursday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الخميس من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en">
+                     <persName xml:lang="ar">
+                        <forename>عبد القادر</forename>
+                        <surname>قباني</surname>
+                     </persName>
+                     <persName xml:lang="ar-Latn-x-ijmes">
+                        <forename>ʿAbd al-Qādir</forename>
+                        <surname>Qabbānī</surname>
+                     </persName>
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en">
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName>
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName>
+                     </publisher>
+                     <pubPlace xml:lang="en">
+                        <placeName xml:lang="ar">بيروت</placeName>
+                        <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
+                        <placeName xml:lang="en">Beirut</placeName>
+                        <placeName xml:lang="fr">Beyrouth</placeName>
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1876-04-06"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">6 April 1876</tei:date>
+                     <tei:date type="computed"
+                               when="1876-04-06"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1293-03-11"
+                               xml:lang="ar-Latn-x-ijmes">11 Rabīʿ al-awwal 1293</tei:date>
+                     <tei:date type="official"
+                               when="1876-04-06"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1876-03-25"
+                               xml:lang="ar-Latn-x-ijmes">25 Ādhār 1876</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="1" to="1" unit="volume"/>
+                  <tei:biblScope from="51" to="51" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Thursday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الخميس من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en">
+                     <persName xml:lang="ar">
+                        <forename>عبد القادر</forename>
+                        <surname>قباني</surname>
+                     </persName>
+                     <persName xml:lang="ar-Latn-x-ijmes">
+                        <forename>ʿAbd al-Qādir</forename>
+                        <surname>Qabbānī</surname>
+                     </persName>
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en">
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName>
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName>
+                     </publisher>
+                     <pubPlace xml:lang="en">
+                        <placeName xml:lang="ar">بيروت</placeName>
+                        <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
+                        <placeName xml:lang="en">Beirut</placeName>
+                        <placeName xml:lang="fr">Beyrouth</placeName>
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1876-04-13"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">13 April 1876</tei:date>
+                     <tei:date type="computed"
+                               when="1876-04-13"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1293-03-18"
+                               xml:lang="ar-Latn-x-ijmes">18 Rabīʿ al-awwal 1293</tei:date>
+                     <tei:date type="official"
+                               when="1876-04-13"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1876-04-01"
+                               xml:lang="ar-Latn-x-ijmes">1 Nīsān 1876</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="1" to="1" unit="volume"/>
+                  <tei:biblScope from="52" to="52" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Thursday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <!-- vol. 2, #53 -->
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الخميس من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en">
+                     <persName xml:lang="ar">
+                        <forename>عبد القادر</forename>
+                        <surname>قباني</surname>
+                     </persName>
+                     <persName xml:lang="ar-Latn-x-ijmes">
+                        <forename>ʿAbd al-Qādir</forename>
+                        <surname>Qabbānī</surname>
+                     </persName>
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en">
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName>
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName>
+                     </publisher>
+                     <pubPlace xml:lang="en">
+                        <placeName xml:lang="ar">بيروت</placeName>
+                        <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
+                        <placeName xml:lang="en">Beirut</placeName>
+                        <placeName xml:lang="fr">Beyrouth</placeName>
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1876-04-20"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">20 April 1876</tei:date>
+                     <tei:date type="computed"
+                               when="1876-04-20"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1293-03-25"
+                               xml:lang="ar-Latn-x-ijmes">25 Rabīʿ al-awwal 1293</tei:date>
+                     <tei:date type="official"
+                               when="1876-04-20"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1876-04-08"
+                               xml:lang="ar-Latn-x-ijmes">8 Nīsān 1876</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="2" to="2" unit="volume"/>
+                  <tei:biblScope from="53" to="53" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Thursday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الخميس من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en">
+                     <persName xml:lang="ar">
+                        <forename>عبد القادر</forename>
+                        <surname>قباني</surname>
+                     </persName>
+                     <persName xml:lang="ar-Latn-x-ijmes">
+                        <forename>ʿAbd al-Qādir</forename>
+                        <surname>Qabbānī</surname>
+                     </persName>
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en">
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName>
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName>
+                     </publisher>
+                     <pubPlace xml:lang="en">
+                        <placeName xml:lang="ar">بيروت</placeName>
+                        <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
+                        <placeName xml:lang="en">Beirut</placeName>
+                        <placeName xml:lang="fr">Beyrouth</placeName>
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1876-04-27"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">27 April 1876</tei:date>
+                     <tei:date type="computed"
+                               when="1876-04-27"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1293-04-02"
+                               xml:lang="ar-Latn-x-ijmes">2 Rabīʿ al-thānī 1293</tei:date>
+                     <tei:date type="official"
+                               when="1876-04-27"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1876-04-15"
+                               xml:lang="ar-Latn-x-ijmes">15 Nīsān 1876</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="2" to="2" unit="volume"/>
+                  <tei:biblScope from="54" to="54" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Thursday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الخميس من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en">
+                     <persName xml:lang="ar">
+                        <forename>عبد القادر</forename>
+                        <surname>قباني</surname>
+                     </persName>
+                     <persName xml:lang="ar-Latn-x-ijmes">
+                        <forename>ʿAbd al-Qādir</forename>
+                        <surname>Qabbānī</surname>
+                     </persName>
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en">
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName>
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName>
+                     </publisher>
+                     <pubPlace xml:lang="en">
+                        <placeName xml:lang="ar">بيروت</placeName>
+                        <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
+                        <placeName xml:lang="en">Beirut</placeName>
+                        <placeName xml:lang="fr">Beyrouth</placeName>
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1876-05-04"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">4 May 1876</tei:date>
+                     <tei:date type="computed"
+                               when="1876-05-04"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1293-04-09"
+                               xml:lang="ar-Latn-x-ijmes">9 Rabīʿ al-thānī 1293</tei:date>
+                     <tei:date type="official"
+                               when="1876-05-04"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1876-04-22"
+                               xml:lang="ar-Latn-x-ijmes">22 Nīsān 1876</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="2" to="2" unit="volume"/>
+                  <tei:biblScope from="55" to="55" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Thursday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الخميس من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en">
+                     <persName xml:lang="ar">
+                        <forename>عبد القادر</forename>
+                        <surname>قباني</surname>
+                     </persName>
+                     <persName xml:lang="ar-Latn-x-ijmes">
+                        <forename>ʿAbd al-Qādir</forename>
+                        <surname>Qabbānī</surname>
+                     </persName>
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en">
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName>
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName>
+                     </publisher>
+                     <pubPlace xml:lang="en">
+                        <placeName xml:lang="ar">بيروت</placeName>
+                        <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
+                        <placeName xml:lang="en">Beirut</placeName>
+                        <placeName xml:lang="fr">Beyrouth</placeName>
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1876-05-11"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">11 May 1876</tei:date>
+                     <tei:date type="computed"
+                               when="1876-05-11"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1293-04-16"
+                               xml:lang="ar-Latn-x-ijmes">16 Rabīʿ al-thānī 1293</tei:date>
+                     <tei:date type="official"
+                               when="1876-05-11"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1876-04-29"
+                               xml:lang="ar-Latn-x-ijmes">29 Nīsān 1876</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="2" to="2" unit="volume"/>
+                  <tei:biblScope from="56" to="56" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Thursday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الخميس من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en">
+                     <persName xml:lang="ar">
+                        <forename>عبد القادر</forename>
+                        <surname>قباني</surname>
+                     </persName>
+                     <persName xml:lang="ar-Latn-x-ijmes">
+                        <forename>ʿAbd al-Qādir</forename>
+                        <surname>Qabbānī</surname>
+                     </persName>
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en">
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName>
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName>
+                     </publisher>
+                     <pubPlace xml:lang="en">
+                        <placeName xml:lang="ar">بيروت</placeName>
+                        <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
+                        <placeName xml:lang="en">Beirut</placeName>
+                        <placeName xml:lang="fr">Beyrouth</placeName>
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1876-05-18"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">18 May 1876</tei:date>
+                     <tei:date type="computed"
+                               when="1876-05-18"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1293-04-23"
+                               xml:lang="ar-Latn-x-ijmes">23 Rabīʿ al-thānī 1293</tei:date>
+                     <tei:date type="official"
+                               when="1876-05-18"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1876-05-06"
+                               xml:lang="ar-Latn-x-ijmes">6 Ayyār 1876</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="2" to="2" unit="volume"/>
+                  <tei:biblScope from="57" to="57" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Thursday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الخميس من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en">
+                     <persName xml:lang="ar">
+                        <forename>عبد القادر</forename>
+                        <surname>قباني</surname>
+                     </persName>
+                     <persName xml:lang="ar-Latn-x-ijmes">
+                        <forename>ʿAbd al-Qādir</forename>
+                        <surname>Qabbānī</surname>
+                     </persName>
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en">
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName>
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName>
+                     </publisher>
+                     <pubPlace xml:lang="en">
+                        <placeName xml:lang="ar">بيروت</placeName>
+                        <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
+                        <placeName xml:lang="en">Beirut</placeName>
+                        <placeName xml:lang="fr">Beyrouth</placeName>
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1876-05-25"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">25 May 1876</tei:date>
+                     <tei:date type="computed"
+                               when="1876-05-25"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1293-05-01"
+                               xml:lang="ar-Latn-x-ijmes">1 Jumāda al-ulā 1293</tei:date>
+                     <tei:date type="official"
+                               when="1876-05-25"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1876-05-13"
+                               xml:lang="ar-Latn-x-ijmes">13 Ayyār 1876</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="2" to="2" unit="volume"/>
+                  <tei:biblScope from="58" to="58" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Thursday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الخميس من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en">
+                     <persName xml:lang="ar">
+                        <forename>عبد القادر</forename>
+                        <surname>قباني</surname>
+                     </persName>
+                     <persName xml:lang="ar-Latn-x-ijmes">
+                        <forename>ʿAbd al-Qādir</forename>
+                        <surname>Qabbānī</surname>
+                     </persName>
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en">
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName>
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName>
+                     </publisher>
+                     <pubPlace xml:lang="en">
+                        <placeName xml:lang="ar">بيروت</placeName>
+                        <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
+                        <placeName xml:lang="en">Beirut</placeName>
+                        <placeName xml:lang="fr">Beyrouth</placeName>
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1876-06-01"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">1 June 1876</tei:date>
+                     <tei:date type="computed"
+                               when="1876-06-01"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1293-05-08"
+                               xml:lang="ar-Latn-x-ijmes">8 Jumāda al-ulā 1293</tei:date>
+                     <tei:date type="official"
+                               when="1876-06-01"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1876-05-20"
+                               xml:lang="ar-Latn-x-ijmes">20 Ayyār 1876</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="2" to="2" unit="volume"/>
+                  <tei:biblScope from="59" to="59" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Thursday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الخميس من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en">
+                     <persName xml:lang="ar">
+                        <forename>عبد القادر</forename>
+                        <surname>قباني</surname>
+                     </persName>
+                     <persName xml:lang="ar-Latn-x-ijmes">
+                        <forename>ʿAbd al-Qādir</forename>
+                        <surname>Qabbānī</surname>
+                     </persName>
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en">
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName>
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName>
+                     </publisher>
+                     <pubPlace xml:lang="en">
+                        <placeName xml:lang="ar">بيروت</placeName>
+                        <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
+                        <placeName xml:lang="en">Beirut</placeName>
+                        <placeName xml:lang="fr">Beyrouth</placeName>
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1876-06-08"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">8 June 1876</tei:date>
+                     <tei:date type="computed"
+                               when="1876-06-08"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1293-05-15"
+                               xml:lang="ar-Latn-x-ijmes">15 Jumāda al-ulā 1293</tei:date>
+                     <tei:date type="official"
+                               when="1876-06-08"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1876-05-27"
+                               xml:lang="ar-Latn-x-ijmes">27 Ayyār 1876</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="2" to="2" unit="volume"/>
+                  <tei:biblScope from="60" to="60" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Thursday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الخميس من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en">
+                     <persName xml:lang="ar">
+                        <forename>عبد القادر</forename>
+                        <surname>قباني</surname>
+                     </persName>
+                     <persName xml:lang="ar-Latn-x-ijmes">
+                        <forename>ʿAbd al-Qādir</forename>
+                        <surname>Qabbānī</surname>
+                     </persName>
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en">
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName>
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName>
+                     </publisher>
+                     <pubPlace xml:lang="en">
+                        <placeName xml:lang="ar">بيروت</placeName>
+                        <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
+                        <placeName xml:lang="en">Beirut</placeName>
+                        <placeName xml:lang="fr">Beyrouth</placeName>
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1876-06-15"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">15 June 1876</tei:date>
+                     <tei:date type="computed"
+                               when="1876-06-15"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1293-05-22"
+                               xml:lang="ar-Latn-x-ijmes">22 Jumāda al-ulā 1293</tei:date>
+                     <tei:date type="official"
+                               when="1876-06-15"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1876-06-03"
+                               xml:lang="ar-Latn-x-ijmes">3 Ḥazīrān 1876</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="2" to="2" unit="volume"/>
+                  <tei:biblScope from="61" to="61" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Thursday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الخميس من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en">
+                     <persName xml:lang="ar">
+                        <forename>عبد القادر</forename>
+                        <surname>قباني</surname>
+                     </persName>
+                     <persName xml:lang="ar-Latn-x-ijmes">
+                        <forename>ʿAbd al-Qādir</forename>
+                        <surname>Qabbānī</surname>
+                     </persName>
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en">
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName>
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName>
+                     </publisher>
+                     <pubPlace xml:lang="en">
+                        <placeName xml:lang="ar">بيروت</placeName>
+                        <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
+                        <placeName xml:lang="en">Beirut</placeName>
+                        <placeName xml:lang="fr">Beyrouth</placeName>
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1876-06-22"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">22 June 1876</tei:date>
+                     <tei:date type="computed"
+                               when="1876-06-22"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1293-05-29"
+                               xml:lang="ar-Latn-x-ijmes">29 Jumāda al-ulā 1293</tei:date>
+                     <tei:date type="official"
+                               when="1876-06-22"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1876-06-10"
+                               xml:lang="ar-Latn-x-ijmes">10 Ḥazīrān 1876</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="2" to="2" unit="volume"/>
+                  <tei:biblScope from="62" to="62" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Thursday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الخميس من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en">
+                     <persName xml:lang="ar">
+                        <forename>عبد القادر</forename>
+                        <surname>قباني</surname>
+                     </persName>
+                     <persName xml:lang="ar-Latn-x-ijmes">
+                        <forename>ʿAbd al-Qādir</forename>
+                        <surname>Qabbānī</surname>
+                     </persName>
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en">
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName>
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName>
+                     </publisher>
+                     <pubPlace xml:lang="en">
+                        <placeName xml:lang="ar">بيروت</placeName>
+                        <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
+                        <placeName xml:lang="en">Beirut</placeName>
+                        <placeName xml:lang="fr">Beyrouth</placeName>
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1876-06-29"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">29 June 1876</tei:date>
+                     <tei:date type="computed"
+                               when="1876-06-29"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1293-06-06"
+                               xml:lang="ar-Latn-x-ijmes">6 Jumāda al-tāniya 1293</tei:date>
+                     <tei:date type="official"
+                               when="1876-06-29"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1876-06-17"
+                               xml:lang="ar-Latn-x-ijmes">17 Ḥazīrān 1876</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="2" to="2" unit="volume"/>
+                  <tei:biblScope from="63" to="63" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Thursday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الخميس من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en">
+                     <persName xml:lang="ar">
+                        <forename>عبد القادر</forename>
+                        <surname>قباني</surname>
+                     </persName>
+                     <persName xml:lang="ar-Latn-x-ijmes">
+                        <forename>ʿAbd al-Qādir</forename>
+                        <surname>Qabbānī</surname>
+                     </persName>
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en">
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName>
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName>
+                     </publisher>
+                     <pubPlace xml:lang="en">
+                        <placeName xml:lang="ar">بيروت</placeName>
+                        <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
+                        <placeName xml:lang="en">Beirut</placeName>
+                        <placeName xml:lang="fr">Beyrouth</placeName>
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1876-07-06"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">6 July 1876</tei:date>
+                     <tei:date type="computed"
+                               when="1876-07-06"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1293-06-13"
+                               xml:lang="ar-Latn-x-ijmes">13 Jumāda al-tāniya 1293</tei:date>
+                     <tei:date type="official"
+                               when="1876-07-06"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1876-06-24"
+                               xml:lang="ar-Latn-x-ijmes">24 Ḥazīrān 1876</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="2" to="2" unit="volume"/>
+                  <tei:biblScope from="64" to="64" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Thursday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الخميس من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en">
+                     <persName xml:lang="ar">
+                        <forename>عبد القادر</forename>
+                        <surname>قباني</surname>
+                     </persName>
+                     <persName xml:lang="ar-Latn-x-ijmes">
+                        <forename>ʿAbd al-Qādir</forename>
+                        <surname>Qabbānī</surname>
+                     </persName>
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en">
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName>
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName>
+                     </publisher>
+                     <pubPlace xml:lang="en">
+                        <placeName xml:lang="ar">بيروت</placeName>
+                        <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
+                        <placeName xml:lang="en">Beirut</placeName>
+                        <placeName xml:lang="fr">Beyrouth</placeName>
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1876-07-13"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">13 July 1876</tei:date>
+                     <tei:date type="computed"
+                               when="1876-07-13"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1293-06-20"
+                               xml:lang="ar-Latn-x-ijmes">20 Jumāda al-tāniya 1293</tei:date>
+                     <tei:date type="official"
+                               when="1876-07-13"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1876-07-01"
+                               xml:lang="ar-Latn-x-ijmes">1 Tammūz 1876</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="2" to="2" unit="volume"/>
+                  <tei:biblScope from="65" to="65" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Thursday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الخميس من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en">
+                     <persName xml:lang="ar">
+                        <forename>عبد القادر</forename>
+                        <surname>قباني</surname>
+                     </persName>
+                     <persName xml:lang="ar-Latn-x-ijmes">
+                        <forename>ʿAbd al-Qādir</forename>
+                        <surname>Qabbānī</surname>
+                     </persName>
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en">
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName>
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName>
+                     </publisher>
+                     <pubPlace xml:lang="en">
+                        <placeName xml:lang="ar">بيروت</placeName>
+                        <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
+                        <placeName xml:lang="en">Beirut</placeName>
+                        <placeName xml:lang="fr">Beyrouth</placeName>
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1876-07-20"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">20 July 1876</tei:date>
+                     <tei:date type="computed"
+                               when="1876-07-20"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1293-06-27"
+                               xml:lang="ar-Latn-x-ijmes">27 Jumāda al-tāniya 1293</tei:date>
+                     <tei:date type="official"
+                               when="1876-07-20"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1876-07-08"
+                               xml:lang="ar-Latn-x-ijmes">8 Tammūz 1876</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="2" to="2" unit="volume"/>
+                  <tei:biblScope from="66" to="66" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Thursday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الخميس من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en">
+                     <persName xml:lang="ar">
+                        <forename>عبد القادر</forename>
+                        <surname>قباني</surname>
+                     </persName>
+                     <persName xml:lang="ar-Latn-x-ijmes">
+                        <forename>ʿAbd al-Qādir</forename>
+                        <surname>Qabbānī</surname>
+                     </persName>
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en">
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName>
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName>
+                     </publisher>
+                     <pubPlace xml:lang="en">
+                        <placeName xml:lang="ar">بيروت</placeName>
+                        <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
+                        <placeName xml:lang="en">Beirut</placeName>
+                        <placeName xml:lang="fr">Beyrouth</placeName>
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1876-07-27"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">27 July 1876</tei:date>
+                     <tei:date type="computed"
+                               when="1876-07-27"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1293-07-05"
+                               xml:lang="ar-Latn-x-ijmes">5 Rajab 1293</tei:date>
+                     <tei:date type="official"
+                               when="1876-07-27"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1876-07-15"
+                               xml:lang="ar-Latn-x-ijmes">15 Tammūz 1876</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="2" to="2" unit="volume"/>
+                  <tei:biblScope from="67" to="67" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Thursday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الخميس من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en">
+                     <persName xml:lang="ar">
+                        <forename>عبد القادر</forename>
+                        <surname>قباني</surname>
+                     </persName>
+                     <persName xml:lang="ar-Latn-x-ijmes">
+                        <forename>ʿAbd al-Qādir</forename>
+                        <surname>Qabbānī</surname>
+                     </persName>
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en">
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName>
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName>
+                     </publisher>
+                     <pubPlace xml:lang="en">
+                        <placeName xml:lang="ar">بيروت</placeName>
+                        <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
+                        <placeName xml:lang="en">Beirut</placeName>
+                        <placeName xml:lang="fr">Beyrouth</placeName>
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1876-08-03"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">3 August 1876</tei:date>
+                     <tei:date type="computed"
+                               when="1876-08-03"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1293-07-12"
+                               xml:lang="ar-Latn-x-ijmes">12 Rajab 1293</tei:date>
+                     <tei:date type="official"
+                               when="1876-08-03"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1876-07-22"
+                               xml:lang="ar-Latn-x-ijmes">22 Tammūz 1876</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="2" to="2" unit="volume"/>
+                  <tei:biblScope from="68" to="68" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Thursday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الخميس من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en">
+                     <persName xml:lang="ar">
+                        <forename>عبد القادر</forename>
+                        <surname>قباني</surname>
+                     </persName>
+                     <persName xml:lang="ar-Latn-x-ijmes">
+                        <forename>ʿAbd al-Qādir</forename>
+                        <surname>Qabbānī</surname>
+                     </persName>
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en">
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName>
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName>
+                     </publisher>
+                     <pubPlace xml:lang="en">
+                        <placeName xml:lang="ar">بيروت</placeName>
+                        <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
+                        <placeName xml:lang="en">Beirut</placeName>
+                        <placeName xml:lang="fr">Beyrouth</placeName>
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1876-08-10"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">10 August 1876</tei:date>
+                     <tei:date type="computed"
+                               when="1876-08-10"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1293-07-19"
+                               xml:lang="ar-Latn-x-ijmes">19 Rajab 1293</tei:date>
+                     <tei:date type="official"
+                               when="1876-08-10"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1876-07-29"
+                               xml:lang="ar-Latn-x-ijmes">29 Tammūz 1876</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="2" to="2" unit="volume"/>
+                  <tei:biblScope from="69" to="69" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Thursday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الخميس من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en">
+                     <persName xml:lang="ar">
+                        <forename>عبد القادر</forename>
+                        <surname>قباني</surname>
+                     </persName>
+                     <persName xml:lang="ar-Latn-x-ijmes">
+                        <forename>ʿAbd al-Qādir</forename>
+                        <surname>Qabbānī</surname>
+                     </persName>
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en">
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName>
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName>
+                     </publisher>
+                     <pubPlace xml:lang="en">
+                        <placeName xml:lang="ar">بيروت</placeName>
+                        <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
+                        <placeName xml:lang="en">Beirut</placeName>
+                        <placeName xml:lang="fr">Beyrouth</placeName>
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1876-08-17"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">17 August 1876</tei:date>
+                     <tei:date type="computed"
+                               when="1876-08-17"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1293-07-26"
+                               xml:lang="ar-Latn-x-ijmes">26 Rajab 1293</tei:date>
+                     <tei:date type="official"
+                               when="1876-08-17"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1876-08-05"
+                               xml:lang="ar-Latn-x-ijmes">5 Āb 1876</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="2" to="2" unit="volume"/>
+                  <tei:biblScope from="70" to="70" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Thursday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الخميس من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en">
+                     <persName xml:lang="ar">
+                        <forename>عبد القادر</forename>
+                        <surname>قباني</surname>
+                     </persName>
+                     <persName xml:lang="ar-Latn-x-ijmes">
+                        <forename>ʿAbd al-Qādir</forename>
+                        <surname>Qabbānī</surname>
+                     </persName>
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en">
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName>
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName>
+                     </publisher>
+                     <pubPlace xml:lang="en">
+                        <placeName xml:lang="ar">بيروت</placeName>
+                        <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
+                        <placeName xml:lang="en">Beirut</placeName>
+                        <placeName xml:lang="fr">Beyrouth</placeName>
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1876-08-24"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">24 August 1876</tei:date>
+                     <tei:date type="computed"
+                               when="1876-08-24"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1293-08-03"
+                               xml:lang="ar-Latn-x-ijmes">3 Shaʿbān 1293</tei:date>
+                     <tei:date type="official"
+                               when="1876-08-24"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1876-08-12"
+                               xml:lang="ar-Latn-x-ijmes">12 Āb 1876</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="2" to="2" unit="volume"/>
+                  <tei:biblScope from="71" to="71" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Thursday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الخميس من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en">
+                     <persName xml:lang="ar">
+                        <forename>عبد القادر</forename>
+                        <surname>قباني</surname>
+                     </persName>
+                     <persName xml:lang="ar-Latn-x-ijmes">
+                        <forename>ʿAbd al-Qādir</forename>
+                        <surname>Qabbānī</surname>
+                     </persName>
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en">
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName>
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName>
+                     </publisher>
+                     <pubPlace xml:lang="en">
+                        <placeName xml:lang="ar">بيروت</placeName>
+                        <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
+                        <placeName xml:lang="en">Beirut</placeName>
+                        <placeName xml:lang="fr">Beyrouth</placeName>
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1876-08-31"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">31 August 1876</tei:date>
+                     <tei:date type="computed"
+                               when="1876-08-31"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1293-08-10"
+                               xml:lang="ar-Latn-x-ijmes">10 Shaʿbān 1293</tei:date>
+                     <tei:date type="official"
+                               when="1876-08-31"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1876-08-19"
+                               xml:lang="ar-Latn-x-ijmes">19 Āb 1876</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="2" to="2" unit="volume"/>
+                  <tei:biblScope from="72" to="72" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Thursday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الخميس من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en">
+                     <persName xml:lang="ar">
+                        <forename>عبد القادر</forename>
+                        <surname>قباني</surname>
+                     </persName>
+                     <persName xml:lang="ar-Latn-x-ijmes">
+                        <forename>ʿAbd al-Qādir</forename>
+                        <surname>Qabbānī</surname>
+                     </persName>
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en">
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName>
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName>
+                     </publisher>
+                     <pubPlace xml:lang="en">
+                        <placeName xml:lang="ar">بيروت</placeName>
+                        <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
+                        <placeName xml:lang="en">Beirut</placeName>
+                        <placeName xml:lang="fr">Beyrouth</placeName>
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1876-09-07"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">7 September 1876</tei:date>
+                     <tei:date type="computed"
+                               when="1876-09-07"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1293-08-17"
+                               xml:lang="ar-Latn-x-ijmes">17 Shaʿbān 1293</tei:date>
+                     <tei:date type="official"
+                               when="1876-09-07"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1876-08-26"
+                               xml:lang="ar-Latn-x-ijmes">26 Āb 1876</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="2" to="2" unit="volume"/>
+                  <tei:biblScope from="73" to="73" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Thursday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الخميس من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en">
+                     <persName xml:lang="ar">
+                        <forename>عبد القادر</forename>
+                        <surname>قباني</surname>
+                     </persName>
+                     <persName xml:lang="ar-Latn-x-ijmes">
+                        <forename>ʿAbd al-Qādir</forename>
+                        <surname>Qabbānī</surname>
+                     </persName>
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en">
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName>
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName>
+                     </publisher>
+                     <pubPlace xml:lang="en">
+                        <placeName xml:lang="ar">بيروت</placeName>
+                        <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
+                        <placeName xml:lang="en">Beirut</placeName>
+                        <placeName xml:lang="fr">Beyrouth</placeName>
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1876-09-14"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">14 September 1876</tei:date>
+                     <tei:date type="computed"
+                               when="1876-09-14"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1293-08-24"
+                               xml:lang="ar-Latn-x-ijmes">24 Shaʿbān 1293</tei:date>
+                     <tei:date type="official"
+                               when="1876-09-14"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1876-09-02"
+                               xml:lang="ar-Latn-x-ijmes">2 Aylūl 1876</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="2" to="2" unit="volume"/>
+                  <tei:biblScope from="74" to="74" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Thursday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الخميس من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en">
+                     <persName xml:lang="ar">
+                        <forename>عبد القادر</forename>
+                        <surname>قباني</surname>
+                     </persName>
+                     <persName xml:lang="ar-Latn-x-ijmes">
+                        <forename>ʿAbd al-Qādir</forename>
+                        <surname>Qabbānī</surname>
+                     </persName>
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en">
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName>
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName>
+                     </publisher>
+                     <pubPlace xml:lang="en">
+                        <placeName xml:lang="ar">بيروت</placeName>
+                        <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
+                        <placeName xml:lang="en">Beirut</placeName>
+                        <placeName xml:lang="fr">Beyrouth</placeName>
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1876-09-21"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">21 September 1876</tei:date>
+                     <tei:date type="computed"
+                               when="1876-09-21"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1293-09-02"
+                               xml:lang="ar-Latn-x-ijmes">2 Ramaḍān 1293</tei:date>
+                     <tei:date type="official"
+                               when="1876-09-21"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1876-09-09"
+                               xml:lang="ar-Latn-x-ijmes">9 Aylūl 1876</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="2" to="2" unit="volume"/>
+                  <tei:biblScope from="75" to="75" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Thursday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الخميس من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en">
+                     <persName xml:lang="ar">
+                        <forename>عبد القادر</forename>
+                        <surname>قباني</surname>
+                     </persName>
+                     <persName xml:lang="ar-Latn-x-ijmes">
+                        <forename>ʿAbd al-Qādir</forename>
+                        <surname>Qabbānī</surname>
+                     </persName>
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en">
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName>
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName>
+                     </publisher>
+                     <pubPlace xml:lang="en">
+                        <placeName xml:lang="ar">بيروت</placeName>
+                        <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
+                        <placeName xml:lang="en">Beirut</placeName>
+                        <placeName xml:lang="fr">Beyrouth</placeName>
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1876-09-28"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">28 September 1876</tei:date>
+                     <tei:date type="computed"
+                               when="1876-09-28"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1293-09-09"
+                               xml:lang="ar-Latn-x-ijmes">9 Ramaḍān 1293</tei:date>
+                     <tei:date type="official"
+                               when="1876-09-28"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1876-09-16"
+                               xml:lang="ar-Latn-x-ijmes">16 Aylūl 1876</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="2" to="2" unit="volume"/>
+                  <tei:biblScope from="76" to="76" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Thursday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الخميس من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en">
+                     <persName xml:lang="ar">
+                        <forename>عبد القادر</forename>
+                        <surname>قباني</surname>
+                     </persName>
+                     <persName xml:lang="ar-Latn-x-ijmes">
+                        <forename>ʿAbd al-Qādir</forename>
+                        <surname>Qabbānī</surname>
+                     </persName>
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en">
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName>
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName>
+                     </publisher>
+                     <pubPlace xml:lang="en">
+                        <placeName xml:lang="ar">بيروت</placeName>
+                        <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
+                        <placeName xml:lang="en">Beirut</placeName>
+                        <placeName xml:lang="fr">Beyrouth</placeName>
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1876-10-05"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">5 October 1876</tei:date>
+                     <tei:date type="computed"
+                               when="1876-10-05"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1293-09-16"
+                               xml:lang="ar-Latn-x-ijmes">16 Ramaḍān 1293</tei:date>
+                     <tei:date type="official"
+                               when="1876-10-05"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1876-09-23"
+                               xml:lang="ar-Latn-x-ijmes">23 Aylūl 1876</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="2" to="2" unit="volume"/>
+                  <tei:biblScope from="77" to="77" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Thursday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الخميس من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en">
+                     <persName xml:lang="ar">
+                        <forename>عبد القادر</forename>
+                        <surname>قباني</surname>
+                     </persName>
+                     <persName xml:lang="ar-Latn-x-ijmes">
+                        <forename>ʿAbd al-Qādir</forename>
+                        <surname>Qabbānī</surname>
+                     </persName>
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en">
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName>
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName>
+                     </publisher>
+                     <pubPlace xml:lang="en">
+                        <placeName xml:lang="ar">بيروت</placeName>
+                        <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
+                        <placeName xml:lang="en">Beirut</placeName>
+                        <placeName xml:lang="fr">Beyrouth</placeName>
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1876-10-12"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">12 October 1876</tei:date>
+                     <tei:date type="computed"
+                               when="1876-10-12"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1293-09-23"
+                               xml:lang="ar-Latn-x-ijmes">23 Ramaḍān 1293</tei:date>
+                     <tei:date type="official"
+                               when="1876-10-12"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1876-09-30"
+                               xml:lang="ar-Latn-x-ijmes">30 Aylūl 1876</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="2" to="2" unit="volume"/>
+                  <tei:biblScope from="78" to="78" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Thursday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الخميس من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en">
+                     <persName xml:lang="ar">
+                        <forename>عبد القادر</forename>
+                        <surname>قباني</surname>
+                     </persName>
+                     <persName xml:lang="ar-Latn-x-ijmes">
+                        <forename>ʿAbd al-Qādir</forename>
+                        <surname>Qabbānī</surname>
+                     </persName>
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en">
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName>
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName>
+                     </publisher>
+                     <pubPlace xml:lang="en">
+                        <placeName xml:lang="ar">بيروت</placeName>
+                        <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
+                        <placeName xml:lang="en">Beirut</placeName>
+                        <placeName xml:lang="fr">Beyrouth</placeName>
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1876-10-19"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">19 October 1876</tei:date>
+                     <tei:date type="computed"
+                               when="1876-10-19"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1293-09-30"
+                               xml:lang="ar-Latn-x-ijmes">30 Ramaḍān 1293</tei:date>
+                     <tei:date type="official"
+                               when="1876-10-19"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1876-10-07"
+                               xml:lang="ar-Latn-x-ijmes">7 Tishrīn al-awwal 1876</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="2" to="2" unit="volume"/>
+                  <tei:biblScope from="79" to="79" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Thursday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الخميس من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en">
+                     <persName xml:lang="ar">
+                        <forename>عبد القادر</forename>
+                        <surname>قباني</surname>
+                     </persName>
+                     <persName xml:lang="ar-Latn-x-ijmes">
+                        <forename>ʿAbd al-Qādir</forename>
+                        <surname>Qabbānī</surname>
+                     </persName>
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en">
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName>
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName>
+                     </publisher>
+                     <pubPlace xml:lang="en">
+                        <placeName xml:lang="ar">بيروت</placeName>
+                        <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
+                        <placeName xml:lang="en">Beirut</placeName>
+                        <placeName xml:lang="fr">Beyrouth</placeName>
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1876-10-26"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">26 October 1876</tei:date>
+                     <tei:date type="computed"
+                               when="1876-10-26"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1293-10-07"
+                               xml:lang="ar-Latn-x-ijmes">7 Shawwāl 1293</tei:date>
+                     <tei:date type="official"
+                               when="1876-10-26"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1876-10-14"
+                               xml:lang="ar-Latn-x-ijmes">14 Tishrīn al-awwal 1876</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="2" to="2" unit="volume"/>
+                  <tei:biblScope from="80" to="80" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Thursday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الخميس من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en">
+                     <persName xml:lang="ar">
+                        <forename>عبد القادر</forename>
+                        <surname>قباني</surname>
+                     </persName>
+                     <persName xml:lang="ar-Latn-x-ijmes">
+                        <forename>ʿAbd al-Qādir</forename>
+                        <surname>Qabbānī</surname>
+                     </persName>
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en">
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName>
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName>
+                     </publisher>
+                     <pubPlace xml:lang="en">
+                        <placeName xml:lang="ar">بيروت</placeName>
+                        <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
+                        <placeName xml:lang="en">Beirut</placeName>
+                        <placeName xml:lang="fr">Beyrouth</placeName>
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1876-11-02"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">2 November 1876</tei:date>
+                     <tei:date type="computed"
+                               when="1876-11-02"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1293-10-14"
+                               xml:lang="ar-Latn-x-ijmes">14 Shawwāl 1293</tei:date>
+                     <tei:date type="official"
+                               when="1876-11-02"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1876-10-21"
+                               xml:lang="ar-Latn-x-ijmes">21 Tishrīn al-awwal 1876</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="2" to="2" unit="volume"/>
+                  <tei:biblScope from="81" to="81" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Thursday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الخميس من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en">
+                     <persName xml:lang="ar">
+                        <forename>عبد القادر</forename>
+                        <surname>قباني</surname>
+                     </persName>
+                     <persName xml:lang="ar-Latn-x-ijmes">
+                        <forename>ʿAbd al-Qādir</forename>
+                        <surname>Qabbānī</surname>
+                     </persName>
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en">
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName>
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName>
+                     </publisher>
+                     <pubPlace xml:lang="en">
+                        <placeName xml:lang="ar">بيروت</placeName>
+                        <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
+                        <placeName xml:lang="en">Beirut</placeName>
+                        <placeName xml:lang="fr">Beyrouth</placeName>
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1876-11-09"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">9 November 1876</tei:date>
+                     <tei:date type="computed"
+                               when="1876-11-09"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1293-10-21"
+                               xml:lang="ar-Latn-x-ijmes">21 Shawwāl 1293</tei:date>
+                     <tei:date type="official"
+                               when="1876-11-09"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1876-10-28"
+                               xml:lang="ar-Latn-x-ijmes">28 Tishrīn al-awwal 1876</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="2" to="2" unit="volume"/>
+                  <tei:biblScope from="82" to="82" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Thursday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الخميس من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en">
+                     <persName xml:lang="ar">
+                        <forename>عبد القادر</forename>
+                        <surname>قباني</surname>
+                     </persName>
+                     <persName xml:lang="ar-Latn-x-ijmes">
+                        <forename>ʿAbd al-Qādir</forename>
+                        <surname>Qabbānī</surname>
+                     </persName>
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en">
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName>
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName>
+                     </publisher>
+                     <pubPlace xml:lang="en">
+                        <placeName xml:lang="ar">بيروت</placeName>
+                        <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
+                        <placeName xml:lang="en">Beirut</placeName>
+                        <placeName xml:lang="fr">Beyrouth</placeName>
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1876-11-16"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">16 November 1876</tei:date>
+                     <tei:date type="computed"
+                               when="1876-11-16"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1293-10-28"
+                               xml:lang="ar-Latn-x-ijmes">28 Shawwāl 1293</tei:date>
+                     <tei:date type="official"
+                               when="1876-11-16"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1876-11-04"
+                               xml:lang="ar-Latn-x-ijmes">4 Tishrīn al-thānī 1876</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="2" to="2" unit="volume"/>
+                  <tei:biblScope from="83" to="83" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Thursday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الخميس من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en">
+                     <persName xml:lang="ar">
+                        <forename>عبد القادر</forename>
+                        <surname>قباني</surname>
+                     </persName>
+                     <persName xml:lang="ar-Latn-x-ijmes">
+                        <forename>ʿAbd al-Qādir</forename>
+                        <surname>Qabbānī</surname>
+                     </persName>
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en">
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName>
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName>
+                     </publisher>
+                     <pubPlace xml:lang="en">
+                        <placeName xml:lang="ar">بيروت</placeName>
+                        <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
+                        <placeName xml:lang="en">Beirut</placeName>
+                        <placeName xml:lang="fr">Beyrouth</placeName>
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1876-11-23"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">23 November 1876</tei:date>
+                     <tei:date type="computed"
+                               when="1876-11-23"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1293-11-06"
+                               xml:lang="ar-Latn-x-ijmes">6 Dhū al-qaʿda 1293</tei:date>
+                     <tei:date type="official"
+                               when="1876-11-23"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1876-11-11"
+                               xml:lang="ar-Latn-x-ijmes">11 Tishrīn al-thānī 1876</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="2" to="2" unit="volume"/>
+                  <tei:biblScope from="84" to="84" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Thursday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الخميس من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en">
+                     <persName xml:lang="ar">
+                        <forename>عبد القادر</forename>
+                        <surname>قباني</surname>
+                     </persName>
+                     <persName xml:lang="ar-Latn-x-ijmes">
+                        <forename>ʿAbd al-Qādir</forename>
+                        <surname>Qabbānī</surname>
+                     </persName>
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en">
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName>
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName>
+                     </publisher>
+                     <pubPlace xml:lang="en">
+                        <placeName xml:lang="ar">بيروت</placeName>
+                        <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
+                        <placeName xml:lang="en">Beirut</placeName>
+                        <placeName xml:lang="fr">Beyrouth</placeName>
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1876-11-30"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">30 November 1876</tei:date>
+                     <tei:date type="computed"
+                               when="1876-11-30"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1293-11-13"
+                               xml:lang="ar-Latn-x-ijmes">13 Dhū al-qaʿda 1293</tei:date>
+                     <tei:date type="official"
+                               when="1876-11-30"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1876-11-18"
+                               xml:lang="ar-Latn-x-ijmes">18 Tishrīn al-thānī 1876</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="2" to="2" unit="volume"/>
+                  <tei:biblScope from="85" to="85" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Thursday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الخميس من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en">
+                     <persName xml:lang="ar">
+                        <forename>عبد القادر</forename>
+                        <surname>قباني</surname>
+                     </persName>
+                     <persName xml:lang="ar-Latn-x-ijmes">
+                        <forename>ʿAbd al-Qādir</forename>
+                        <surname>Qabbānī</surname>
+                     </persName>
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en">
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName>
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName>
+                     </publisher>
+                     <pubPlace xml:lang="en">
+                        <placeName xml:lang="ar">بيروت</placeName>
+                        <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
+                        <placeName xml:lang="en">Beirut</placeName>
+                        <placeName xml:lang="fr">Beyrouth</placeName>
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1876-12-07"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">7 December 1876</tei:date>
+                     <tei:date type="computed"
+                               when="1876-12-07"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1293-11-20"
+                               xml:lang="ar-Latn-x-ijmes">20 Dhū al-qaʿda 1293</tei:date>
+                     <tei:date type="official"
+                               when="1876-12-07"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1876-11-25"
+                               xml:lang="ar-Latn-x-ijmes">25 Tishrīn al-thānī 1876</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="2" to="2" unit="volume"/>
+                  <tei:biblScope from="86" to="86" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Thursday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الخميس من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en">
+                     <persName xml:lang="ar">
+                        <forename>عبد القادر</forename>
+                        <surname>قباني</surname>
+                     </persName>
+                     <persName xml:lang="ar-Latn-x-ijmes">
+                        <forename>ʿAbd al-Qādir</forename>
+                        <surname>Qabbānī</surname>
+                     </persName>
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en">
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName>
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName>
+                     </publisher>
+                     <pubPlace xml:lang="en">
+                        <placeName xml:lang="ar">بيروت</placeName>
+                        <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
+                        <placeName xml:lang="en">Beirut</placeName>
+                        <placeName xml:lang="fr">Beyrouth</placeName>
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1876-12-14"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">14 December 1876</tei:date>
+                     <tei:date type="computed"
+                               when="1876-12-14"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1293-11-27"
+                               xml:lang="ar-Latn-x-ijmes">27 Dhū al-qaʿda 1293</tei:date>
+                     <tei:date type="official"
+                               when="1876-12-14"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1876-12-02"
+                               xml:lang="ar-Latn-x-ijmes">2 Kānūn al-awwal 1876</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="2" to="2" unit="volume"/>
+                  <tei:biblScope from="87" to="87" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Thursday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الخميس من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en">
+                     <persName xml:lang="ar">
+                        <forename>عبد القادر</forename>
+                        <surname>قباني</surname>
+                     </persName>
+                     <persName xml:lang="ar-Latn-x-ijmes">
+                        <forename>ʿAbd al-Qādir</forename>
+                        <surname>Qabbānī</surname>
+                     </persName>
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en">
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName>
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName>
+                     </publisher>
+                     <pubPlace xml:lang="en">
+                        <placeName xml:lang="ar">بيروت</placeName>
+                        <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
+                        <placeName xml:lang="en">Beirut</placeName>
+                        <placeName xml:lang="fr">Beyrouth</placeName>
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1876-12-21"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">21 December 1876</tei:date>
+                     <tei:date type="computed"
+                               when="1876-12-21"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1293-12-04"
+                               xml:lang="ar-Latn-x-ijmes">4 Dhū al-ḥijja 1293</tei:date>
+                     <tei:date type="official"
+                               when="1876-12-21"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1876-12-09"
+                               xml:lang="ar-Latn-x-ijmes">9 Kānūn al-awwal 1876</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="2" to="2" unit="volume"/>
+                  <tei:biblScope from="88" to="88" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Thursday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
          </tei:listBibl>
       </body>
-  </text>
+   </text>
 </TEI>
