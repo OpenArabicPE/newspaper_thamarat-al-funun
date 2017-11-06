@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://rawgit.com/OpenArabicPE/OpenArabicPE_ODD/v0.1/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" prev="oclc_792755216-i_186" next="oclc_792755216-i_188" xml:lang="">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://rawgit.com/OpenArabicPE/OpenArabicPE_ODD/v0.1/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="oclc_792755216-i_187" prev="oclc_792755216-i_186" next="oclc_792755216-i_188" xml:lang="">
    <tei:teiHeader xml:lang="en">
       <tei:fileDesc xml:lang="en">
          <tei:titleStmt xml:lang="en">
@@ -69,26 +69,22 @@
             </tei:biblStruct>
          </tei:sourceDesc>
       </tei:fileDesc>
-      <tei:revisionDesc><tei:change when="2017-11-05" who="#pers_TG">Added the <tei:att>xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
-         <tei:change when="2017-11-05" xml:lang="en">Created this file by automatic conversion of <tei:gi xml:lang="en">biblStruct</tei:gi> from file:/Volumes/Dessau%20HD/BachUni/BachBibliothek/GitHub/OpenArabicPE/newspaper_thamarat-al-funun/tei/thamarat-al-funun.TEIP5.xml.</tei:change>
+      <tei:revisionDesc><tei:change when="2017-11-06" who="#pers_TG">Added the <tei:att>xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
+         <tei:change when="2017-11-06" xml:lang="en">Created this file by automatic conversion of <tei:gi xml:lang="en">biblStruct</tei:gi> from file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/newspaper_thamarat-al-funun/metadata/thamarat-al-funun.TEIP5.xml.</tei:change>
       </tei:revisionDesc>
    </tei:teiHeader>
    <tei:facsimile>
       <tei:surface xml:id="facs_1">
          <tei:graphic xml:id="facs_1-g_1" url="../images/issues/oclc_792755216-i_187-p_1.jpg" mimeType="image/jpeg"/>
-         <tei:graphic xml:id="facs_1-g_2" url="../images/issues/oclc_792755216-i_187-p_1-color.jpg" mimeType="image/jpeg"/>
       </tei:surface>
       <tei:surface xml:id="facs_2">
          <tei:graphic xml:id="facs_2-g_1" url="../images/issues/oclc_792755216-i_187-p_2.jpg" mimeType="image/jpeg"/>
-         <tei:graphic xml:id="facs_2-g_2" url="../images/issues/oclc_792755216-i_187-p_2-color.jpg" mimeType="image/jpeg"/>
       </tei:surface>
       <tei:surface xml:id="facs_3">
          <tei:graphic xml:id="facs_3-g_1" url="../images/issues/oclc_792755216-i_187-p_3.jpg" mimeType="image/jpeg"/>
-         <tei:graphic xml:id="facs_3-g_2" url="../images/issues/oclc_792755216-i_187-p_3-color.jpg" mimeType="image/jpeg"/>
       </tei:surface>
       <tei:surface xml:id="facs_4">
          <tei:graphic xml:id="facs_4-g_1" url="../images/issues/oclc_792755216-i_187-p_4.jpg" mimeType="image/jpeg"/>
-         <tei:graphic xml:id="facs_4-g_2" url="../images/issues/oclc_792755216-i_187-p_4-color.jpg" mimeType="image/jpeg"/>
       </tei:surface>
    </tei:facsimile>
    <tei:text xml:lang="ar">
