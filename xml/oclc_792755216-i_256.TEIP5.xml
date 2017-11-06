@@ -1,34 +1,44 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://rawgit.com/OpenArabicPE/OpenArabicPE_ODD/v0.1/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" prev="oclc_792755216-i_255" next="oclc_792755216-i_257" xml:lang="">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://rawgit.com/OpenArabicPE/OpenArabicPE_ODD/v0.1/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0"
+         xmlns="http://www.tei-c.org/ns/1.0"
+         xml:id="oclc_792755216-i_256"
+         prev="oclc_792755216-i_255"
+         next="oclc_792755216-i_257">
    <tei:teiHeader xml:lang="en">
-      <tei:fileDesc xml:lang="en">
-         <tei:titleStmt xml:lang="en">
-            <title xml:lang="en">Thamarāt al-Funūn #256, 24 November 1879</title>
-            <title type="sub" xml:lang="en">TEI edition</title>
+      <tei:fileDesc>
+         <tei:titleStmt>
+            <title>Thamarāt al-Funūn #256, 24 November 1879</title>
+            <title type="sub">TEI edition</title>
             <respStmt xml:lang="en">
-               <resp xml:lang="en">TEI edition</resp>
-               <persName xml:id="pers_TG" xml:lang="en">Till Grallert</persName>
+               <resp>TEI edition</resp>
+               <persName xml:id="pers_TG">Till Grallert</persName>
             </respStmt>
          </tei:titleStmt>
-         <tei:publicationStmt xml:lang="en">
-            <authority xml:lang="en">
-               <persName xml:lang="en">Till Grallert</persName>
+         <tei:publicationStmt>
+            <authority>
+               <persName>Till Grallert</persName>
             </authority>
-            <pubPlace xml:lang="en">Beirut</pubPlace>
-            <date when="2017" xml:lang="en">2017</date>
-            <availability status="restricted" xml:lang="en">
-               <licence target="http://creativecommons.org/licenses/by-sa/4.0/" xml:lang="en">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence>
+            <pubPlace>Beirut</pubPlace>
+            <date when="2017">2017</date>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence>
             </availability>
-            <idno type="url" xml:lang="en">https://github.com/openarabicpe/newspaper_thamarat-al-funun/blob/master/xml/oclc_792755216-i_256.TEIP5.xml</idno>
+            <idno type="url">https://github.com/openarabicpe/newspaper_thamarat-al-funun/blob/master/xml/oclc_792755216-i_256.TEIP5.xml</idno>
          </tei:publicationStmt>
-         <tei:sourceDesc xml:lang="en">
+         <tei:sourceDesc>
             <tei:biblStruct xml:lang="en" xml:id="biblStruct_2.d1e29032">
                <tei:monogr xml:lang="en" xml:id="monogr_2.d1e29034">
                   <title level="j" xml:lang="ar" xml:id="title_1538.d1e29036">ثمرات الفنون</title>
                   <title level="j" type="sub" xml:lang="ar" xml:id="title_1539.d1e29039">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
                   <title level="j" type="sub" xml:lang="ar" xml:id="title_1540.d1e29042">صدورها في يوم الاثنين من كل اسبوع</title>
                   <title level="j" xml:lang="ar-Latn-x-ijmes" xml:id="title_1541.d1e29045">Thamarāt al-Funūn</title>
-                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes" xml:id="title_1542.d1e29048">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
-                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes" xml:id="title_1543.d1e29052">ṣudūruhā fī yawm al-ithnayn min kull usbūʿ</title>
+                  <title level="j"
+                         type="sub"
+                         xml:lang="ar-Latn-x-ijmes"
+                         xml:id="title_1542.d1e29048">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j"
+                         type="sub"
+                         xml:lang="ar-Latn-x-ijmes"
+                         xml:id="title_1543.d1e29052">ṣudūruhā fī yawm al-ithnayn min kull usbūʿ</title>
                   <idno type="oclc" xml:lang="en" xml:id="idno_1537.d1e29055">792755216</idno>
                   <idno type="oclc" xml:lang="en" xml:id="idno_1538.d1e29058">745202659</idno>
                   <idno type="oclc" xml:lang="en" xml:id="idno_1539.d1e29061">915538205</idno>
@@ -37,12 +47,12 @@
                   <idno type="oclc" xml:lang="en" xml:id="idno_1542.d1e29071">177646790</idno>
                   <editor xml:lang="en" xml:id="editor_257.d1e29074"> 
                      <persName xml:lang="ar" xml:id="persName_513.d1e29076">
-                            <forename xml:id="forename_513.d1e29078" xml:lang="ar">عبد القادر</forename> 
-                        <surname xml:id="surname_513.d1e29081" xml:lang="ar">قباني</surname> 
+                            <forename xml:id="forename_513.d1e29078">عبد القادر</forename> 
+                        <surname xml:id="surname_513.d1e29081">قباني</surname> 
                      </persName>
                             <persName xml:lang="ar-Latn-x-ijmes" xml:id="persName_514.d1e29085"> 
-                        <forename xml:id="forename_514.d1e29087" xml:lang="ar-Latn-x-ijmes">ʿAbd al-Qādir</forename>
-                            <surname xml:id="surname_514.d1e29090" xml:lang="ar-Latn-x-ijmes">Qabbānī</surname> 
+                        <forename xml:id="forename_514.d1e29087">ʿAbd al-Qādir</forename>
+                            <surname xml:id="surname_514.d1e29090">Qabbānī</surname> 
                      </persName> 
                   </editor>
                   <tei:imprint xml:lang="en" xml:id="imprint_2.d1e29095">
@@ -56,44 +66,52 @@
                         <placeName xml:lang="en" xml:id="placeName_1027.d1e29114">Beirut</placeName> 
                         <placeName xml:lang="fr" xml:id="placeName_1028.d1e29117">Beyrouth</placeName> 
                      </pubPlace>
-                     <tei:date type="official" when="1879-11-24" datingMethod="#cal_gregorian" calendar="#cal_gregorian" xml:lang="ar-Latn-x-ijmes" xml:id="date_3.d1e29121">24 November 1879</tei:date>
-                     <tei:date type="computed" when="1879-11-24" datingMethod="#cal_islamic" calendar="#cal_islamic" when-custom="1296-12-09" xml:lang="ar-Latn-x-ijmes" xml:id="date_3.d1e29124">9 Dhū al-ḥijja 1296</tei:date>
-                     <tei:date type="official" when="1879-11-24" datingMethod="#cal_julian" calendar="#cal_julian" when-custom="1879-11-12" xml:lang="ar-Latn-x-ijmes" xml:id="date_3.d1e29127">12 Tishrīn al-thānī 1879</tei:date>
+                     <tei:date type="official"
+                               when="1879-11-24"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes"
+                               xml:id="date_3.d1e29121">24 November 1879</tei:date>
+                     <tei:date type="computed"
+                               when="1879-11-24"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1296-12-09"
+                               xml:lang="ar-Latn-x-ijmes"
+                               xml:id="date_3.d1e29124">9 Dhū al-ḥijja 1296</tei:date>
+                     <tei:date type="official"
+                               when="1879-11-24"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1879-11-12"
+                               xml:lang="ar-Latn-x-ijmes"
+                               xml:id="date_3.d1e29127">12 Tishrīn al-thānī 1879</tei:date>
                   </tei:imprint>
                   <tei:biblScope from="5" to="5" unit="volume" xml:id="biblScope_259.d1e29131"/>
-                  <tei:biblScope from="256" to="256" unit="issue" xml:id="biblScope_259.d1e29133"/>
+                  <tei:biblScope from="256"
+                                 to="256"
+                                 unit="issue"
+                                 xml:id="biblScope_259.d1e29133"/>
                   <biblScope from="1" to="4" unit="page" xml:id="biblScope_259.d1e29135"/>
                </tei:monogr>
-               <note n="p_weekdays-published" type="param" xml:id="note_513.d1e29138" xml:lang="en">Monday</note>
-               <note n="p_step" type="param" xml:id="note_514.d1e29141" xml:lang="en">daily</note>
+               <note n="p_weekdays-published" type="param" xml:id="note_513.d1e29138">Monday</note>
+               <note n="p_step" type="param" xml:id="note_514.d1e29141">daily</note>
             </tei:biblStruct>
          </tei:sourceDesc>
       </tei:fileDesc>
-      <tei:revisionDesc><tei:change when="2017-11-05" who="#pers_TG">Added the <tei:att>xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
-         <tei:change when="2017-11-05" xml:lang="en">Created this file by automatic conversion of <tei:gi xml:lang="en">biblStruct</tei:gi> from file:/Volumes/Dessau%20HD/BachUni/BachBibliothek/GitHub/OpenArabicPE/newspaper_thamarat-al-funun/tei/thamarat-al-funun.TEIP5.xml.</tei:change>
+      <tei:revisionDesc>
+         <tei:change when="2017-11-06">Created this file by automatic conversion of <tei:gi>biblStruct</tei:gi> from file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/newspaper_thamarat-al-funun/metadata/thamarat-al-funun.TEIP5.xml.</tei:change>
       </tei:revisionDesc>
    </tei:teiHeader>
    <tei:facsimile>
-      <tei:surface xml:id="facs_1">
-         <tei:graphic xml:id="facs_1-g_1" url="../images/issues/oclc_792755216-i_256-p_1.jpg" mimeType="image/jpeg"/>
-         <tei:graphic xml:id="facs_1-g_2" url="../images/issues/oclc_792755216-i_256-p_1-color.jpg" mimeType="image/jpeg"/>
-      </tei:surface>
-      <tei:surface xml:id="facs_2">
-         <tei:graphic xml:id="facs_2-g_1" url="../images/issues/oclc_792755216-i_256-p_2.jpg" mimeType="image/jpeg"/>
-         <tei:graphic xml:id="facs_2-g_2" url="../images/issues/oclc_792755216-i_256-p_2-color.jpg" mimeType="image/jpeg"/>
-      </tei:surface>
-      <tei:surface xml:id="facs_3">
-         <tei:graphic xml:id="facs_3-g_1" url="../images/issues/oclc_792755216-i_256-p_3.jpg" mimeType="image/jpeg"/>
-         <tei:graphic xml:id="facs_3-g_2" url="../images/issues/oclc_792755216-i_256-p_3-color.jpg" mimeType="image/jpeg"/>
-      </tei:surface>
-      <tei:surface xml:id="facs_4">
-         <tei:graphic xml:id="facs_4-g_1" url="../images/issues/oclc_792755216-i_256-p_4.jpg" mimeType="image/jpeg"/>
-         <tei:graphic xml:id="facs_4-g_2" url="../images/issues/oclc_792755216-i_256-p_4-color.jpg" mimeType="image/jpeg"/>
-      </tei:surface>
+      <tei:surface xml:id="facs_1"/>
+      <tei:surface xml:id="facs_2"/>
+      <tei:surface xml:id="facs_3"/>
+      <tei:surface xml:id="facs_4"/>
    </tei:facsimile>
    <tei:text xml:lang="ar">
       <tei:pb ed="print" n="1" facs="#facs_1"/>
-      <tei:body xml:lang="ar">
+      <tei:body>
          <tei:pb ed="print" n="2" facs="#facs_2"/>
          <tei:pb ed="print" n="3" facs="#facs_3"/>
          <tei:pb ed="print" n="4" facs="#facs_4"/>
