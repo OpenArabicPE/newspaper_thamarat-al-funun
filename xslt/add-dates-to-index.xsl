@@ -14,7 +14,7 @@
         </xsl:copy>
     </xsl:template>
     
-    <xsl:variable name="v_bibl-master" select="document('../tei/thamarat-al-funun.TEIP5.xml')"/>
+    <xsl:variable name="v_bibl-master" select="document('../metadata/thamarat-al-funun.TEIP5.xml')"/>
     <xsl:variable name="v_bibls" select="$v_bibl-master/descendant::tei:text/descendant::tei:biblStruct"/>
     
     <xsl:template match="tei:bibl">
