@@ -1,26 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://rawgit.com/OpenArabicPE/OpenArabicPE_ODD/v0.1/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="oclc_792755216-i_355" prev="oclc_792755216-i_354" next="oclc_792755216-i_356" xml:lang="">
-   <tei:teiHeader xml:lang="en">
-      <tei:fileDesc xml:lang="en">
-         <tei:titleStmt xml:lang="en">
-            <title xml:lang="en">Thamarāt al-Funūn #355, 14 November 1881</title>
-            <title type="sub" xml:lang="en">TEI edition</title>
-            <respStmt xml:lang="en">
-               <resp xml:lang="en">TEI edition</resp>
-               <persName xml:id="pers_TG" xml:lang="en">Till Grallert</persName>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://rawgit.com/OpenArabicPE/OpenArabicPE_ODD/v0.1/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="oclc_792755216-i_355" prev="oclc_792755216-i_354" next="oclc_792755216-i_356">
+   <tei:teiHeader xml:lang="en" xml:id="teiHeader_1.d2e5">
+      <tei:fileDesc xml:id="fileDesc_1.d2e7">
+         <tei:titleStmt xml:id="titleStmt_1.d2e9">
+            <title xml:id="title_1.d2e11">Thamarāt al-Funūn #355, 14 November 1881</title>
+            <title type="sub" xml:id="title_2.d2e14">TEI edition</title>
+            <respStmt xml:lang="en" xml:id="respStmt_1.d2e17">
+               <resp xml:id="resp_1.d2e19">TEI edition</resp>
+               <persName xml:id="pers_TG">Till Grallert</persName>
             </respStmt>
          </tei:titleStmt>
-         <tei:publicationStmt xml:lang="en">
-            <authority xml:lang="en">
-               <persName xml:lang="en">Till Grallert</persName>
+         <tei:publicationStmt xml:id="publicationStmt_1.d2e27">
+            <authority xml:id="authority_1.d2e29">
+               <persName xml:id="persName_2.d2e31">Till Grallert</persName>
             </authority>
-            <pubPlace xml:lang="en">Beirut</pubPlace>
-            <date when="2017" xml:lang="en">2017</date>
-            <availability status="restricted" xml:lang="en">
-               <licence target="http://creativecommons.org/licenses/by-sa/4.0/" xml:lang="en">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence>
+            <pubPlace xml:id="pubPlace_1.d2e35">Beirut</pubPlace>
+            <date when="2017" xml:id="date_1.d2e38">2017</date>
+            <availability status="restricted" xml:id="availability_1.d2e41">
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/" xml:id="licence_1.d2e43">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence>
             </availability>
-            <idno type="url" xml:lang="en">https://github.com/openarabicpe/newspaper_thamarat-al-funun/blob/master/xml/oclc_792755216-i_355.TEIP5.xml</idno>
+            <idno type="url" xml:id="idno_1.d2e47">https://github.com/openarabicpe/newspaper_thamarat-al-funun/blob/master/xml/oclc_792755216-i_355.TEIP5.xml</idno>
          </tei:publicationStmt>
-         <tei:sourceDesc xml:lang="en">
+         <tei:sourceDesc xml:id="sourceDesc_1.d2e51">
             <tei:biblStruct xml:lang="en" xml:id="biblStruct_2.d1e40257">
                <tei:monogr xml:lang="en" xml:id="monogr_2.d1e40259">
                   <title level="j" xml:lang="ar" xml:id="title_2132.d1e40261">ثمرات الفنون</title>
@@ -37,12 +37,12 @@
                   <idno type="oclc" xml:lang="en" xml:id="idno_2136.d1e40296">177646790</idno>
                   <editor xml:lang="en" xml:id="editor_356.d1e40299"> 
                      <persName xml:lang="ar" xml:id="persName_711.d1e40301">
-                            <forename xml:id="forename_711.d1e40303" xml:lang="ar">عبد القادر</forename> 
-                        <surname xml:id="surname_711.d1e40306" xml:lang="ar">قباني</surname> 
+                            <forename xml:id="forename_711.d1e40303">عبد القادر</forename> 
+                        <surname xml:id="surname_711.d1e40306">قباني</surname> 
                      </persName>
                             <persName xml:lang="ar-Latn-x-ijmes" xml:id="persName_712.d1e40310"> 
-                        <forename xml:id="forename_712.d1e40312" xml:lang="ar-Latn-x-ijmes">ʿAbd al-Qādir</forename>
-                            <surname xml:id="surname_712.d1e40315" xml:lang="ar-Latn-x-ijmes">Qabbānī</surname> 
+                        <forename xml:id="forename_712.d1e40312">ʿAbd al-Qādir</forename>
+                            <surname xml:id="surname_712.d1e40315">Qabbānī</surname> 
                      </persName> 
                   </editor>
                   <tei:imprint xml:lang="en" xml:id="imprint_2.d1e40320">
@@ -64,16 +64,18 @@
                   <tei:biblScope from="355" to="355" unit="issue" xml:id="biblScope_358.d1e40358"/>
                   <biblScope from="1" to="4" unit="page" xml:id="biblScope_358.d1e40360"/>
                </tei:monogr>
-               <note n="p_weekdays-published" type="param" xml:id="note_711.d1e40363" xml:lang="en">Monday</note>
-               <note n="p_step" type="param" xml:id="note_712.d1e40366" xml:lang="en">daily</note>
+               <note n="p_weekdays-published" type="param" xml:id="note_711.d1e40363">Monday</note>
+               <note n="p_step" type="param" xml:id="note_712.d1e40366">daily</note>
             </tei:biblStruct>
          </tei:sourceDesc>
       </tei:fileDesc>
-      <tei:revisionDesc><tei:change when="2017-11-06" who="#pers_TG">Added the <tei:att>xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
-         <tei:change when="2017-11-06" xml:lang="en">Created this file by automatic conversion of <tei:gi xml:lang="en">biblStruct</tei:gi> from file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/newspaper_thamarat-al-funun/metadata/thamarat-al-funun.TEIP5.xml.</tei:change>
+      <xi:include href="oclc_792755216-master_teiHeader.TEIP5.xml" xpointer="encodingDesc" parse="xml" xml:id="xi:include_1.d2e168"/>
+      <xi:include href="oclc_792755216-master_teiHeader.TEIP5.xml" xpointer="profileDesc" parse="xml" xml:id="xi:include_2.d2e170"/>
+      <tei:revisionDesc xml:id="revisionDesc_1.d2e172">
+         <tei:change when="2017-11-07" xml:id="change_1.d2e174">Created this file by automatic conversion of <tei:gi xml:id="gi_1.d2e176">biblStruct</tei:gi> from file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/newspaper_thamarat-al-funun/metadata/thamarat-al-funun.TEIP5.xml.</tei:change>
       </tei:revisionDesc>
    </tei:teiHeader>
-   <tei:facsimile>
+   <tei:facsimile xml:id="facsimile_1.d2e182">
       <tei:surface xml:id="facs_1">
          <tei:graphic xml:id="facs_1-g_1" url="../images/issues/oclc_792755216-i_355-p_1.jpg" mimeType="image/jpeg"/>
       </tei:surface>
@@ -87,12 +89,13 @@
          <tei:graphic xml:id="facs_4-g_1" url="../images/issues/oclc_792755216-i_355-p_4.jpg" mimeType="image/jpeg"/>
       </tei:surface>
    </tei:facsimile>
-   <tei:text xml:lang="ar">
-      <tei:pb ed="print" n="1" facs="#facs_1"/>
-      <tei:body xml:lang="ar">
-         <tei:pb ed="print" n="2" facs="#facs_2"/>
-         <tei:pb ed="print" n="3" facs="#facs_3"/>
-         <tei:pb ed="print" n="4" facs="#facs_4"/>
+   <tei:text xml:lang="ar" xml:id="text_1.d2e205">
+      <tei:pb ed="print" n="1" facs="#facs_1" xml:id="pb_1.d2e207"/>
+      <tei:body xml:id="body_1.d2e209">
+         <tei:pb ed="print" n="2" facs="#facs_2" xml:id="pb_1.d2e211"/>
+         <tei:pb ed="print" n="3" facs="#facs_3" xml:id="pb_1.d2e213"/>
+         <tei:pb ed="print" n="4" facs="#facs_4" xml:id="pb_1.d2e215"/>
+         <tei:div xml:id="div_1.d2e217"/>
       </tei:body>
    </tei:text>
 </tei:TEI>
