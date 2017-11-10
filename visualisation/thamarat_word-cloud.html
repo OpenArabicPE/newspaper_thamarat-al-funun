@@ -1,0 +1,747 @@
+<html xmlns:mods="http://www.loc.gov/mods/v3" xmlns:oap="https://openarabicpe.github.io/ns" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:srw="http://www.loc.gov/zing/srw/" xmlns:viaf="http://viaf.org/viaf/terms#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <title></title>
+      <meta charset="utf-8"></meta><style type="text/css">
+                body {
+                font-family: Helvetica;
+                font-weight: lighter;
+                padding: 1em;
+                /* max-width: 90%; */
+                }
+                div {
+                display: block;
+                }
+                span {
+                display: inline-block;
+                /*float: right;*/
+                }
+                .c_item {
+                display: block;
+                float: right;
+                padding-left: 10px;
+                padding-right: 10px; 
+                }
+                /* deciles */
+                .c_decile-0 {
+                font-size: 16px;
+                color: #1B8500;
+                }
+                .c_decile-1 {
+                font-size: 19px;
+                color: #88C816; /* better colour? */
+                }
+                .c_decile-2 {
+                font-size: 21px;
+                color: #00AAB7;
+                }
+                .c_decile-3 {
+                font-size: 24px;
+                color: #0143DB;
+                }
+                .c_decile-4 {
+                font-size: 27px;
+                color: #6E42F7;
+                }
+                .c_decile-5 {
+                font-size: 30px;
+                color: #8435D9;
+                }
+                .c_decile-6 {
+                font-size: 33px;
+                color: #CC3FFF;
+                }
+                .c_decile-7 {
+                font-size: 36px;
+                color: #FF2F8F;
+                }
+                .c_decile-8 {
+                font-size: 39px;
+                color: #FF7A80;
+                }
+                .c_decile-9 {
+                font-size: 42px;
+                color: #F7240C;
+                }
+                .c_decile-10 {
+                font-size: 45px;
+                color: #A9172B;
+                }
+                /* other information */
+                .c_name, .c_number, .c_dates {
+                float: right;
+                }
+                
+                .c_number:before{
+                content: ": ";
+                float: right;
+                }
+                .c_viaf {
+                font-size: 60%;
+                font-weight: lighter;
+                vertical-align: middle;
+                }
+                .c_dates:before{
+                content: "("
+                }
+                .c_dates:after{
+                content: ")"
+                }
+                .c_birth:before{
+                content: "b."
+                }
+                .c_death {
+                display: none;
+                }
+                a {
+                text-decoration: none;
+                color: inherit;
+                }
+                /* icons */
+                .c_icon {
+                margin: 1px;
+                padding-right: 0px;
+                display: block;
+                float: left;
+                clear: none;
+                }
+                /* shapes */
+                .sphere {
+                border-radius: 50%;
+                text-align: center;
+                vertical-align: middle;
+                font-size: 500%;
+                position: relative;
+                box-shadow: inset -5px -5px 50px #000, 5px 5px 10px black, inset 0px 0px 5px black;
+                display: inline-block;
+                /*float:right;*/
+                }
+                .sphere::after {
+                background-color: rgba(255, 255, 255, 0.3);
+                content: '';
+                height: 45%;
+                width: 12%;
+                position: absolute;
+                top: 4%;
+                left: 15%;
+                border-radius: 50%;
+                transform: rotate(40deg);
+                }
+                
+                .circle {
+                border-radius: 50%;
+                position: relative;
+                display: inline-block;
+                text-align: center;
+                vertical-align: middle;
+                box-shadow: inset -5px -5px 30px #000 /*, 5px 5px 10px black/*, inset 0px 0px 5px black*/;
+                }
+                /* sizes and colors*/
+                .c_decile-0.c_icon {
+                width: 20px;
+                height: 20px;
+                background-color: #1B8500;
+                }
+                .c_decile-1.c_icon  {
+                width: 30px;
+                height: 30px;
+                background-color: #88C816; /* better colour? */
+                }
+                .c_decile-2.c_icon {
+                width: 40px;
+                height: 40px;
+                background-color: #00AAB7;
+                }
+                .c_decile-3.c_icon {
+                width: 50px;
+                height: 50px;
+                background-color: #0143DB;
+                }
+                .c_decile-4.c_icon {
+                width: 60px;
+                height: 60px;
+                background-color: #6E42F7;
+                }
+                .c_decile-5.c_icon {
+                width: 70px;
+                height: 70px;
+                background-color: #8435D9;
+                }
+                .c_decile-6.c_icon {
+                width: 80px;
+                height: 80px;
+                background-color: #CC3FFF;
+                }
+                .c_decile-7.c_icon {
+                width: 90px;
+                height: 90px;
+                background-color: #FF2F8F;
+                }
+                .c_decile-8.c_icon {
+                width: 100px;
+                height: 100px;
+                background-color: #FF7A80;
+                }
+                .c_decile-9.c_icon {
+                width: 110px;
+                height: 110px;
+                background-color: #F7240C;
+                }
+                .c_decile-10.c_icon {
+                width: 120px;
+                height: 120px;
+                background-color: #A9172B;
+                }
+                .c_icon /*, .c_name, .c_number, .c_viaf */ {
+                display: none;
+                }
+            </style></head>
+   <body>
+      <div>
+         <h1>authors and numbers of articles:</h1>
+         <h2>1875 until 1908</h2>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">1 - 1</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">1-1</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">ا-هـ</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">د -ع -ط</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">ع- أ</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">ع-1</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">م-ا</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">عزة ....</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">يوسف آصف</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">شكري أبو شعر</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">أحمد</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><a class="c_name" href="https://viaf.org/viaf/19538764" target="_blank"><span class="c_name">امين أرسلان</span></a><span class="c_dates c_viaf"><span class="c_birth">1868</span><span class="c_death">1943</span></span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">ا-هـ</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">شاكر ابائلة</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><a class="c_name" href="https://viaf.org/viaf/32410755" target="_blank"><span class="c_name">حافظ ابراهيم</span></a><span class="c_dates c_viaf"><span class="c_birth">1871</span><span class="c_death">1932</span></span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">مصطفى ابراهيم</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">ظاهر ابن صالح</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">ابو هشام ابن ظفر</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">ابو هشام محمد ابن ظفر</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">قاسم ابو الحسن</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محمد ابو مواهب</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محمد ابي النصر</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">علي ابي النمر</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محمد ابي هاشم</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">يحيى اتاسي</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محمد اجمل</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">فردرك ادني</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><a class="c_name" href="https://viaf.org/viaf/73935498" target="_blank"><span class="c_name">شكيب ارسلان</span></a><span class="c_dates c_viaf"><span class="c_birth">1869</span><span class="c_death">1946</span></span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><a class="c_name" href="https://viaf.org/viaf/90074341" target="_blank"><span class="c_name">اديب اسحق</span></a><span class="c_dates c_viaf"><span class="c_birth">1856</span><span class="c_death">1885</span></span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-4"><span class="c_icon circle c_decile-4"></span><span class="c_name">عوني اسحق</span><span class="c_number">24</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محمود اسماعيل</span><span class="c_number">4</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">ولبه اكسن</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">امين ال....</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><a class="c_name" href="https://viaf.org/viaf/305214839" target="_blank"><span class="c_name">يوسف الأسير</span></a><span class="c_dates c_viaf"><span class="c_birth">1815</span><span class="c_death">1889</span></span><span class="c_number">3</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">رؤوف الأيوبي</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">عبد الباسط الائسي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><a class="c_name" href="https://viaf.org/viaf/58940976" target="_blank"><span class="c_name">عبد الهادي الابياري</span></a><span class="c_dates c_viaf"><span class="c_birth">1820</span><span class="c_death">1887</span></span><span class="c_number">5</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">يحيى الاتاسي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-3"><span class="c_icon circle c_decile-3"></span><a class="c_name" href="https://viaf.org/viaf/100394422" target="_blank"><span class="c_name">ابراهيم الاحدب</span></a><span class="c_dates c_viaf"><span class="c_birth">1826</span><span class="c_death">1891</span></span><span class="c_number">22</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">ابراهيم الاحديب</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-1"><span class="c_icon circle c_decile-1"></span><span class="c_name">عبد العزيز الاديب</span><span class="c_number">9</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">احمد الازهري</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">عبد الحق الازهري</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">الكيت الاسدى</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">حنا الاسعد</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><a class="c_name" href="https://viaf.org/viaf/12720446" target="_blank"><span class="c_name">إبراهيم الاسود</span></a><span class="c_dates c_viaf"><span class="c_birth">1855</span><span class="c_death">1940</span></span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">حسن الاسير</span><span class="c_number">3</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محمود الاسير</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><a class="c_name" href="https://viaf.org/viaf/90075065" target="_blank"><span class="c_name">أبو الفرج الاصفهاني</span></a><span class="c_dates c_viaf"><span class="c_death">0967</span></span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><a class="c_name" href="https://viaf.org/viaf/74003220" target="_blank"><span class="c_name">ابو القاسم الاصفهاني</span></a><span class="c_dates c_viaf"><span class="c_birth">1108</span><span class="c_death">1108</span></span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><a class="c_name" href="https://viaf.org/viaf/96977760" target="_blank"><span class="c_name">جمال الدين الافغاني</span></a><span class="c_dates c_viaf"><span class="c_birth">1838</span><span class="c_death">1897</span></span><span class="c_number">4</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><a class="c_name" href="https://viaf.org/viaf/47005120" target="_blank"><span class="c_name">محمود الالوسي</span></a><span class="c_dates c_viaf"><span class="c_birth">1857</span><span class="c_death">1924</span></span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">أبو سعيد الاندلسي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">عبد الباسط الانسي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محمد الانسي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><a class="c_name" href="https://viaf.org/viaf/72733868" target="_blank"><span class="c_name">عبد المسيح الانطاكي</span></a><span class="c_dates c_viaf"><span class="c_birth">1874</span><span class="c_death">1923</span></span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">رؤوف الايوبي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><a class="c_name" href="https://viaf.org/viaf/12552741" target="_blank"><span class="c_name">محمود البارودى</span></a><span class="c_dates c_viaf"><span class="c_birth">1839</span><span class="c_death">1904</span></span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">ايليا البارودي</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">جرجي الباز</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">صالح البحريني</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><a class="c_name" href="https://viaf.org/viaf/305214691" target="_blank"><span class="c_name">خليل البدوي</span></a><span class="c_dates c_viaf"><span class="c_birth">1863</span><span class="c_death">1932</span></span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">جرجس البربير</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">خليل البربير</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محمد البربير</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><a class="c_name" href="https://viaf.org/viaf/305215063" target="_blank"><span class="c_name">حبيب البستاني</span></a><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><a class="c_name" href="https://viaf.org/viaf/96953846" target="_blank"><span class="c_name">ابي الفتح البستي</span></a><span class="c_dates c_viaf"><span class="c_death">1010</span></span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><a class="c_name" href="https://viaf.org/viaf/90058820" target="_blank"><span class="c_name">محمد البسطامي</span></a><span class="c_dates c_viaf"><span class="c_birth">1347</span><span class="c_death">1404</span></span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محمد عبدو البصائر</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-1"><span class="c_icon circle c_decile-1"></span><a class="c_name" href="https://viaf.org/viaf/40509665" target="_blank"><span class="c_name">توفيق البكرى</span></a><span class="c_dates c_viaf"><span class="c_birth">1870</span><span class="c_death">1932</span></span><span class="c_number">8</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">عبد الكريم التغير</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">عبد الوهاب التنير</span><span class="c_number">5</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><a class="c_name" href="https://viaf.org/viaf/35262418" target="_blank"><span class="c_name">عبد العزيز الثعالبي</span></a><span class="c_dates c_viaf"><span class="c_birth">1879</span><span class="c_death">1944</span></span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">احمد الجابي</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><a class="c_name" href="https://viaf.org/viaf/66338446" target="_blank"><span class="c_name">علي الجرجاوي</span></a><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><a class="c_name" href="https://viaf.org/viaf/90067250" target="_blank"><span class="c_name">طاهر الجزائري</span></a><span class="c_dates c_viaf"><span class="c_birth">1851</span><span class="c_death">1920</span></span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-1"><span class="c_icon circle c_decile-1"></span><a class="c_name" href="https://viaf.org/viaf/62348467" target="_blank"><span class="c_name">حسين الجسر</span></a><span class="c_dates c_viaf"><span class="c_birth">1845</span><span class="c_death">1909</span></span><span class="c_number">6</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">حسين الجمل</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">عزت الجندي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محمد الحبال</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">منصور الحداد</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">يوسف الحرفوش</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">صابر الحسني</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محمد الحسني</span><span class="c_number">3</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">احمد البرزفي الحسيني</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">بشير الحسيني</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">سعيد الحسيني</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">صابر الحسيني</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محسن الحسيني</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محمد الحسيني</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محمد علي الحسيني</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محمد مرتضى الحسيني</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محمود الحسيني</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">ناصر الدين الحسيني</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">رفيق الحطام</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">احمد الحلبي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">شكري الحملي</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-1"><span class="c_icon circle c_decile-1"></span><span class="c_name">ابن حجة الحموي</span><span class="c_number">8</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">شاكر الحنبلي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محمد الحنبلي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">مصباح الحوت</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">ابراهيم الحوراني</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">اياس الحيوك</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">فيليب الخازن</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">مختارباشا الخازي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">عبدالله الخالد</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">خليل الخالدى</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">خليل الخالدي</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">شوكت الخالدي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">مصطفى الخلاييني</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">شاك الخورث</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">أمين الخورى</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">حنين الخوري</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><a class="c_name" href="https://viaf.org/viaf/41830998" target="_blank"><span class="c_name">خليل الخوري</span></a><span class="c_dates c_viaf"><span class="c_birth">1836</span><span class="c_death">1910</span></span><span class="c_number">3</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">شاكر الخوري</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><a class="c_name" href="https://viaf.org/viaf/30478485" target="_blank"><span class="c_name">فارس الخوري</span></a><span class="c_dates c_viaf"><span class="c_birth">1873</span><span class="c_death">1962</span></span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">موسى الخوري</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">سليم سليم الخوري وشحادة</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محي الدين الخياط</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">حلمي الخيمي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">المطران يوسف الدبس</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">بطرس الدبس</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">يوسف الدبس</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">ابراهيم الدجاني</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">سليم الدحدادح</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">جمال الدين الدمشقي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">سليم الدمشقي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">عبد العزيز الدميري</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">عبد الله وعمر الدندشلي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">الدمشقي الدوماني</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">عبد القادر الرافعي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">مصطفى الرافعي</span><span class="c_number">5</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">عبد الله الرفاعي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><a class="c_name" href="https://viaf.org/viaf/17374300" target="_blank"><span class="c_name">أمين الريحاني</span></a><span class="c_dates c_viaf"><span class="c_birth">1876</span><span class="c_death">1940</span></span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">علي الريساوي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">عبد افتاح الزبي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">لطف الله الزهار</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">عبد الحميد الزهراوي</span><span class="c_number">3</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محمد .... امين السفرجلاني</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">جمال الشاذلي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محمد الشامي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">احمد الفارس الشدياق</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">بشارة الشدياق</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">فارس الشدياق</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">سعيد الشرتوتي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">رشيد الشرتوني</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><a class="c_name" href="https://viaf.org/viaf/96962923" target="_blank"><span class="c_name">سعيد الشرتوني</span></a><span class="c_dates c_viaf"><span class="c_birth">1849</span><span class="c_death">1912</span></span><span class="c_number">4</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">احد الشريف</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">كمال الشريف</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">نجيب الشعلاني</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">احمد الشنقيطي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">كامل الشهدى</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">ظاهر الشهيري</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">خليل الشوؤى</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">صالح الصائفي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محمد الصرقاوي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">يوسف الصيداوي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">راغب الطباخ</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">شكرت العسلي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-1"><span class="c_icon circle c_decile-1"></span><a class="c_name" href="https://viaf.org/viaf/160786315" target="_blank"><span class="c_name">شكري العسلي</span></a><span class="c_dates c_viaf"><span class="c_birth">1868</span><span class="c_death">1917</span></span><span class="c_number">11</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محي الدين العطار</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">جميل العظم</span><span class="c_number">4</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><a class="c_name" href="https://viaf.org/viaf/28125663" target="_blank"><span class="c_name">رفيق العظم</span></a><span class="c_dates c_viaf"><span class="c_birth">1865</span><span class="c_death">1925</span></span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">مصطفى العكارى</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">يحيى العلاوى</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">سليم العموى</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">حنا العنحوري</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">سليم العنحوي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">احمد مختار الغازي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><a class="c_name" href="https://viaf.org/viaf/265101315" target="_blank"><span class="c_name">مصطفى الغلاييني</span></a><span class="c_dates c_viaf"><span class="c_birth">1886</span><span class="c_death">1944</span></span><span class="c_number">5</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">عبد الباسط الفاخوري</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">منير الفرا</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">الكسندرا الفيرينو</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">عبد الباسط القاخوري</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">جمال الدين القاسم</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><a class="c_name" href="https://viaf.org/viaf/93607460" target="_blank"><span class="c_name">جمال الدين القاسمي</span></a><span class="c_dates c_viaf"><span class="c_birth">1866</span><span class="c_death">1914</span></span><span class="c_number">4</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محمد القاوقجي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">عبد الجواد القايني</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">عبد القادر القباني</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محمد القرشي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محمد القزازي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">حسن القزلجرى</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">سامي القصيري</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">نخلة القلفاظ</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-1"><span class="c_icon circle c_decile-1"></span><span class="c_name">عبد الغني القني</span><span class="c_number">11</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">عبد العزيز القولجوى</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">فيليمون الكاتب</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">فخر الدين الكجراني</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">سعيد الكرمي</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">قاسم الكستي</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">بولس الكفوري</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">نورى الكيلاني</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">مصباغ اللبابيدي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">عبد الله المؤذن</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">عبد القادر المازني</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">أبو الحسن الماوردت</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محمد المبارك</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">احمد المتشاوى</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">1887 المجلة</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">1888 المجلة</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">احمد المحمصاني</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">عمر المحمصاني</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">مصطفى المخزومي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">حسن المدور</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محمد المرعشلي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محمود المصري</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">يوسف المعلوف</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">عبد الحميد المغربي</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><a class="c_name" href="https://viaf.org/viaf/118432135" target="_blank"><span class="c_name">عبد القادر المغربي</span></a><span class="c_dates c_viaf"><span class="c_birth">1867</span><span class="c_death">1956</span></span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">عبد الله المغربي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">عبد الجواد المقياتي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">مصطفى المكي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">أحمد الملطي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">احمد الملكي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">اسعد الملكي</span><span class="c_number">5</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">عبد الله الملكي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">مصطفى المنغلوطي</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">مصطفى المنفلوطي</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">عارف المنير</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">عبد الله المو....</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">علي الميقاتي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محمد الميقاتي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">ابراهيم النابلسي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محمد العيتاني النابلسي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">يوسف النبهاني</span><span class="c_number">3</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">جرجس النحاس</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">عبد الله النديم</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">ابن سنان النفاجي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">نقولا النقاش</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">داوود الهاشمي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">عبد الغني الوافي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">ابراهيم اليازجي</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">يوسف الياس</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">عبد المجيلد اليافي</span><span class="c_number">3</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">سليم اليعقوبي</span><span class="c_number">3</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">سليم اليمقوني</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-1"><span class="c_icon circle c_decile-1"></span><span class="c_name">سيف الدين اليمني</span><span class="c_number">8</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">عبد السلام امام</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محمد انسي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">روزه انطون</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">جرجي ايلي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">جرجي باز</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">سليم باز</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">فضل باشا</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">روبرت بال</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-1"><span class="c_icon circle c_decile-1"></span><span class="c_name">عبد القادر بدران</span><span class="c_number">6</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">ادوارد براون</span><span class="c_number">4</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">آرثر بريزيان</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">سليم بسترس</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">ابراهيم بن سهل</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">أبو بكر بن شباب</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محمد بن عزوز</span><span class="c_number">3</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">أبو القاسم بن عصفور</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">علي بهجت</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محمد بهجت</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">بول لروا بوايو</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">هارفي بورتر</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">الاب بيلوس</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">جميل بيهم</span><span class="c_number">4</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">حسن بيهم</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">حسين بيهم</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">ابراهيم تابت</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">سليم تقلا</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">سعيد تلحوق</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">احمد توفيق</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">توفيق جانا</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محمد جبال</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">جرجي جبور</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">ادوار جدى</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">ابراهيم جركس</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">لاكولوني جريدة</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">اسكندر جريديني</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">هنري جسب</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محمد جمال</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">أحمد جودت</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">طنطاوى جوهرة</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محمد علي حامد</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">نجيب حبيقة</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">فتح الله حداد</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">يوسف حرفوش</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">رفيق حسني</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-1"><span class="c_icon circle c_decile-1"></span><span class="c_name">محمد علي حشيشو</span><span class="c_number">6</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">أيمن حشيشي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">امين حشيشي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">امين حشيمي</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محمد أمين حشيمي</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">لطفي حفار</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">ميحي الدين حكيم</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">حسن حمادة</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">عيسى حمدت</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">صالح حمدى</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">صالح حمدي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محمود حمزة</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محمد خالد</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">سعيد الدين خطيب</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">انيس خلاط</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">حنين خوري</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">ابوبكر خوقير</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">يوسف خياط</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">جبر خيوط</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">كاميل دابر</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">أحمد داغر</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">احمد داغر</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-6"><span class="c_icon circle c_decile-6"></span><span class="c_name">اسعد داغر</span><span class="c_number">35</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">اديب دامي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">جي دبليوليتز</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">غاستون دي برتوي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">نقولا ديمتي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محمود ذكي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محمد ذهني</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">احمد راسم</span><span class="c_number">3</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">نقولا ربيز</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">عبد اللطيف رحيم</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">عبد الوهاب رحيم</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محمد رحيم</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">حسن رزق</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><a class="c_name" href="https://viaf.org/viaf/19561669" target="_blank"><span class="c_name">نقولا رزق الله</span></a><span class="c_dates c_viaf"><span class="c_birth">1869</span><span class="c_death">1915</span></span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">احمد رشيد</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">علي رشيد</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">علي رضا</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">بشير رمضان</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">وليم روبرتسون</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">ليتوليفي روشو</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">علي ريماوي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">هاني زريق</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">نصر الدين زغلول</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><a class="c_name" href="https://viaf.org/viaf/49218655" target="_blank"><span class="c_name">احمد زكي</span></a><span class="c_dates c_viaf"><span class="c_birth">1866</span><span class="c_death">1934</span></span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">حسين زكي</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">علي زكي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">اديب زيات</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><a class="c_name" href="https://viaf.org/viaf/76496271" target="_blank"><span class="c_name">جرجي زيدان</span></a><span class="c_dates c_viaf"><span class="c_birth">1861</span><span class="c_death">1914</span></span><span class="c_number">3</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محمد زين الدين</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">.... زينة</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">نقولا سابا</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">سالم سالم</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">مصباح سبقلو</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">خليل سركيس</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">سليم سركيس</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">مصطفى سعادة</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">يوسف سعد</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">سعدية سعد الدين</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">سليمان سعد الدين</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">سلوى سلامة</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">شاكر سلوم</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">سامي سليمان</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">عاشور سليمان</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">عبد الرحمن سليمان</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">ميشال سماحة</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">عبد القادر سمهون</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">زكي الدين سند</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">عبد القادر سنو</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">يوسف سنو</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">اوجان سو</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">الطبيب شادويق</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محمد شاكر</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">جبرائيل شاهين</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">فؤاد شباب</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">نسيب شبكة</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">سليم شحادة</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">انطوان شحيبر</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">عبد الحليم شرر</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">حكمة شريف</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-2"><span class="c_icon circle c_decile-2"></span><span class="c_name">حكمت شريف</span><span class="c_number">13</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">صالح شريف</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">كمال شريف</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">احمد شفيق</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">شاكر شقير</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">فارس شقير</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محمود شكري</span><span class="c_number">3</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">سامي شمس الدين</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-2"><span class="c_icon circle c_decile-2"></span><span class="c_name">سليم شمعة</span><span class="c_number">13</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">شبلي شميل</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">خليل شهاب</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-4"><span class="c_icon circle c_decile-4"></span><span class="c_name">فؤاد شهاب</span><span class="c_number">23</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><a class="c_name" href="https://viaf.org/viaf/65658340" target="_blank"><span class="c_name">عبد الرحمن شهبندر</span></a><span class="c_dates c_viaf"><span class="c_birth">1882</span><span class="c_death">1940</span></span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><a class="c_name" href="https://viaf.org/viaf/7540373" target="_blank"><span class="c_name">احمد شوقي</span></a><span class="c_dates c_viaf"><span class="c_birth">1868</span><span class="c_death">1932</span></span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">جبر شومط</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">يوسف شيت</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">الاب لويس شيخرو</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">الاب بولس شيخو</span><span class="c_number">3</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">سليم صادر</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">احمد صادق</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">احمد صادى</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">فضل الله صروف</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">يعقوب صروف</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">يوسف صليبا</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">نوري صوفي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محمد ضيا</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">راغب طباخ</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><a class="c_name" href="https://viaf.org/viaf/305214837" target="_blank"><span class="c_name">احمد حسن طبارة</span></a><span class="c_dates c_viaf"><span class="c_birth">1871</span><span class="c_death">1916</span></span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">حسن طبارة</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-1"><span class="c_icon circle c_decile-1"></span><span class="c_name">مصباح طبارة</span><span class="c_number">10</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">اسحاق طبلر</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">اسكندر طراد</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">الياس طراد</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">نجيب طراد</span><span class="c_number">3</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">يوسف طنوس</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">عبدالله طوقان</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">اسحق طيلر</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">أحمد ع . م</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">ع- أ</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">ع.ا</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">علاء الدين عابدين</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محمد عارفي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">احمد عباس</span><span class="c_number">3</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">فتح الله عبد الباسط</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محمد عبد الجبار</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">احمد عبد الرحيم</span><span class="c_number">3</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">أمين عبد الله</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-10"><span class="c_icon circle c_decile-10"></span><span class="c_name">عبد الوهاب</span><span class="c_number">56</span></span>
+         <span class="c_item c_decile-2"><span class="c_icon circle c_decile-2"></span><span class="c_name">محمد عبده</span><span class="c_number">14</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">ملحم عبده</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محمد عبدو</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">عبد القادر عثمان</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">جورج عربيلي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">نجيب عرداتي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">امين عز الدين</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">امين عزالدين</span><span class="c_number">3</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">حلمي عزيز</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محسن عسيران</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">هاشم عطار</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">رشيد عطية</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">رفيق عظم</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محمد علي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-6"><span class="c_icon circle c_decile-6"></span><span class="c_name">فاطمة علية</span><span class="c_number">36</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">أحمد عمر</span><span class="c_number">5</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">ابو حفى عمر</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">احمد عمر</span><span class="c_number">3</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><a class="c_name" href="https://viaf.org/viaf/46611500" target="_blank"><span class="c_name">سليم عنحوري</span></a><span class="c_dates c_viaf"><span class="c_birth">1855</span><span class="c_death">1933</span></span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">حسين عودة</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">حافظ عوض</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">رشيد غازي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">صالح ـــويل</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">مصطفى فائق</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">أمين فاخوري</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">امين فاخوري</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">انطون فارس</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">سليم فارس</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><a class="c_name" href="https://viaf.org/viaf/26912968" target="_blank"><span class="c_name">كرنيليوس فان ديك</span></a><span class="c_dates c_viaf"><span class="c_birth">1818</span><span class="c_death">1895</span></span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-3"><span class="c_icon circle c_decile-3"></span><span class="c_name">عبد الباسط فتح الله</span><span class="c_number">18</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">عبدالباسط فتح الله</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محمد فخري</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">جرمانوس فرحات</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">حبيب فرزوزى</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محمد فريد</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محمد فصيح</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">كاميل فلاماريون</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">كاميل فلماريون</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">جبران فوتيه</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">قسطنطين فيليبدس</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">أحمد قباني</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">احمد قباني</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">عبد القادر قباني</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محمد رضا قباني</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">سليم قبعين</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">رشيد قبلان</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">حسن قتلان</span><span class="c_number">3</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">حصن قتلان</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">عبد الرحمن قريطم</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محمد قنديل</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">مصطفى كامل</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">فؤاد كرامي</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">جورج كراوشي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">احمد كرد علي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><a class="c_name" href="https://viaf.org/viaf/32272677" target="_blank"><span class="c_name">محمد كرد علي</span></a><span class="c_dates c_viaf"><span class="c_birth">1876</span><span class="c_death">1953</span></span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">سعد كرمي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">سليم كساب</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محمود كشاف</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">اوجيل كلافل</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">يوسف كنحان</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">سليم كوهين</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">سعيد كيلاني</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">حسن لازافلي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">الحاج حسن لازغلي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">نعوم لبكي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">يوسف لطفي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-1"><span class="c_icon circle c_decile-1"></span><span class="c_name">أرنست لوكوفي</span><span class="c_number">7</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">ارنست لوكوفي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">م.غ</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">سمعان مارج</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">نجيب مازورى</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">سليم متلا</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">داوود مجاعس</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">ابي الفضل مجد الدين</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-1"><span class="c_icon circle c_decile-1"></span><span class="c_name">مصباح محرم</span><span class="c_number">8</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">طاهر محمد</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محمد محمد</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محمد علي</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">عظم مختار</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">أحمد مدحت</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">احمد مدحت</span><span class="c_number">3</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">سليم مدحت</span><span class="c_number">4</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">عطا الله مراد</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">مريم مزهر</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">عبد الرسول مستي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">ابراهيم مصطفى</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-3"><span class="c_icon circle c_decile-3"></span><span class="c_name">سليمان مصوبع</span><span class="c_number">20</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">ابراهيم مطر</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><a class="c_name" href="https://viaf.org/viaf/102460074" target="_blank"><span class="c_name">خليل مطران</span></a><span class="c_dates c_viaf"><span class="c_birth">1872</span><span class="c_death">1949</span></span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">شاهين مكاريوس</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">حنا منحوري</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">جورج منسى</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">انطونيوس منصور</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">شفيق منصور</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">يوسف منو</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">حسن موسى</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">مرادى موسى</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">شاهين ميدكاريوس</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">عبد الرحمن ناجم</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">حفني ناصف</span><span class="c_number">3</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">عمر نجا</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">مصطفى نجا</span><span class="c_number">3</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">ابراهيم نجار</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">عارف نحاس</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">مريم نحاس</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">بشارة نحول</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">الكامل نديم</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">عبد الله نديم</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">أديب نظمي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">اديب نظمي</span><span class="c_number">4</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">داوود نقاش</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">يوسف نقاش</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-1"><span class="c_icon circle c_decile-1"></span><span class="c_name">كيلاني نورى</span><span class="c_number">7</span></span>
+         <span class="c_item c_decile-4"><span class="c_icon circle c_decile-4"></span><span class="c_name">كيلاني نوري</span><span class="c_number">26</span></span>
+         <span class="c_item c_decile-1"><span class="c_icon circle c_decile-1"></span><span class="c_name">محمد نوري</span><span class="c_number">11</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">مصطفى نوري</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">مريم نوفر</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">جرجس نوفل</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">هند نوفل</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">يعقوب نوفل</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">ربتشارد نيوتن</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">مريم هاري</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">جرجس همام</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">فريد وجدي</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><a class="c_name" href="https://viaf.org/viaf/51840827" target="_blank"><span class="c_name">يوحنا ورتبات</span></a><span class="c_dates c_viaf"><span class="c_birth">1827</span><span class="c_death">1908</span></span><span class="c_number">4</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">محمود وكيل</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">احمد وهبي</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">يونس وهبي</span><span class="c_number">4</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">جورج يارد</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">ولي الدين يكن</span><span class="c_number">2</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">جورج يوسف</span><span class="c_number">1</span></span>
+         <span class="c_item c_decile-0"><span class="c_icon circle c_decile-0"></span><span class="c_name">علي يوسف</span><span class="c_number">1</span></span>
+         
+      </div>
+   </body>
+</html>
