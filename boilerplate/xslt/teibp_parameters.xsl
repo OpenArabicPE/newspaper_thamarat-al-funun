@@ -36,9 +36,9 @@
     <!-- select whether you want to use inline CSS for the display; default: true() -->
     <xsl:param name="p_use-inline-css" select="true()"/>
     <!-- select whether the language of the interface should follow the main language of the text; default: false() -->
-    <xsl:param name="p_lang-interface-same-as-text" select="true()"/>
+    <xsl:param name="p_lang-interface-same-as-text" select="false()"/>
     <!-- select the colour scheme for heads; currently available options: red, blue, green -->
-    <xsl:param name="p_color-scheme" select="'blue'"/>
+    <xsl:param name="p_color-scheme" select="'red'"/>
     
     <!-- original TEI Boilerplate stuff -->
     <xsl:param name="teibpHome" select="'http://dcl.slis.indiana.edu/teibp/'"/>
