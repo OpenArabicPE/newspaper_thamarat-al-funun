@@ -23698,6 +23698,1929 @@
                <note n="p_step" type="param" xml:id="note_1028.d1e58266">daily</note>
             </tei:biblStruct>
             <!-- #514 -->
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الاثنين من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-ithnayn min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en" ref="viaf:88341780"> 
+                     <persName xml:lang="ar">
+                            <forename>عبد القادر</forename> 
+                        <surname>قباني</surname> 
+                     </persName>
+                            <persName xml:lang="ar-Latn-x-ijmes"> 
+                        <forename>ʿAbd al-Qādir</forename>
+                            <surname>Qabbānī</surname> 
+                     </persName> 
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en"> 
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName> 
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName> 
+                     </publisher>
+                     <pubPlace xml:lang="en"> 
+                        <placeName xml:lang="ar">بيروت</placeName>
+                                <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName> 
+                        <placeName xml:lang="en">Beirut</placeName> 
+                        <placeName xml:lang="fr">Beyrouth</placeName> 
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1885-01-19"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">19 January 1885</tei:date>
+                     <tei:date type="computed"
+                               when="1885-01-19"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1302-04-02"
+                               xml:lang="ar-Latn-x-ijmes">2 Rabīʿ al-thānī 1302</tei:date>
+                     <tei:date type="official"
+                               when="1885-01-19"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1885-01-07"
+                               xml:lang="ar-Latn-x-ijmes">7 Kānūn al-thānī 1885</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="11" to="11" unit="volume"/>
+                  <tei:biblScope from="514" to="514" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Monday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الاثنين من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-ithnayn min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en" ref="viaf:88341780"> 
+                     <persName xml:lang="ar">
+                            <forename>عبد القادر</forename> 
+                        <surname>قباني</surname> 
+                     </persName>
+                            <persName xml:lang="ar-Latn-x-ijmes"> 
+                        <forename>ʿAbd al-Qādir</forename>
+                            <surname>Qabbānī</surname> 
+                     </persName> 
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en"> 
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName> 
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName> 
+                     </publisher>
+                     <pubPlace xml:lang="en"> 
+                        <placeName xml:lang="ar">بيروت</placeName>
+                                <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName> 
+                        <placeName xml:lang="en">Beirut</placeName> 
+                        <placeName xml:lang="fr">Beyrouth</placeName> 
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1885-01-26"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">26 January 1885</tei:date>
+                     <tei:date type="computed"
+                               when="1885-01-26"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1302-04-09"
+                               xml:lang="ar-Latn-x-ijmes">9 Rabīʿ al-thānī 1302</tei:date>
+                     <tei:date type="official"
+                               when="1885-01-26"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1885-01-14"
+                               xml:lang="ar-Latn-x-ijmes">14 Kānūn al-thānī 1885</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="11" to="11" unit="volume"/>
+                  <tei:biblScope from="515" to="515" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Monday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الاثنين من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-ithnayn min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en" ref="viaf:88341780"> 
+                     <persName xml:lang="ar">
+                            <forename>عبد القادر</forename> 
+                        <surname>قباني</surname> 
+                     </persName>
+                            <persName xml:lang="ar-Latn-x-ijmes"> 
+                        <forename>ʿAbd al-Qādir</forename>
+                            <surname>Qabbānī</surname> 
+                     </persName> 
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en"> 
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName> 
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName> 
+                     </publisher>
+                     <pubPlace xml:lang="en"> 
+                        <placeName xml:lang="ar">بيروت</placeName>
+                                <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName> 
+                        <placeName xml:lang="en">Beirut</placeName> 
+                        <placeName xml:lang="fr">Beyrouth</placeName> 
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1885-02-02"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">2 February 1885</tei:date>
+                     <tei:date type="computed"
+                               when="1885-02-02"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1302-04-16"
+                               xml:lang="ar-Latn-x-ijmes">16 Rabīʿ al-thānī 1302</tei:date>
+                     <tei:date type="official"
+                               when="1885-02-02"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1885-01-21"
+                               xml:lang="ar-Latn-x-ijmes">21 Kānūn al-thānī 1885</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="11" to="11" unit="volume"/>
+                  <tei:biblScope from="516" to="516" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Monday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الاثنين من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-ithnayn min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en" ref="viaf:88341780"> 
+                     <persName xml:lang="ar">
+                            <forename>عبد القادر</forename> 
+                        <surname>قباني</surname> 
+                     </persName>
+                            <persName xml:lang="ar-Latn-x-ijmes"> 
+                        <forename>ʿAbd al-Qādir</forename>
+                            <surname>Qabbānī</surname> 
+                     </persName> 
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en"> 
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName> 
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName> 
+                     </publisher>
+                     <pubPlace xml:lang="en"> 
+                        <placeName xml:lang="ar">بيروت</placeName>
+                                <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName> 
+                        <placeName xml:lang="en">Beirut</placeName> 
+                        <placeName xml:lang="fr">Beyrouth</placeName> 
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1885-02-09"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">9 February 1885</tei:date>
+                     <tei:date type="computed"
+                               when="1885-02-09"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1302-04-23"
+                               xml:lang="ar-Latn-x-ijmes">23 Rabīʿ al-thānī 1302</tei:date>
+                     <tei:date type="official"
+                               when="1885-02-09"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1885-01-28"
+                               xml:lang="ar-Latn-x-ijmes">28 Kānūn al-thānī 1885</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="11" to="11" unit="volume"/>
+                  <tei:biblScope from="517" to="517" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Monday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الاثنين من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-ithnayn min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en" ref="viaf:88341780"> 
+                     <persName xml:lang="ar">
+                            <forename>عبد القادر</forename> 
+                        <surname>قباني</surname> 
+                     </persName>
+                            <persName xml:lang="ar-Latn-x-ijmes"> 
+                        <forename>ʿAbd al-Qādir</forename>
+                            <surname>Qabbānī</surname> 
+                     </persName> 
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en"> 
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName> 
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName> 
+                     </publisher>
+                     <pubPlace xml:lang="en"> 
+                        <placeName xml:lang="ar">بيروت</placeName>
+                                <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName> 
+                        <placeName xml:lang="en">Beirut</placeName> 
+                        <placeName xml:lang="fr">Beyrouth</placeName> 
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1885-02-16"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">16 February 1885</tei:date>
+                     <tei:date type="computed"
+                               when="1885-02-16"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1302-05-01"
+                               xml:lang="ar-Latn-x-ijmes">1 Jumāda al-ulā 1302</tei:date>
+                     <tei:date type="official"
+                               when="1885-02-16"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1885-02-04"
+                               xml:lang="ar-Latn-x-ijmes">4 Shubāṭ 1885</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="11" to="11" unit="volume"/>
+                  <tei:biblScope from="518" to="518" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Monday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الاثنين من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-ithnayn min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en" ref="viaf:88341780"> 
+                     <persName xml:lang="ar">
+                            <forename>عبد القادر</forename> 
+                        <surname>قباني</surname> 
+                     </persName>
+                            <persName xml:lang="ar-Latn-x-ijmes"> 
+                        <forename>ʿAbd al-Qādir</forename>
+                            <surname>Qabbānī</surname> 
+                     </persName> 
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en"> 
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName> 
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName> 
+                     </publisher>
+                     <pubPlace xml:lang="en"> 
+                        <placeName xml:lang="ar">بيروت</placeName>
+                                <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName> 
+                        <placeName xml:lang="en">Beirut</placeName> 
+                        <placeName xml:lang="fr">Beyrouth</placeName> 
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1885-02-23"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">23 February 1885</tei:date>
+                     <tei:date type="computed"
+                               when="1885-02-23"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1302-05-08"
+                               xml:lang="ar-Latn-x-ijmes">8 Jumāda al-ulā 1302</tei:date>
+                     <tei:date type="official"
+                               when="1885-02-23"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1885-02-11"
+                               xml:lang="ar-Latn-x-ijmes">11 Shubāṭ 1885</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="11" to="11" unit="volume"/>
+                  <tei:biblScope from="519" to="519" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Monday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الاثنين من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-ithnayn min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en" ref="viaf:88341780"> 
+                     <persName xml:lang="ar">
+                            <forename>عبد القادر</forename> 
+                        <surname>قباني</surname> 
+                     </persName>
+                            <persName xml:lang="ar-Latn-x-ijmes"> 
+                        <forename>ʿAbd al-Qādir</forename>
+                            <surname>Qabbānī</surname> 
+                     </persName> 
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en"> 
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName> 
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName> 
+                     </publisher>
+                     <pubPlace xml:lang="en"> 
+                        <placeName xml:lang="ar">بيروت</placeName>
+                                <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName> 
+                        <placeName xml:lang="en">Beirut</placeName> 
+                        <placeName xml:lang="fr">Beyrouth</placeName> 
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1885-03-02"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">2 March 1885</tei:date>
+                     <tei:date type="computed"
+                               when="1885-03-02"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1302-05-15"
+                               xml:lang="ar-Latn-x-ijmes">15 Jumāda al-ulā 1302</tei:date>
+                     <tei:date type="official"
+                               when="1885-03-02"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1885-02-18"
+                               xml:lang="ar-Latn-x-ijmes">18 Shubāṭ 1885</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="11" to="11" unit="volume"/>
+                  <tei:biblScope from="520" to="520" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Monday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الاثنين من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-ithnayn min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en" ref="viaf:88341780"> 
+                     <persName xml:lang="ar">
+                            <forename>عبد القادر</forename> 
+                        <surname>قباني</surname> 
+                     </persName>
+                            <persName xml:lang="ar-Latn-x-ijmes"> 
+                        <forename>ʿAbd al-Qādir</forename>
+                            <surname>Qabbānī</surname> 
+                     </persName> 
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en"> 
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName> 
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName> 
+                     </publisher>
+                     <pubPlace xml:lang="en"> 
+                        <placeName xml:lang="ar">بيروت</placeName>
+                                <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName> 
+                        <placeName xml:lang="en">Beirut</placeName> 
+                        <placeName xml:lang="fr">Beyrouth</placeName> 
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1885-03-09"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">9 March 1885</tei:date>
+                     <tei:date type="computed"
+                               when="1885-03-09"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1302-05-22"
+                               xml:lang="ar-Latn-x-ijmes">22 Jumāda al-ulā 1302</tei:date>
+                     <tei:date type="official"
+                               when="1885-03-09"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1885-02-25"
+                               xml:lang="ar-Latn-x-ijmes">25 Shubāṭ 1885</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="11" to="11" unit="volume"/>
+                  <tei:biblScope from="521" to="521" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Monday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الاثنين من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-ithnayn min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en" ref="viaf:88341780"> 
+                     <persName xml:lang="ar">
+                            <forename>عبد القادر</forename> 
+                        <surname>قباني</surname> 
+                     </persName>
+                            <persName xml:lang="ar-Latn-x-ijmes"> 
+                        <forename>ʿAbd al-Qādir</forename>
+                            <surname>Qabbānī</surname> 
+                     </persName> 
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en"> 
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName> 
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName> 
+                     </publisher>
+                     <pubPlace xml:lang="en"> 
+                        <placeName xml:lang="ar">بيروت</placeName>
+                                <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName> 
+                        <placeName xml:lang="en">Beirut</placeName> 
+                        <placeName xml:lang="fr">Beyrouth</placeName> 
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1885-03-16"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">16 March 1885</tei:date>
+                     <tei:date type="computed"
+                               when="1885-03-16"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1302-05-29"
+                               xml:lang="ar-Latn-x-ijmes">29 Jumāda al-ulā 1302</tei:date>
+                     <tei:date type="official"
+                               when="1885-03-16"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1885-03-04"
+                               xml:lang="ar-Latn-x-ijmes">4 Ādhār 1885</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="11" to="11" unit="volume"/>
+                  <tei:biblScope from="522" to="522" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Monday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الاثنين من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-ithnayn min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en" ref="viaf:88341780"> 
+                     <persName xml:lang="ar">
+                            <forename>عبد القادر</forename> 
+                        <surname>قباني</surname> 
+                     </persName>
+                            <persName xml:lang="ar-Latn-x-ijmes"> 
+                        <forename>ʿAbd al-Qādir</forename>
+                            <surname>Qabbānī</surname> 
+                     </persName> 
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en"> 
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName> 
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName> 
+                     </publisher>
+                     <pubPlace xml:lang="en"> 
+                        <placeName xml:lang="ar">بيروت</placeName>
+                                <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName> 
+                        <placeName xml:lang="en">Beirut</placeName> 
+                        <placeName xml:lang="fr">Beyrouth</placeName> 
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1885-03-23"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">23 March 1885</tei:date>
+                     <tei:date type="computed"
+                               when="1885-03-23"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1302-06-06"
+                               xml:lang="ar-Latn-x-ijmes">6 Jumāda al-tāniya 1302</tei:date>
+                     <tei:date type="official"
+                               when="1885-03-23"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1885-03-11"
+                               xml:lang="ar-Latn-x-ijmes">11 Ādhār 1885</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="11" to="11" unit="volume"/>
+                  <tei:biblScope from="523" to="523" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Monday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الاثنين من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-ithnayn min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en" ref="viaf:88341780"> 
+                     <persName xml:lang="ar">
+                            <forename>عبد القادر</forename> 
+                        <surname>قباني</surname> 
+                     </persName>
+                            <persName xml:lang="ar-Latn-x-ijmes"> 
+                        <forename>ʿAbd al-Qādir</forename>
+                            <surname>Qabbānī</surname> 
+                     </persName> 
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en"> 
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName> 
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName> 
+                     </publisher>
+                     <pubPlace xml:lang="en"> 
+                        <placeName xml:lang="ar">بيروت</placeName>
+                                <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName> 
+                        <placeName xml:lang="en">Beirut</placeName> 
+                        <placeName xml:lang="fr">Beyrouth</placeName> 
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1885-03-30"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">30 March 1885</tei:date>
+                     <tei:date type="computed"
+                               when="1885-03-30"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1302-06-13"
+                               xml:lang="ar-Latn-x-ijmes">13 Jumāda al-tāniya 1302</tei:date>
+                     <tei:date type="official"
+                               when="1885-03-30"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1885-03-18"
+                               xml:lang="ar-Latn-x-ijmes">18 Ādhār 1885</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="11" to="11" unit="volume"/>
+                  <tei:biblScope from="524" to="524" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Monday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الاثنين من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-ithnayn min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en" ref="viaf:88341780"> 
+                     <persName xml:lang="ar">
+                            <forename>عبد القادر</forename> 
+                        <surname>قباني</surname> 
+                     </persName>
+                            <persName xml:lang="ar-Latn-x-ijmes"> 
+                        <forename>ʿAbd al-Qādir</forename>
+                            <surname>Qabbānī</surname> 
+                     </persName> 
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en"> 
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName> 
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName> 
+                     </publisher>
+                     <pubPlace xml:lang="en"> 
+                        <placeName xml:lang="ar">بيروت</placeName>
+                                <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName> 
+                        <placeName xml:lang="en">Beirut</placeName> 
+                        <placeName xml:lang="fr">Beyrouth</placeName> 
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1885-04-06"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">6 April 1885</tei:date>
+                     <tei:date type="computed"
+                               when="1885-04-06"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1302-06-20"
+                               xml:lang="ar-Latn-x-ijmes">20 Jumāda al-tāniya 1302</tei:date>
+                     <tei:date type="official"
+                               when="1885-04-06"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1885-03-25"
+                               xml:lang="ar-Latn-x-ijmes">25 Ādhār 1885</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="11" to="11" unit="volume"/>
+                  <tei:biblScope from="525" to="525" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Monday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الاثنين من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-ithnayn min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en" ref="viaf:88341780"> 
+                     <persName xml:lang="ar">
+                            <forename>عبد القادر</forename> 
+                        <surname>قباني</surname> 
+                     </persName>
+                            <persName xml:lang="ar-Latn-x-ijmes"> 
+                        <forename>ʿAbd al-Qādir</forename>
+                            <surname>Qabbānī</surname> 
+                     </persName> 
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en"> 
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName> 
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName> 
+                     </publisher>
+                     <pubPlace xml:lang="en"> 
+                        <placeName xml:lang="ar">بيروت</placeName>
+                                <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName> 
+                        <placeName xml:lang="en">Beirut</placeName> 
+                        <placeName xml:lang="fr">Beyrouth</placeName> 
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1885-04-13"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">13 April 1885</tei:date>
+                     <tei:date type="computed"
+                               when="1885-04-13"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1302-06-27"
+                               xml:lang="ar-Latn-x-ijmes">27 Jumāda al-tāniya 1302</tei:date>
+                     <tei:date type="official"
+                               when="1885-04-13"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1885-04-01"
+                               xml:lang="ar-Latn-x-ijmes">1 Nīsān 1885</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="11" to="11" unit="volume"/>
+                  <tei:biblScope from="526" to="526" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Monday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الاثنين من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-ithnayn min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en" ref="viaf:88341780"> 
+                     <persName xml:lang="ar">
+                            <forename>عبد القادر</forename> 
+                        <surname>قباني</surname> 
+                     </persName>
+                            <persName xml:lang="ar-Latn-x-ijmes"> 
+                        <forename>ʿAbd al-Qādir</forename>
+                            <surname>Qabbānī</surname> 
+                     </persName> 
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en"> 
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName> 
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName> 
+                     </publisher>
+                     <pubPlace xml:lang="en"> 
+                        <placeName xml:lang="ar">بيروت</placeName>
+                                <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName> 
+                        <placeName xml:lang="en">Beirut</placeName> 
+                        <placeName xml:lang="fr">Beyrouth</placeName> 
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1885-04-20"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">20 April 1885</tei:date>
+                     <tei:date type="computed"
+                               when="1885-04-20"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1302-07-05"
+                               xml:lang="ar-Latn-x-ijmes">5 Rajab 1302</tei:date>
+                     <tei:date type="official"
+                               when="1885-04-20"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1885-04-08"
+                               xml:lang="ar-Latn-x-ijmes">8 Nīsān 1885</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="11" to="11" unit="volume"/>
+                  <tei:biblScope from="527" to="527" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Monday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الاثنين من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-ithnayn min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en" ref="viaf:88341780"> 
+                     <persName xml:lang="ar">
+                            <forename>عبد القادر</forename> 
+                        <surname>قباني</surname> 
+                     </persName>
+                            <persName xml:lang="ar-Latn-x-ijmes"> 
+                        <forename>ʿAbd al-Qādir</forename>
+                            <surname>Qabbānī</surname> 
+                     </persName> 
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en"> 
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName> 
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName> 
+                     </publisher>
+                     <pubPlace xml:lang="en"> 
+                        <placeName xml:lang="ar">بيروت</placeName>
+                                <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName> 
+                        <placeName xml:lang="en">Beirut</placeName> 
+                        <placeName xml:lang="fr">Beyrouth</placeName> 
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1885-04-27"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">27 April 1885</tei:date>
+                     <tei:date type="computed"
+                               when="1885-04-27"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1302-07-12"
+                               xml:lang="ar-Latn-x-ijmes">12 Rajab 1302</tei:date>
+                     <tei:date type="official"
+                               when="1885-04-27"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1885-04-15"
+                               xml:lang="ar-Latn-x-ijmes">15 Nīsān 1885</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="11" to="11" unit="volume"/>
+                  <tei:biblScope from="528" to="528" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Monday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الاثنين من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-ithnayn min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en" ref="viaf:88341780"> 
+                     <persName xml:lang="ar">
+                            <forename>عبد القادر</forename> 
+                        <surname>قباني</surname> 
+                     </persName>
+                            <persName xml:lang="ar-Latn-x-ijmes"> 
+                        <forename>ʿAbd al-Qādir</forename>
+                            <surname>Qabbānī</surname> 
+                     </persName> 
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en"> 
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName> 
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName> 
+                     </publisher>
+                     <pubPlace xml:lang="en"> 
+                        <placeName xml:lang="ar">بيروت</placeName>
+                                <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName> 
+                        <placeName xml:lang="en">Beirut</placeName> 
+                        <placeName xml:lang="fr">Beyrouth</placeName> 
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1885-05-04"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">4 May 1885</tei:date>
+                     <tei:date type="computed"
+                               when="1885-05-04"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1302-07-19"
+                               xml:lang="ar-Latn-x-ijmes">19 Rajab 1302</tei:date>
+                     <tei:date type="official"
+                               when="1885-05-04"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1885-04-22"
+                               xml:lang="ar-Latn-x-ijmes">22 Nīsān 1885</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="11" to="11" unit="volume"/>
+                  <tei:biblScope from="529" to="529" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Monday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الاثنين من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-ithnayn min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en" ref="viaf:88341780"> 
+                     <persName xml:lang="ar">
+                            <forename>عبد القادر</forename> 
+                        <surname>قباني</surname> 
+                     </persName>
+                            <persName xml:lang="ar-Latn-x-ijmes"> 
+                        <forename>ʿAbd al-Qādir</forename>
+                            <surname>Qabbānī</surname> 
+                     </persName> 
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en"> 
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName> 
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName> 
+                     </publisher>
+                     <pubPlace xml:lang="en"> 
+                        <placeName xml:lang="ar">بيروت</placeName>
+                                <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName> 
+                        <placeName xml:lang="en">Beirut</placeName> 
+                        <placeName xml:lang="fr">Beyrouth</placeName> 
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1885-05-11"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">11 May 1885</tei:date>
+                     <tei:date type="computed"
+                               when="1885-05-11"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1302-07-26"
+                               xml:lang="ar-Latn-x-ijmes">26 Rajab 1302</tei:date>
+                     <tei:date type="official"
+                               when="1885-05-11"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1885-04-29"
+                               xml:lang="ar-Latn-x-ijmes">29 Nīsān 1885</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="11" to="11" unit="volume"/>
+                  <tei:biblScope from="530" to="530" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Monday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الاثنين من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-ithnayn min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en" ref="viaf:88341780"> 
+                     <persName xml:lang="ar">
+                            <forename>عبد القادر</forename> 
+                        <surname>قباني</surname> 
+                     </persName>
+                            <persName xml:lang="ar-Latn-x-ijmes"> 
+                        <forename>ʿAbd al-Qādir</forename>
+                            <surname>Qabbānī</surname> 
+                     </persName> 
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en"> 
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName> 
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName> 
+                     </publisher>
+                     <pubPlace xml:lang="en"> 
+                        <placeName xml:lang="ar">بيروت</placeName>
+                                <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName> 
+                        <placeName xml:lang="en">Beirut</placeName> 
+                        <placeName xml:lang="fr">Beyrouth</placeName> 
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1885-05-18"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">18 May 1885</tei:date>
+                     <tei:date type="computed"
+                               when="1885-05-18"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1302-08-03"
+                               xml:lang="ar-Latn-x-ijmes">3 Shaʿbān 1302</tei:date>
+                     <tei:date type="official"
+                               when="1885-05-18"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1885-05-06"
+                               xml:lang="ar-Latn-x-ijmes">6 Ayyār 1885</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="11" to="11" unit="volume"/>
+                  <tei:biblScope from="531" to="531" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Monday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الاثنين من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-ithnayn min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en" ref="viaf:88341780"> 
+                     <persName xml:lang="ar">
+                            <forename>عبد القادر</forename> 
+                        <surname>قباني</surname> 
+                     </persName>
+                            <persName xml:lang="ar-Latn-x-ijmes"> 
+                        <forename>ʿAbd al-Qādir</forename>
+                            <surname>Qabbānī</surname> 
+                     </persName> 
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en"> 
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName> 
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName> 
+                     </publisher>
+                     <pubPlace xml:lang="en"> 
+                        <placeName xml:lang="ar">بيروت</placeName>
+                                <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName> 
+                        <placeName xml:lang="en">Beirut</placeName> 
+                        <placeName xml:lang="fr">Beyrouth</placeName> 
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1885-05-25"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">25 May 1885</tei:date>
+                     <tei:date type="computed"
+                               when="1885-05-25"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1302-08-10"
+                               xml:lang="ar-Latn-x-ijmes">10 Shaʿbān 1302</tei:date>
+                     <tei:date type="official"
+                               when="1885-05-25"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1885-05-13"
+                               xml:lang="ar-Latn-x-ijmes">13 Ayyār 1885</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="11" to="11" unit="volume"/>
+                  <tei:biblScope from="532" to="532" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Monday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الاثنين من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-ithnayn min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en" ref="viaf:88341780"> 
+                     <persName xml:lang="ar">
+                            <forename>عبد القادر</forename> 
+                        <surname>قباني</surname> 
+                     </persName>
+                            <persName xml:lang="ar-Latn-x-ijmes"> 
+                        <forename>ʿAbd al-Qādir</forename>
+                            <surname>Qabbānī</surname> 
+                     </persName> 
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en"> 
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName> 
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName> 
+                     </publisher>
+                     <pubPlace xml:lang="en"> 
+                        <placeName xml:lang="ar">بيروت</placeName>
+                                <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName> 
+                        <placeName xml:lang="en">Beirut</placeName> 
+                        <placeName xml:lang="fr">Beyrouth</placeName> 
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1885-06-01"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">1 June 1885</tei:date>
+                     <tei:date type="computed"
+                               when="1885-06-01"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1302-08-17"
+                               xml:lang="ar-Latn-x-ijmes">17 Shaʿbān 1302</tei:date>
+                     <tei:date type="official"
+                               when="1885-06-01"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1885-05-20"
+                               xml:lang="ar-Latn-x-ijmes">20 Ayyār 1885</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="11" to="11" unit="volume"/>
+                  <tei:biblScope from="533" to="533" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Monday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الاثنين من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-ithnayn min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en" ref="viaf:88341780"> 
+                     <persName xml:lang="ar">
+                            <forename>عبد القادر</forename> 
+                        <surname>قباني</surname> 
+                     </persName>
+                            <persName xml:lang="ar-Latn-x-ijmes"> 
+                        <forename>ʿAbd al-Qādir</forename>
+                            <surname>Qabbānī</surname> 
+                     </persName> 
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en"> 
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName> 
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName> 
+                     </publisher>
+                     <pubPlace xml:lang="en"> 
+                        <placeName xml:lang="ar">بيروت</placeName>
+                                <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName> 
+                        <placeName xml:lang="en">Beirut</placeName> 
+                        <placeName xml:lang="fr">Beyrouth</placeName> 
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1885-06-08"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">8 June 1885</tei:date>
+                     <tei:date type="computed"
+                               when="1885-06-08"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1302-08-24"
+                               xml:lang="ar-Latn-x-ijmes">24 Shaʿbān 1302</tei:date>
+                     <tei:date type="official"
+                               when="1885-06-08"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1885-05-27"
+                               xml:lang="ar-Latn-x-ijmes">27 Ayyār 1885</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="11" to="11" unit="volume"/>
+                  <tei:biblScope from="534" to="534" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Monday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الاثنين من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-ithnayn min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en" ref="viaf:88341780"> 
+                     <persName xml:lang="ar">
+                            <forename>عبد القادر</forename> 
+                        <surname>قباني</surname> 
+                     </persName>
+                            <persName xml:lang="ar-Latn-x-ijmes"> 
+                        <forename>ʿAbd al-Qādir</forename>
+                            <surname>Qabbānī</surname> 
+                     </persName> 
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en"> 
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName> 
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName> 
+                     </publisher>
+                     <pubPlace xml:lang="en"> 
+                        <placeName xml:lang="ar">بيروت</placeName>
+                                <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName> 
+                        <placeName xml:lang="en">Beirut</placeName> 
+                        <placeName xml:lang="fr">Beyrouth</placeName> 
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1885-06-15"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">15 June 1885</tei:date>
+                     <tei:date type="computed"
+                               when="1885-06-15"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1302-09-02"
+                               xml:lang="ar-Latn-x-ijmes">2 Ramaḍān 1302</tei:date>
+                     <tei:date type="official"
+                               when="1885-06-15"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1885-06-03"
+                               xml:lang="ar-Latn-x-ijmes">3 Ḥazīrān 1885</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="11" to="11" unit="volume"/>
+                  <tei:biblScope from="535" to="535" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Monday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الاثنين من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-ithnayn min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en" ref="viaf:88341780"> 
+                     <persName xml:lang="ar">
+                            <forename>عبد القادر</forename> 
+                        <surname>قباني</surname> 
+                     </persName>
+                            <persName xml:lang="ar-Latn-x-ijmes"> 
+                        <forename>ʿAbd al-Qādir</forename>
+                            <surname>Qabbānī</surname> 
+                     </persName> 
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en"> 
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName> 
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName> 
+                     </publisher>
+                     <pubPlace xml:lang="en"> 
+                        <placeName xml:lang="ar">بيروت</placeName>
+                                <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName> 
+                        <placeName xml:lang="en">Beirut</placeName> 
+                        <placeName xml:lang="fr">Beyrouth</placeName> 
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1885-06-22"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">22 June 1885</tei:date>
+                     <tei:date type="computed"
+                               when="1885-06-22"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1302-09-09"
+                               xml:lang="ar-Latn-x-ijmes">9 Ramaḍān 1302</tei:date>
+                     <tei:date type="official"
+                               when="1885-06-22"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1885-06-10"
+                               xml:lang="ar-Latn-x-ijmes">10 Ḥazīrān 1885</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="11" to="11" unit="volume"/>
+                  <tei:biblScope from="536" to="536" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Monday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الاثنين من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-ithnayn min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en" ref="viaf:88341780"> 
+                     <persName xml:lang="ar">
+                            <forename>عبد القادر</forename> 
+                        <surname>قباني</surname> 
+                     </persName>
+                            <persName xml:lang="ar-Latn-x-ijmes"> 
+                        <forename>ʿAbd al-Qādir</forename>
+                            <surname>Qabbānī</surname> 
+                     </persName> 
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en"> 
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName> 
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName> 
+                     </publisher>
+                     <pubPlace xml:lang="en"> 
+                        <placeName xml:lang="ar">بيروت</placeName>
+                                <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName> 
+                        <placeName xml:lang="en">Beirut</placeName> 
+                        <placeName xml:lang="fr">Beyrouth</placeName> 
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1885-06-29"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">29 June 1885</tei:date>
+                     <tei:date type="computed"
+                               when="1885-06-29"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1302-09-16"
+                               xml:lang="ar-Latn-x-ijmes">16 Ramaḍān 1302</tei:date>
+                     <tei:date type="official"
+                               when="1885-06-29"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1885-06-17"
+                               xml:lang="ar-Latn-x-ijmes">17 Ḥazīrān 1885</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="11" to="11" unit="volume"/>
+                  <tei:biblScope from="537" to="537" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Monday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الاثنين من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-ithnayn min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en" ref="viaf:88341780"> 
+                     <persName xml:lang="ar">
+                            <forename>عبد القادر</forename> 
+                        <surname>قباني</surname> 
+                     </persName>
+                            <persName xml:lang="ar-Latn-x-ijmes"> 
+                        <forename>ʿAbd al-Qādir</forename>
+                            <surname>Qabbānī</surname> 
+                     </persName> 
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en"> 
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName> 
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName> 
+                     </publisher>
+                     <pubPlace xml:lang="en"> 
+                        <placeName xml:lang="ar">بيروت</placeName>
+                                <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName> 
+                        <placeName xml:lang="en">Beirut</placeName> 
+                        <placeName xml:lang="fr">Beyrouth</placeName> 
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1885-07-06"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">6 July 1885</tei:date>
+                     <tei:date type="computed"
+                               when="1885-07-06"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1302-09-23"
+                               xml:lang="ar-Latn-x-ijmes">23 Ramaḍān 1302</tei:date>
+                     <tei:date type="official"
+                               when="1885-07-06"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1885-06-24"
+                               xml:lang="ar-Latn-x-ijmes">24 Ḥazīrān 1885</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="11" to="11" unit="volume"/>
+                  <tei:biblScope from="538" to="538" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Monday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <!-- #539 -->
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الاثنين من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-ithnayn min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en" ref="viaf:88341780"> 
+                     <persName xml:lang="ar">
+                            <forename>عبد القادر</forename> 
+                        <surname>قباني</surname> 
+                     </persName>
+                            <persName xml:lang="ar-Latn-x-ijmes"> 
+                        <forename>ʿAbd al-Qādir</forename>
+                            <surname>Qabbānī</surname> 
+                     </persName> 
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en"> 
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName> 
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName> 
+                     </publisher>
+                     <pubPlace xml:lang="en"> 
+                        <placeName xml:lang="ar">بيروت</placeName>
+                                <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName> 
+                        <placeName xml:lang="en">Beirut</placeName> 
+                        <placeName xml:lang="fr">Beyrouth</placeName> 
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1885-07-20"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">20 July 1885</tei:date>
+                     <tei:date type="computed"
+                               when="1885-07-20"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1302-10-07"
+                               xml:lang="ar-Latn-x-ijmes">7 Shawwāl 1302</tei:date>
+                     <tei:date type="official"
+                               when="1885-07-20"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1885-07-08"
+                               xml:lang="ar-Latn-x-ijmes">8 Tammūz 1885</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="11" to="11" unit="volume"/>
+                  <tei:biblScope from="539" to="539" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Monday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الاثنين من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-ithnayn min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en" ref="viaf:88341780"> 
+                     <persName xml:lang="ar">
+                            <forename>عبد القادر</forename> 
+                        <surname>قباني</surname> 
+                     </persName>
+                            <persName xml:lang="ar-Latn-x-ijmes"> 
+                        <forename>ʿAbd al-Qādir</forename>
+                            <surname>Qabbānī</surname> 
+                     </persName> 
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en"> 
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName> 
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName> 
+                     </publisher>
+                     <pubPlace xml:lang="en"> 
+                        <placeName xml:lang="ar">بيروت</placeName>
+                                <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName> 
+                        <placeName xml:lang="en">Beirut</placeName> 
+                        <placeName xml:lang="fr">Beyrouth</placeName> 
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1885-07-27"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">27 July 1885</tei:date>
+                     <tei:date type="computed"
+                               when="1885-07-27"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1302-10-14"
+                               xml:lang="ar-Latn-x-ijmes">14 Shawwāl 1302</tei:date>
+                     <tei:date type="official"
+                               when="1885-07-27"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1885-07-15"
+                               xml:lang="ar-Latn-x-ijmes">15 Tammūz 1885</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="11" to="11" unit="volume"/>
+                  <tei:biblScope from="540" to="540" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Monday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الاثنين من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-ithnayn min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en" ref="viaf:88341780"> 
+                     <persName xml:lang="ar">
+                            <forename>عبد القادر</forename> 
+                        <surname>قباني</surname> 
+                     </persName>
+                            <persName xml:lang="ar-Latn-x-ijmes"> 
+                        <forename>ʿAbd al-Qādir</forename>
+                            <surname>Qabbānī</surname> 
+                     </persName> 
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en"> 
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName> 
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName> 
+                     </publisher>
+                     <pubPlace xml:lang="en"> 
+                        <placeName xml:lang="ar">بيروت</placeName>
+                                <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName> 
+                        <placeName xml:lang="en">Beirut</placeName> 
+                        <placeName xml:lang="fr">Beyrouth</placeName> 
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1885-08-03"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">3 August 1885</tei:date>
+                     <tei:date type="computed"
+                               when="1885-08-03"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1302-10-21"
+                               xml:lang="ar-Latn-x-ijmes">21 Shawwāl 1302</tei:date>
+                     <tei:date type="official"
+                               when="1885-08-03"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1885-07-22"
+                               xml:lang="ar-Latn-x-ijmes">22 Tammūz 1885</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="11" to="11" unit="volume"/>
+                  <tei:biblScope from="541" to="541" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Monday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الاثنين من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-ithnayn min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en" ref="viaf:88341780"> 
+                     <persName xml:lang="ar">
+                            <forename>عبد القادر</forename> 
+                        <surname>قباني</surname> 
+                     </persName>
+                            <persName xml:lang="ar-Latn-x-ijmes"> 
+                        <forename>ʿAbd al-Qādir</forename>
+                            <surname>Qabbānī</surname> 
+                     </persName> 
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en"> 
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName> 
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName> 
+                     </publisher>
+                     <pubPlace xml:lang="en"> 
+                        <placeName xml:lang="ar">بيروت</placeName>
+                                <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName> 
+                        <placeName xml:lang="en">Beirut</placeName> 
+                        <placeName xml:lang="fr">Beyrouth</placeName> 
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1885-08-10"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">10 August 1885</tei:date>
+                     <tei:date type="computed"
+                               when="1885-08-10"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1302-10-28"
+                               xml:lang="ar-Latn-x-ijmes">28 Shawwāl 1302</tei:date>
+                     <tei:date type="official"
+                               when="1885-08-10"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1885-07-29"
+                               xml:lang="ar-Latn-x-ijmes">29 Tammūz 1885</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="11" to="11" unit="volume"/>
+                  <tei:biblScope from="542" to="542" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Monday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الاثنين من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-ithnayn min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en" ref="viaf:88341780"> 
+                     <persName xml:lang="ar">
+                            <forename>عبد القادر</forename> 
+                        <surname>قباني</surname> 
+                     </persName>
+                            <persName xml:lang="ar-Latn-x-ijmes"> 
+                        <forename>ʿAbd al-Qādir</forename>
+                            <surname>Qabbānī</surname> 
+                     </persName> 
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en"> 
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName> 
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName> 
+                     </publisher>
+                     <pubPlace xml:lang="en"> 
+                        <placeName xml:lang="ar">بيروت</placeName>
+                                <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName> 
+                        <placeName xml:lang="en">Beirut</placeName> 
+                        <placeName xml:lang="fr">Beyrouth</placeName> 
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1885-08-17"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">17 August 1885</tei:date>
+                     <tei:date type="computed"
+                               when="1885-08-17"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1302-11-06"
+                               xml:lang="ar-Latn-x-ijmes">6 Dhū al-qaʿda 1302</tei:date>
+                     <tei:date type="official"
+                               when="1885-08-17"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1885-08-05"
+                               xml:lang="ar-Latn-x-ijmes">5 Āb 1885</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="11" to="11" unit="volume"/>
+                  <tei:biblScope from="543" to="543" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Monday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الاثنين من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-ithnayn min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en" ref="viaf:88341780"> 
+                     <persName xml:lang="ar">
+                            <forename>عبد القادر</forename> 
+                        <surname>قباني</surname> 
+                     </persName>
+                            <persName xml:lang="ar-Latn-x-ijmes"> 
+                        <forename>ʿAbd al-Qādir</forename>
+                            <surname>Qabbānī</surname> 
+                     </persName> 
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en"> 
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName> 
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName> 
+                     </publisher>
+                     <pubPlace xml:lang="en"> 
+                        <placeName xml:lang="ar">بيروت</placeName>
+                                <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName> 
+                        <placeName xml:lang="en">Beirut</placeName> 
+                        <placeName xml:lang="fr">Beyrouth</placeName> 
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1885-08-24"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">24 August 1885</tei:date>
+                     <tei:date type="computed"
+                               when="1885-08-24"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1302-11-13"
+                               xml:lang="ar-Latn-x-ijmes">13 Dhū al-qaʿda 1302</tei:date>
+                     <tei:date type="official"
+                               when="1885-08-24"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1885-08-12"
+                               xml:lang="ar-Latn-x-ijmes">12 Āb 1885</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="11" to="11" unit="volume"/>
+                  <tei:biblScope from="544" to="544" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Monday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <tei:biblStruct xml:lang="en">
+               <tei:monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">ثمرات الفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">ان هذه الصحيفة على حوادث سياسية ومحلية وتجارة وفنون</title>
+                  <title level="j" type="sub" xml:lang="ar">صدورها في يوم الاثنين من كل اسبوع</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-ithnayn min kull usbūʿ</title>
+                  <idno type="oclc" xml:lang="en">792755216</idno>
+                  <idno type="oclc" xml:lang="en">745202659</idno>
+                  <idno type="oclc" xml:lang="en">915538205</idno>
+                  <idno type="oclc" xml:lang="en">30431084</idno>
+                  <idno type="oclc" xml:lang="en">499946128</idno>
+                  <idno type="oclc" xml:lang="en">177646790</idno>
+                  <editor xml:lang="en" ref="viaf:88341780"> 
+                     <persName xml:lang="ar">
+                            <forename>عبد القادر</forename> 
+                        <surname>قباني</surname> 
+                     </persName>
+                            <persName xml:lang="ar-Latn-x-ijmes"> 
+                        <forename>ʿAbd al-Qādir</forename>
+                            <surname>Qabbānī</surname> 
+                     </persName> 
+                  </editor>
+                  <tei:imprint xml:lang="en">
+                     <publisher xml:lang="en"> 
+                        <orgName xml:lang="ar">مطبعة جمعية الفنون</orgName> 
+                        <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName> 
+                     </publisher>
+                     <pubPlace xml:lang="en"> 
+                        <placeName xml:lang="ar">بيروت</placeName>
+                                <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName> 
+                        <placeName xml:lang="en">Beirut</placeName> 
+                        <placeName xml:lang="fr">Beyrouth</placeName> 
+                     </pubPlace>
+                     <tei:date type="official"
+                               when="1885-08-31"
+                               datingMethod="#cal_gregorian"
+                               calendar="#cal_gregorian"
+                               xml:lang="ar-Latn-x-ijmes">31 August 1885</tei:date>
+                     <tei:date type="computed"
+                               when="1885-08-31"
+                               datingMethod="#cal_islamic"
+                               calendar="#cal_islamic"
+                               when-custom="1302-11-20"
+                               xml:lang="ar-Latn-x-ijmes">20 Dhū al-qaʿda 1302</tei:date>
+                     <tei:date type="official"
+                               when="1885-08-31"
+                               datingMethod="#cal_julian"
+                               calendar="#cal_julian"
+                               when-custom="1885-08-19"
+                               xml:lang="ar-Latn-x-ijmes">19 Āb 1885</tei:date>
+                  </tei:imprint>
+                  <tei:biblScope from="11" to="11" unit="volume"/>
+                  <tei:biblScope from="545" to="545" unit="issue"/>
+                  <biblScope from="1" to="4" unit="page"/>
+               </tei:monogr>
+               <note n="p_weekdays-published" type="param">Monday</note>
+               <note n="p_step" type="param">daily</note>
+            </tei:biblStruct>
+            <!-- #546 -->
+
          </tei:listBibl>
       </body>
    </text>
