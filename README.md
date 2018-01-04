@@ -11,6 +11,7 @@ This repository contains bibliographic metadata for the newspaper *Thamarāt al-
 - 2017-10-24: index based on an unpublished thesis by Hudā Ṣiyāḥ (Lebanese University).
 - Completed generation of metadata until:
     + vol.11, no.513 (2017-11-05)
+    + vol.13, no.645 (2018-01-04)
 
 # some technical details
 
