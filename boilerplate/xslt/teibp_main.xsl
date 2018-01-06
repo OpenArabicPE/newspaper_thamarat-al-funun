@@ -855,13 +855,13 @@
                             <xsl:text>TEI source on GitHub</xsl:text>
                         </a>
             </div>
-            <!-- links to previous and next issues -->
+            <!-- links to previous and next issues: these should be encoded as proper file names in the source files -->
             <xsl:if test="descendant-or-self::tei:TEI/@next">
                 <div id="nextIssue" class="c_button c_button-sidebar">
                     <span class="c_icon">
                         <xsl:copy-of select="document('../assets/icons/chevron-right.svg')"/>
                     </span>
-                    <a href="{descendant-or-self::tei:TEI/@next}.TEIP5.xml" class="c_label" lang="{$v_lang-interface}">
+                    <a href="{descendant-or-self::tei:TEI/@next}" class="c_label" lang="{$v_lang-interface}">
                                 <xsl:copy-of select="$p_text-nav_next-issue"/>
                             </a>
                 </div>
@@ -871,7 +871,7 @@
                     <span class="c_icon">
                         <xsl:copy-of select="document('../assets/icons/chevron-left.svg')"/>
                     </span>
-                    <a href="{descendant-or-self::tei:TEI/@prev}.TEIP5.xml" class="c_label" lang="{$v_lang-interface}">
+                    <a href="{descendant-or-self::tei:TEI/@prev}" class="c_label" lang="{$v_lang-interface}">
                                 <xsl:copy-of select="$p_text-nav_previous-issue"/>
                             </a>
                 </div>
