@@ -18,6 +18,22 @@ This repository contains bibliographic metadata for the newspaper *Thamarāt al-
     + vol.11, no.513 (2017-11-05)
     + 2018-01-07: for all currently 1264 bibliographic entries
 
+## to do
+
+- generate metadata
+    + 696-718
+    + 866-1109
+    + 1150
+    + 1213
+    + 1232
+    + 1266
+    + 1362-1461
+    + 1544
+    + 1577-1586
+    + 1606-1655
+    + 1658
+- generate individual TEI files
+
 # some technical details
 
 This repository contains the following files:
