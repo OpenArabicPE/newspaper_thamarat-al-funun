@@ -16,10 +16,10 @@
             </tss:authors>
             <tss:dates>
                <tss:date type="Publication" day="17" month="3" year="1884"/>
-               <tss:date type="Retrieval" day="7" month="11" year="2017"/>
+               <tss:date type="Retrieval" day="4" month="7" year="2018"/>
             </tss:dates>
             <tss:characteristics>
-               <tss:characteristic name="publicationTitle">Thamarāt al-Funūn: Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</tss:characteristic>
+               <tss:characteristic name="publicationTitle">Thamarāt al-Funūn: Inna hadhihi al-ṣaḥīfa taḥtawī ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāriyya wa-funūn</tss:characteristic>
                <tss:characteristic name="Short Titel">Thamarāt</tss:characteristic>
                <tss:characteristic name="Shortened title">Thamarāt</tss:characteristic>
                <tss:characteristic name="publisher">Maṭbaʿa Jamʿiyyat al-Funūn</tss:characteristic>

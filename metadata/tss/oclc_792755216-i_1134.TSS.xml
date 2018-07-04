@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tss:senteContainer xmlns:tss="http://www.thirdstreetsoftware.com/SenteXML-1.0"
+                    xmlns:tei="http://www.tei-c.org/ns/1.0"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    version="1.0"
+                    xsi:schemaLocation="http://www.thirdstreetsoftware.com/SenteXML-1.0 SenteXML.xsd">
+   <tss:library>
+      <tss:references>
+         <tss:reference>
+            <tss:publicationType name="Archival Periodical"/>
+            <tss:authors>
+               <tss:author role="Editor">
+                  <tss:surname>Qabbānī</tss:surname>
+                  <tss:forenames>ʿAbd al-Qādir</tss:forenames>
+               </tss:author>
+            </tss:authors>
+            <tss:dates>
+               <tss:date type="Publication" day="21" month="6" year="1897"/>
+               <tss:date type="Retrieval" day="4" month="7" year="2018"/>
+            </tss:dates>
+            <tss:characteristics>
+               <tss:characteristic name="publicationTitle">Thamarāt al-Funūn: Inna hadhihi al-ṣaḥīfa taḥtawī ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-funūn</tss:characteristic>
+               <tss:characteristic name="Short Titel">Thamarāt</tss:characteristic>
+               <tss:characteristic name="Shortened title">Thamarāt</tss:characteristic>
+               <tss:characteristic name="publisher">Maṭbaʿa Jamʿiyyat al-Funūn</tss:characteristic>
+               <tss:characteristic name="publicationCountry">Bayrūt</tss:characteristic>
+               <tss:characteristic name="volume">1134</tss:characteristic>
+               <tss:characteristic name="issue">24</tss:characteristic>
+               <tss:characteristic name="pages">1-4</tss:characteristic>
+               <tss:characteristic name="Date Hijri">20 Muḥ 1315</tss:characteristic>
+               <tss:characteristic name="Date Rumi">9 Ḥaz 1897</tss:characteristic>
+               <tss:characteristic name="Citation identifier">thamarat-oib-24-1134</tss:characteristic>
+               <tss:characteristic name="URL"/>
+            </tss:characteristics>
+            <tss:attachments>
+               <tss:attachmentReference>
+                  <URL>../images/pdfs/oclc_792755216-i_1134.pdf</URL>
+               </tss:attachmentReference>
+               <tss:attachmentReference>
+                  <URL>../images/issues/oclc_792755216-i_1134-p_1-color.jpg</URL>
+               </tss:attachmentReference>
+               <tss:attachmentReference>
+                  <URL>../images/issues/oclc_792755216-i_1134-p_2-color.jpg</URL>
+               </tss:attachmentReference>
+               <tss:attachmentReference>
+                  <URL>../images/issues/oclc_792755216-i_1134-p_3-color.jpg</URL>
+               </tss:attachmentReference>
+               <tss:attachmentReference>
+                  <URL>../images/issues/oclc_792755216-i_1134-p_4-color.jpg</URL>
+               </tss:attachmentReference>
+            </tss:attachments>
+         </tss:reference>
+      </tss:references>
+   </tss:library>
+</tss:senteContainer>
