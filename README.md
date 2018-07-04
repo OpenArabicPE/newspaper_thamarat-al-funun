@@ -6,6 +6,12 @@ date: 2018-01-04 20:41:15 +0100
 
 This repository contains bibliographic metadata for the newspaper *Thamarāt al-Funūn* published by ʿAbd al-Qādir al-Qabbānī in Beirut between 1875 and 1908. 
 
+# *Thamarāt al-Funūn*
+
+During the generation of metadata, I found a number of irregularities, which were supposedly due to printers' errors:
+
+- #717 is missing. After #716 followed #718 using the established weekly publication schedule. #717 was thus never published 
+
 # current state
 
 - TEI file of an **index** based on an unpublished thesis by Hudā Ṣiyāḥ (Lebanese University).
@@ -14,15 +20,15 @@ This repository contains bibliographic metadata for the newspaper *Thamarāt al-
     + vol.11, no.513 as TEI and MODS (2017-11-05)
     + vol.13, no.645 as TEI (2018-01-04)
     + 2018-01-07: added some 600-odd issues from previously generated metadata. The missing issues are recorded with comments following this pattern: `<!-- gap of N issues between #N and #M -->`. There are still some 400-500 issues missing.
+    + 2018-07-04: filled the gaps of Nos. 696--718 and 866--1109
 - Completed generation of **individual TEI files**
     + vol.11, no.513 (2017-11-05)
     + 2018-01-07: for all currently 1264 bibliographic entries
+    + 2018-07-04: for all currently 1530 issues
 
 ## to do
 
 - generate metadata
-    + 696-718
-    + 866-1109
     + 1150
     + 1213
     + 1232
