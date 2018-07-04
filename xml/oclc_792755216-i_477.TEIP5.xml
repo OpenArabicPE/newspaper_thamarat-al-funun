@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://rawgit.com/OpenArabicPE/OpenArabicPE_ODD/v0.1/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../boilerplate/xslt/teibp_parameters.xsl"?><tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0"
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://rawgit.com/OpenArabicPE/OpenArabicPE_ODD/master/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://rawgit.com/OpenArabicPE/OpenArabicPE_ODD/master/schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://rawgit.com/OpenArabicPE/OpenArabicPE_ODD/master/schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../boilerplate/xslt/teibp_parameters.xsl"?><tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0"
          xmlns="http://www.tei-c.org/ns/1.0"
          xml:id="oclc_792755216-i_477"
          prev="oclc_792755216-i_476.TEIP5.xml"
@@ -26,81 +26,81 @@
          </tei:publicationStmt>
          <tei:sourceDesc>
             <tei:biblStruct xml:id="biblStruct_2.d1e54081" xml:lang="en">
-               <tei:monogr xml:id="monogr_2.d1e54083" xml:lang="en">
-                  <title level="j" xml:id="title_2864.d1e54085" xml:lang="ar">ثمرات الفنون</title>
-                  <title level="j" type="sub" xml:id="title_2865.d1e54088" xml:lang="ar">ان هذه الصحيفة تحتوي على حوادث سياسية ومحلية وتجارية وفنون</title>
-                  <title level="j" type="sub" xml:id="title_2866.d1e54091" xml:lang="ar">صدورها في يوم الاثنين من كل اسبوع</title>
-                  <title level="j" xml:id="title_2867.d1e54094" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
-                  <title level="j"
+                    <tei:monogr xml:id="monogr_2.d1e54083" xml:lang="en">
+                        <title level="j" xml:id="title_2864.d1e54085" xml:lang="ar">ثمرات الفنون</title>
+                        <title level="j" type="sub" xml:id="title_2865.d1e54088" xml:lang="ar">ان هذه الصحيفة تحتوي على حوادث سياسية ومحلية وتجارية وفنون</title>
+                        <title level="j" type="sub" xml:id="title_2866.d1e54091" xml:lang="ar">صدورها في يوم الاثنين من كل اسبوع</title>
+                        <title level="j" xml:id="title_2867.d1e54094" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
+                        <title level="j"
                          type="sub"
                          xml:id="title_2868.d1e54097"
                          xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa taḥtawī ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāriyya wa-funūn</title>
-                  <title level="j"
+                        <title level="j"
                          type="sub"
                          xml:id="title_2869.d1e54101"
                          xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-ithnayn min kull usbūʿ</title>
-                  <idno type="oclc" xml:id="idno_2863.d1e54104" xml:lang="en">792755216</idno>
-                  <idno type="oclc" xml:id="idno_2864.d1e54107" xml:lang="en">745202659</idno>
-                  <idno type="oclc" xml:id="idno_2865.d1e54110" xml:lang="en">915538205</idno>
-                  <idno type="oclc" xml:id="idno_2866.d1e54113" xml:lang="en">30431084</idno>
-                  <idno type="oclc" xml:id="idno_2867.d1e54116" xml:lang="en">499946128</idno>
-                  <idno type="oclc" xml:id="idno_2868.d1e54120" xml:lang="en">177646790</idno>
-                  <editor xml:id="editor_478.d1e54123" xml:lang="en">
-                     <persName xml:id="persName_955.d1e54125" xml:lang="ar">
-                        <forename xml:id="forename_955.d1e54127">عبد القادر</forename>
-                        <surname xml:id="surname_955.d1e54130">قباني</surname>
-                     </persName>
-                     <persName xml:id="persName_956.d1e54134" xml:lang="ar-Latn-x-ijmes">
-                        <forename xml:id="forename_956.d1e54136">ʿAbd al-Qādir</forename>
-                        <surname xml:id="surname_956.d1e54139">Qabbānī</surname>
-                     </persName>
-                  </editor>
-                  <tei:imprint xml:id="imprint_2.d1e54144" xml:lang="en">
-                     <publisher xml:id="publisher_478.d1e54146" xml:lang="en">
-                        <orgName xml:id="orgName_955.d1e54148" xml:lang="ar">مطبعة جمعية الفنون</orgName>
-                        <orgName xml:id="orgName_956.d1e54151" xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName>
-                     </publisher>
-                     <pubPlace xml:id="pubPlace_478.d1e54155" xml:lang="en">
-                        <placeName xml:id="placeName_1909.d1e54157" xml:lang="ar">بيروت</placeName>
-                        <placeName xml:id="placeName_1910.d1e54160" xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
-                        <placeName xml:id="placeName_1911.d1e54163" xml:lang="en">Beirut</placeName>
-                        <placeName xml:id="placeName_1912.d1e54166" xml:lang="fr">Beyrouth</placeName>
-                     </pubPlace>
-                     <tei:date calendar="#cal_gregorian"
+                        <idno type="oclc" xml:id="idno_2863.d1e54104" xml:lang="en">792755216</idno>
+                        <idno type="oclc" xml:id="idno_2864.d1e54107" xml:lang="en">745202659</idno>
+                        <idno type="oclc" xml:id="idno_2865.d1e54110" xml:lang="en">915538205</idno>
+                        <idno type="oclc" xml:id="idno_2866.d1e54113" xml:lang="en">30431084</idno>
+                        <idno type="oclc" xml:id="idno_2867.d1e54116" xml:lang="en">499946128</idno>
+                        <idno type="oclc" xml:id="idno_2868.d1e54120" xml:lang="en">177646790</idno>
+                        <editor xml:id="editor_478.d1e54123" xml:lang="en">
+                            <persName xml:id="persName_955.d1e54125" xml:lang="ar">
+                                <forename xml:id="forename_955.d1e54127">عبد القادر</forename>
+                                <surname xml:id="surname_955.d1e54130">قباني</surname>
+                            </persName>
+                            <persName xml:id="persName_956.d1e54134" xml:lang="ar-Latn-x-ijmes">
+                                <forename xml:id="forename_956.d1e54136">ʿAbd al-Qādir</forename>
+                                <surname xml:id="surname_956.d1e54139">Qabbānī</surname>
+                            </persName>
+                        </editor>
+                        <tei:imprint xml:id="imprint_2.d1e54144" xml:lang="en">
+                            <publisher xml:id="publisher_478.d1e54146" xml:lang="en">
+                                <orgName xml:id="orgName_955.d1e54148" xml:lang="ar">مطبعة جمعية الفنون</orgName>
+                                <orgName xml:id="orgName_956.d1e54151" xml:lang="ar-Latn-x-ijmes">Maṭbaʿa Jamʿiyyat al-Funūn</orgName>
+                            </publisher>
+                            <pubPlace xml:id="pubPlace_478.d1e54155" xml:lang="en">
+                                <placeName xml:id="placeName_1909.d1e54157" xml:lang="ar">بيروت</placeName>
+                                <placeName xml:id="placeName_1910.d1e54160" xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
+                                <placeName xml:id="placeName_1911.d1e54163" xml:lang="en">Beirut</placeName>
+                                <placeName xml:id="placeName_1912.d1e54166" xml:lang="fr">Beyrouth</placeName>
+                            </pubPlace>
+                            <tei:date calendar="#cal_gregorian"
                                datingMethod="#cal_gregorian"
                                type="official"
                                when="1884-05-05"
                                xml:id="date_3.d1e54170"
                                xml:lang="ar-Latn-x-ijmes">5 May 1884</tei:date>
-                     <tei:date calendar="#cal_islamic"
+                            <tei:date calendar="#cal_islamic"
                                datingMethod="#cal_islamic"
                                type="computed"
                                when="1884-05-05"
                                when-custom="1301-07-09"
                                xml:id="date_3.d1e54173"
                                xml:lang="ar-Latn-x-ijmes">9 Rajab 1301</tei:date>
-                     <tei:date calendar="#cal_julian"
+                            <tei:date calendar="#cal_julian"
                                datingMethod="#cal_julian"
                                type="official"
                                when="1884-05-05"
                                when-custom="1884-04-23"
                                xml:id="date_3.d1e54176"
                                xml:lang="ar-Latn-x-ijmes">23 Nīsān 1884</tei:date>
-                  </tei:imprint>
-                  <tei:biblScope from="10" to="10" unit="volume" xml:id="biblScope_480.d1e54180"/>
-                  <tei:biblScope from="477"
+                        </tei:imprint>
+                        <tei:biblScope from="10" to="10" unit="volume" xml:id="biblScope_480.d1e54180"/>
+                        <tei:biblScope from="477"
                                  to="477"
                                  unit="issue"
                                  xml:id="biblScope_480.d1e54182"/>
-                  <biblScope from="1" to="4" unit="page" xml:id="biblScope_480.d1e54184"/>
-               </tei:monogr>
-               <note n="p_weekdays-published" type="param" xml:id="note_955.d1e54187">Monday</note>
-               <note n="p_step" type="param" xml:id="note_956.d1e54190">daily</note>
-            </tei:biblStruct>
+                        <biblScope from="1" to="4" unit="page" xml:id="biblScope_480.d1e54184"/>
+                    </tei:monogr>
+                    <note n="p_weekdays-published" type="param" xml:id="note_955.d1e54187">Monday</note>
+                    <note n="p_step" type="param" xml:id="note_956.d1e54190">daily</note>
+                </tei:biblStruct>
          </tei:sourceDesc>
       </tei:fileDesc>
       <tei:revisionDesc>
-         <tei:change when="2018-01-07">Created this file by automatic conversion of <tei:gi>biblStruct</tei:gi> from file:/Volumes/Dessau%20HD/BachUni/BachBibliothek/GitHub/OpenArabicPE/newspaper_thamarat-al-funun/metadata/thamarat-al-funun.TEIP5.xml.</tei:change>
+         <tei:change when="2018-07-04">Created this file by automatic conversion of <tei:gi>biblStruct</tei:gi> from file:/BachUni/BachBibliothek/GitHub/OpenArabicPE/newspaper_thamarat-al-funun/metadata/thamarat-al-funun.TEIP5.xml.</tei:change>
       </tei:revisionDesc>
    </tei:teiHeader>
    <tei:facsimile>
@@ -128,6 +128,7 @@
    <tei:text xml:lang="ar">
       <tei:pb ed="print" n="1" facs="#facs_1"/>
       <tei:body>
+         <tei:div type="item"/>
          <tei:pb ed="print" n="2" facs="#facs_2"/>
          <tei:pb ed="print" n="3" facs="#facs_3"/>
          <tei:pb ed="print" n="4" facs="#facs_4"/>
