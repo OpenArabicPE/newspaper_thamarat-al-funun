@@ -4,6 +4,9 @@
     xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:msxsl="urn:schemas-microsoft-com:xslt"
     xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
+    <!-- parameter to select the mimeType. In some cases tiff might be more efficient than jpeg -->
+        <xsl:param name="p_mimetype" select="'image/tiff'"/>
+    
     <!-- construct the image URL on the fly -->
     <xsl:variable name="v_volume" select="$vgBiblStructSource/tei:monogr/tei:biblScope[@unit = 'volume']/@n"/>
     <xsl:variable name="v_issue" select="$vgBiblStructSource/tei:monogr/tei:biblScope[@unit = 'issue']/@n"/>
@@ -37,12 +40,17 @@
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
-        <xsl:variable name="v_mimetype" select="'image/jpeg'"/>
         <xsl:variable name="v_id-facs" select="substring-after($v_facs, '#')"/>
         <xsl:variable name="v_graphic" select="ancestor::tei:TEI/tei:facsimile/tei:surface[@xml:id = $v_id-facs]/tei:graphic"/>
         <!-- select which online facsimile to display based on the order of preference: EAP, sakhrit, HathiTrust, other; and https over http -->
         <xsl:variable name="v_url-graphic">
             <xsl:choose>
+                <!-- sequence of providers and protocolls is currently hardcoded and can be changed to taste -->
+                <!-- iiif -->
+                <xsl:when test="$v_graphic[@type='iiif']">
+                    <!-- iiif allows for various paramters to be set. Currently, we opted for minimized traffic -->
+                    <xsl:value-of select="concat($v_graphic[@type='iiif'][1]/@url,'/full/800,/0/gray.jpg')"/>
+                </xsl:when>
                 <xsl:when test="$v_graphic[starts-with(@url, 'https://eap.')]">
                     <xsl:value-of select="$v_graphic[starts-with(@url, 'https://eap.')][1]/@url"/>
                 </xsl:when>
@@ -74,7 +82,17 @@
                     <xsl:choose>
                         <!-- display of local facsimiles -->
                         <xsl:when test="$p_display-online-facsimiles = false()">
-                            <xsl:value-of select="$v_graphic[not(starts-with(@url,'http'))][@mimeType = $v_mimetype][1]/@url"/>
+                            <!-- set preferences for mimeTypes -->
+                            <xsl:choose>
+                                <!-- test for $p_mimetype -->
+                                <xsl:when test="$v_graphic[not(starts-with(@url,'http'))]/@mimeType = $p_mimetype">
+                                    <xsl:value-of select="$v_graphic[not(starts-with(@url,'http'))][@mimeType = $p_mimetype][1]/@url"/>
+                                </xsl:when>
+                                <!-- fallback to JPG -->
+                                <xsl:otherwise>
+                                    <xsl:value-of select="$v_graphic[not(starts-with(@url,'http'))][@mimeType = 'image/jpeg'][1]/@url"/>
+                                </xsl:otherwise>
+                            </xsl:choose>
                         </xsl:when>
                         <!-- select the online copy as default -->
                         <xsl:otherwise>
@@ -100,7 +118,17 @@
         <!-- constructing a link for every graphic element -->
         <xsl:variable name="v_facs-links">
             <xsl:for-each select="$v_graphic[starts-with(@url, 'http')]">
-                <a href="{@url}" target="_blank">
+                <a target="_blank">
+                    <xsl:attribute name="href">
+                        <xsl:choose>
+                            <xsl:when test="@type='iiif'">
+                                <xsl:value-of select="concat(@url,'/full/800,/0/gray.jpg')"/>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:value-of select="@url"/>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                    </xsl:attribute>
                     <xsl:call-template name="t_url-to-name">
                         <xsl:with-param name="p_input" select="@url"/>
                     </xsl:call-template>
@@ -148,13 +176,13 @@
     <xsl:template name="t_url-to-name">
         <xsl:param name="p_input"/>
         <xsl:choose>
-            <xsl:when test="contains($p_input, '://eap.')">
+            <xsl:when test="contains($p_input, 'eap.')">
                 <span lang="en">EAP</span>
             </xsl:when>
-            <xsl:when test="contains($p_input, '://archive.sakhrit.co')">
+            <xsl:when test="contains($p_input, 'archive.sakhrit.co')">
                 <span lang="en">archive.sakhrit.co</span>
             </xsl:when>
-            <xsl:when test="contains($p_input, '://babel.hathitrust.org')">
+            <xsl:when test="contains($p_input, 'hathitrust.')">
                 <span lang="en">HathiTrust</span>
             </xsl:when>
             <xsl:otherwise>
