@@ -29,12 +29,12 @@
                         <title level="j" xml:lang="ar-Latn-x-ijmes" change="#d2e172" xml:id="title_6.d2e68">Thamarāt al-Funūn</title>
                         <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes" change="#d2e172" xml:id="title_7.d2e71">Inna hadhihi al-ṣaḥīfa taḥtawī ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-funūn</title>
                         <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes" change="#d2e172" xml:id="title_8.d2e75">ṣudūruhā fī yawm al-ithnayn min kull usbūʿ</title>
-                        <idno type="oclc" xml:lang="en" change="#d2e172" xml:id="idno_2.d2e78">792755216</idno>
-                        <idno type="oclc" xml:lang="en" change="#d2e172" xml:id="idno_3.d2e81">745202659</idno>
-                        <idno type="oclc" xml:lang="en" change="#d2e172" xml:id="idno_4.d2e84">915538205</idno>
-                        <idno type="oclc" xml:lang="en" change="#d2e172" xml:id="idno_5.d2e87">30431084</idno>
-                        <idno type="oclc" xml:lang="en" change="#d2e172" xml:id="idno_6.d2e90">499946128</idno>
-                        <idno type="oclc" xml:lang="en" change="#d2e172" xml:id="idno_7.d2e94">177646790</idno>
+                        <idno type="OCLC" xml:lang="en" change="#d2e172" xml:id="idno_2.d2e78">792755216</idno>
+                        <idno type="OCLC" xml:lang="en" change="#d2e172" xml:id="idno_3.d2e81">745202659</idno>
+                        <idno type="OCLC" xml:lang="en" change="#d2e172" xml:id="idno_4.d2e84">915538205</idno>
+                        <idno type="OCLC" xml:lang="en" change="#d2e172" xml:id="idno_5.d2e87">30431084</idno>
+                        <idno type="OCLC" xml:lang="en" change="#d2e172" xml:id="idno_6.d2e90">499946128</idno>
+                        <idno type="OCLC" xml:lang="en" change="#d2e172" xml:id="idno_7.d2e94">177646790</idno>
                         <editor ref="viaf:88341780" xml:lang="en" change="#d2e172" xml:id="editor_1.d2e97">
                             <persName xml:lang="ar" change="#d2e172" xml:id="persName_3.d2e99">
                                 <forename change="#d2e172" xml:id="forename_1.d2e101">عبد القادر</forename>
