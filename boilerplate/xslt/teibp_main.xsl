@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet exclude-result-prefixes="xsl tei xd eg fn #default"
-    extension-element-prefixes="exsl     msxsl" version="1.0" xmlns="http://www.w3.org/1999/xhtml"
-    xmlns:eg="http://www.tei-c.org/ns/Examples" xmlns:exsl="http://exslt.org/common"
-    xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:html="http://www.w3.org/1999/xhtml"
-    xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:tei="http://www.tei-c.org/ns/1.0"
+     version="1.0" xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:eg="http://www.tei-c.org/ns/Examples" 
+     xmlns:html="http://www.w3.org/1999/xhtml"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xi="http://www.w3.org/2001/XInclude">
 
@@ -30,10 +30,6 @@
         <html id="html">
             <xsl:copy-of select="$v_html-head"/>
             <body ontouchstart="" id="body">
-                <!-- removed the toolbox altogether -->
-                <!--<xsl:if test="$includeToolbox = true()">
-                    <xsl:call-template name="teibpToolbox"/>
-                </xsl:if>-->
                 <!-- to prepare for the slideout, navigation and content are wrapped in divs  -->
                 <xsl:copy-of select="$v_navigation"/>
 
@@ -89,6 +85,17 @@
                 <xsl:with-param name="pInput" select="."/>
             </xsl:call-template>
             <xsl:apply-templates select="@*"/>
+            <!-- add class attribute -->
+            <!-- <xsl:attribute name="class">
+                <xsl:choose>
+                    <xsl:when test="$p_facsimile-only = true()">
+                        <xsl:text>c_facsimily-only</xsl:text>
+                    </xsl:when>
+                    <xsl:when test="$p_facsimile-only = false()">
+                        <xsl:text>c_text-and-facsimily</xsl:text>
+                    </xsl:when>
+                </xsl:choose>
+            </xsl:attribute> -->
             <xsl:apply-templates select="child::node()[not(self::tei:back)]"/>
             <xsl:choose>
                 <xsl:when test="child::tei:back">
@@ -105,6 +112,23 @@
             </xsl:choose>
         </xsl:copy>
     </xsl:template>
+    <xsl:template match="tei:body">
+        <xsl:copy>
+            <xsl:apply-templates select="@*"/>
+            <!-- class to determine the width -->
+            <xsl:attribute name="class">
+                <xsl:choose>
+                    <xsl:when test="$p_facsimile-only = true()">
+                        <xsl:text>c_facsimily-only</xsl:text>
+                    </xsl:when>
+                    <xsl:when test="$p_facsimile-only = false()">
+                        <xsl:text>c_text-and-facsimily</xsl:text>
+                    </xsl:when>
+                </xsl:choose>
+            </xsl:attribute>
+            <xsl:apply-templates/>
+        </xsl:copy>
+    </xsl:template> 
     <xsl:template match="tei:back">
         <xsl:copy>
             <xsl:call-template name="templHtmlAttrLang">
@@ -313,10 +337,6 @@
             <xsl:call-template name="rendition2style"/>
             <!-- <title>don't leave empty.</title> -->
             <xsl:call-template name="t_metadata-file"/>
-            <!-- removed analytics -->
-            <!--<xsl:if test="$includeAnalytics = true()">
-                <xsl:call-template name="analytics"/>
-            </xsl:if>-->
         </head>
     </xsl:variable>
     <xsl:template name="rendition2style">
@@ -400,37 +420,6 @@
             </span>
         </footer>
     </xsl:variable>
-    <!-- removed the toolbox -->
-    <!--<xsl:template name="teibpToolbox">
-        <div id="teibpToolbox">
-            <h1>Toolbox</h1>
-            <label for="pbToggle">Hide page breaks</label>
-            <input id="pbToggle" type="checkbox"/>
-            <div>
-                <h3>Themes:</h3>
-                <select id="themeBox" onchange="switchThemes(this);">
-                    <option value="{$theme.default}">Default</option>
-                    <option value="{$theme.sleepytime}">Sleepy Time</option>
-                    <option value="{$theme.terminal}">Terminal</option>
-                </select>
-            </div>
-        </div>
-    </xsl:template>-->
-    <!-- removed analytics -->
-    <!--<xsl:template name="analytics">
-        <script type="text/javascript">
-		  var _gaq = _gaq || [];
-		  //include analytics account below.
-		  _gaq.push(['_setAccount', 'UA-XXXXXXXX-X']);
-		  _gaq.push(['_trackPageview']);
-		
-		  (function() {
-		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		  })();
-		</script>
-    </xsl:template>-->
 
     <xd:doc>
         <xd:desc>
@@ -512,13 +501,39 @@
                 <xsl:text> (</xsl:text>
                 <!-- add author names and pages if available -->
                 <xsl:if
-                    test="tei:byline/descendant::tei:persName or tei:opener/tei:byline/descendant::tei:persName">
+                    test="not(@type='section') and (tei:byline/descendant::tei:persName or tei:opener/tei:byline/descendant::tei:persName or descendant::tei:note[@type = 'bibliographic']/tei:bibl)">
                     <xsl:choose>
                         <xsl:when test="@xml:lang = 'ar'">
                             <xsl:text>تأليف: </xsl:text>
                         </xsl:when>
                     </xsl:choose>
-                    <xsl:value-of select="descendant::tei:byline/descendant::tei:persName"/>
+                    <xsl:choose>
+                        <xsl:when test="tei:byline/descendant::tei:persName">
+                            <xsl:for-each select="descendant::tei:byline/descendant::tei:persName">
+                                <xsl:apply-templates mode="mToc"/>
+                                <xsl:if test="not(last())">
+                                    <xsl:text>،</xsl:text>
+                                </xsl:if>
+                            </xsl:for-each>
+                        </xsl:when>
+                        <!-- problem: depth  -->
+                        <xsl:when test="descendant::tei:note[@type = 'bibliographic']/tei:bibl/tei:author">
+                            <xsl:for-each select="descendant::tei:note[@type = 'bibliographic']/tei:bibl/tei:author">
+                                <xsl:apply-templates select="descendant::tei:persName" mode="mToc"/>
+                                <xsl:if test="not(last())">
+                                    <xsl:text>،</xsl:text>
+                                </xsl:if>
+                            </xsl:for-each>
+                        </xsl:when>
+                        <xsl:when test="descendant::tei:note[@type = 'bibliographic']/tei:bibl/tei:title[@level = 'j']">
+                            <xsl:for-each select="descendant::tei:note[@type = 'bibliographic']/tei:bibl/tei:title[@level = 'j']">
+                                <xsl:apply-templates select="." mode="mToc"/>
+                                <xsl:if test="not(last())">
+                                    <xsl:text>،</xsl:text>
+                                </xsl:if>
+                            </xsl:for-each>
+                        </xsl:when>
+                    </xsl:choose>
                     <xsl:text>،</xsl:text>
                 </xsl:if>
                 <!-- add page numbers -->
@@ -542,12 +557,26 @@
             </xsl:if>
         </li>
     </xsl:template>
+    <xsl:template match="tei:persName" mode="mToc">
+        <!-- if there is more than forename and surname, strip that out -->
+        <xsl:choose>
+            <xsl:when test="child::tei:surname and child::tei:forename">
+                <xsl:apply-templates mode="mToc"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of select="normalize-space(.)"/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+    <xsl:template match="tei:surname | tei:forename | tei:nameLink" mode="mToc">
+        <xsl:text> </xsl:text><xsl:value-of select="normalize-space(.)"/><xsl:text> </xsl:text>
+    </xsl:template>
 
     <!-- omit all nodes that are not explicitly dealt with -->
     <xsl:template match="tei:head" mode="mToc">
         <xsl:apply-templates mode="mToc"/>
     </xsl:template>
-    <xsl:template match="tei:note" mode="mToc"/>
+    <xsl:template match="tei:note | tei:addName | tei:roleName" mode="mToc"/>
     <xsl:template match="tei:lb | tei:cb" mode="mToc">
         <xsl:text> </xsl:text>
     </xsl:template>
@@ -591,6 +620,12 @@
                     <xsl:call-template name="templHtmlAttrLang">
                         <xsl:with-param name="pInput" select="tei:head"/>
                     </xsl:call-template>
+                    <!-- content of the head -->
+                    <span class="c_content">
+                        <xsl:call-template name="templHtmlAttrLang">
+                            <xsl:with-param name="pInput" select="tei:head"/>
+                        </xsl:call-template>
+                        <!-- provide back link to the article -->
                     <xsl:choose>
                         <xsl:when test="@xml:id">
                             <a href="#{@xml:id}" class="c_link-self"
@@ -610,38 +645,91 @@
                                 </xsl:for-each>
                         </xsl:otherwise>
                     </xsl:choose>
-                    <xsl:variable name="vBiblUrl"
-                        select="concat('../metadata/', $vFileId, '-', @xml:id)"/>
+                    </span>
+                    <span class="c_metadata">
+                        <!-- links to bibliographic metadata -->
                     <xsl:choose>
                         <!-- specify in which cases not to provide links to bibliographic metadata -->
-                        <xsl:when test="@type = 'section' and ancestor::tei:div[@type = 'item'][@subtype = 'article'] and ancestor::tei:div[@type = 'item'][@subtype = 'bill']">
-                        </xsl:when>
-                        <xsl:when test="@type = 'section' and ancestor::tei:div[@type = 'article'] and ancestor::tei:div[@type = 'bill']"/>
-                        <xsl:when test="@type = 'article' and ancestor::tei:div[@type = 'bill']"/>
+                        <xsl:when test="@type = 'section' and ancestor::tei:div[@type = 'item']"/>
+                        <xsl:when test="@type = 'section' and (ancestor::tei:div[@type = 'article'] or ancestor::tei:div[@type = 'bill'])"/>
+                        <xsl:when test="(@type = 'article' or @type = 'item') and ancestor::tei:div[@type = 'bill']"/>
                         <xsl:otherwise>
+                            <xsl:variable name="vBiblUrl" select="concat('../metadata/', $vFileId, '-', @xml:id)"/>
                             <xsl:call-template name="templBiblDataLinks">
                                 <xsl:with-param name="pBiblUrl" select="$vBiblUrl"/>
                             </xsl:call-template>
                         </xsl:otherwise>
                     </xsl:choose>
+                    <!-- potentially provide links to previous / next article in a series -->
+                    <xsl:if test="@next or @prev">
+                        <span class="c_links">
+                    <xsl:if test="@next">
+                        <a href="{@next}" title="next article in this series">
+                            <span class="c_icon">
+                            <xsl:copy-of select="document('../assets/icons/chevron-right.svg')"/>
+                        </span>
+                        </a>
+                    </xsl:if>
+                            <xsl:if test="@prev">
+                            <a href="{@prev}" title="previous article in this series">
+                            <span class="c_icon">
+                                <xsl:copy-of select="document('../assets/icons/chevron-left.svg')"/>
+                            </span>
+                        </a>
+                    </xsl:if>
+                        </span>
+                    </xsl:if>
+                    </span>
                 </tei:head>
             </xsl:if>
             <!-- inject some author information -->
-            <!-- add author names and pages if available -->
             <!-- BUG: this doesn't reliably work if there is more than one preceding <tei:head> -->
+            <!-- BUG: sections inherit authors from articles -->
             <xsl:if
-                test="tei:byline/preceding-sibling::*[1] != tei:head and tei:byline/descendant::tei:persName">
-                <span lang="ar" class="c_byline">
-                    <xsl:text>[</xsl:text>
+                test="(tei:byline/preceding-sibling::*[1] != tei:head and tei:byline/descendant::tei:persName) or descendant::tei:note[@type = 'bibliographic']/tei:bibl">
+                <span class="c_byline">
                     <xsl:choose>
                         <xsl:when test="@xml:lang = 'ar'">
+                            <xsl:attribute name="lang">
+                                <xsl:text>ar</xsl:text>
+                            </xsl:attribute>
+                            <xsl:text>[</xsl:text>
                             <xsl:text>تأليف: </xsl:text>
                         </xsl:when>
-                        <!--<xsl:when test="@xml:lang = 'en'">
+                        <xsl:otherwise>
+                            <xsl:attribute name="lang">
+                                <xsl:text>en</xsl:text>
+                            </xsl:attribute>
+                            <xsl:text>[</xsl:text>
                             <xsl:text>author: </xsl:text>
-                        </xsl:when>-->
+                        </xsl:otherwise>
                     </xsl:choose>
-                    <xsl:apply-templates select="tei:byline/descendant::tei:persName"/>
+                     <xsl:choose>
+                        <xsl:when test="tei:byline/descendant::tei:persName">
+                            <xsl:for-each select="descendant::tei:byline/descendant::tei:persName">
+                                <xsl:apply-templates select="."/>
+                                <xsl:if test="not(last())">
+                                    <xsl:text>،</xsl:text>
+                                </xsl:if>
+                            </xsl:for-each>
+                        </xsl:when>
+                        <xsl:when test="descendant::tei:note[@type = 'bibliographic']/tei:bibl/tei:author">
+                            <xsl:for-each select="descendant::tei:note[@type = 'bibliographic']/tei:bibl/tei:author">
+                                <xsl:apply-templates select="tei:persName"/>
+                                <xsl:if test="not(last())">
+                                    <xsl:text>،</xsl:text>
+                                </xsl:if>
+                            </xsl:for-each>
+                        </xsl:when>
+                        <xsl:when test="descendant::tei:note[@type = 'bibliographic']/tei:bibl/tei:title[@level = 'j']">
+                            <xsl:for-each select="descendant::tei:note[@type = 'bibliographic']/tei:bibl/tei:title[@level = 'j']">
+                                <xsl:apply-templates select="."/>
+                                <xsl:if test="not(last())">
+                                    <xsl:text>،</xsl:text>
+                                </xsl:if>
+                            </xsl:for-each>
+                        </xsl:when>
+                    </xsl:choose>
                     <xsl:text>]</xsl:text>
                 </span>
             </xsl:if>
@@ -707,7 +795,6 @@
                 <xsl:call-template name="templHtmlAttrLang">
                     <xsl:with-param name="pInput" select="tei:TEI/tei:text"/>
                 </xsl:call-template>
-                <!--                <xsl:value-of select="$p_text-notes"/>-->
                 <xsl:choose>
                     <xsl:when test="tei:TEI/tei:text/@xml:lang = 'ar'">
                         <xsl:text>ملاحظات</xsl:text>
@@ -718,17 +805,17 @@
                 </xsl:choose>
             </head>
             <xsl:apply-templates
-                select="/descendant::tei:body/descendant::tei:note[@type = 'footnote' or @type = 'endnote']"
+                select="/descendant::tei:body/descendant::tei:note[@type = 'footnote' or @type = 'endnote' or not(@place = 'inline')]"
                 mode="m_notes"/>
         </div>
     </xsl:variable>
-    <xsl:template match="tei:note[@type = 'footnote' or @type = 'endnote']" mode="m_notes">
+    <xsl:template match="tei:note[@type = 'footnote' or @type = 'endnote' or not(@place = 'inline')]" mode="m_notes">
         <note class="c_note" id="fn-{generate-id()}">
             <xsl:call-template name="templHtmlAttrLang">
                 <xsl:with-param name="pInput" select="."/>
             </xsl:call-template>
             <a href="#fn-mark-{generate-id()}" class="c_fn-mark" lang="en">
-                <xsl:value-of select="count(preceding::tei:note[ancestor::tei:body]) + 1"/>
+                <xsl:value-of select="count(preceding::tei:note[@type = 'footnote' or @type = 'endnote' or not(@place = 'inline')][ancestor::tei:body]) + 1"/>
             </a>
             <xsl:apply-templates/>
             <!-- add a back link -->
@@ -739,11 +826,11 @@
         </note>
     </xsl:template>
     <!-- generate the references to the block of endnotes in the text, including a potential pop-up -->
-    <xsl:template match="tei:body//tei:note[@type = 'footnote' or @type = 'endnote']">
+    <xsl:template match="tei:body//tei:note[@type = 'footnote' or @type = 'endnote' or not(@place = 'inline')]">
         <a href="#fn-{generate-id()}" id="fn-mark-{generate-id()}" class="c_fn cContent c_toggle-popup">
             <!-- one should have the full text of the note hidden by CSS -->
             <span class="c_fn-mark" lang="en">
-                <xsl:value-of select="count(preceding::tei:note[ancestor::tei:body]) + 1"/>
+                <xsl:value-of select="count(preceding::tei:note[@type = 'footnote' or @type = 'endnote' or not(@place = 'inline')][ancestor::tei:body]) + 1"/>
             </span>
             <xsl:call-template name="t_pop-up-note">
                 <xsl:with-param name="p_lang">
@@ -956,39 +1043,30 @@
             <!-- wrap everything in a link to external sources -->
             <a class="c_linked-data" lang="en" target="_blank">
                 <xsl:choose>
-                    <xsl:when test="starts-with(@ref, 'geon')">
-                        <xsl:attribute name="href">
-                            <xsl:value-of select="concat('http://www.geonames.org/', substring-after(@ref, 'geon:'))"/>
-                        </xsl:attribute>
-                        <xsl:attribute name="title">
-                            <xsl:text>Link to this toponym on GeoNames</xsl:text>
-                        </xsl:attribute>
-                        <!-- <xsl:text>geonames</xsl:text>-->
-                        <!-- add a mapping symbol -->
-                        <!-- <xsl:copy-of select="document('../assets/icons/map-pin.svg')"/> -->
-                    </xsl:when>
-                    <xsl:when test="starts-with(@ref, 'oclc')">
-                        <xsl:attribute name="href">
-                            <xsl:value-of select="concat('https://www.worldcat.org/oclc/', substring-after(@ref, 'oclc:'))"/>
-                        </xsl:attribute>
-                        <xsl:attribute name="title">
-                            <xsl:text>Link to this bibliographic item on WorldCat</xsl:text>
-                        </xsl:attribute>
-                        <!-- <xsl:text>oclc</xsl:text>-->
-                        <!-- add the arrow symbol -->
-                        <!-- <xsl:copy-of select="document('../assets/icons/book-open.svg')"/> -->
-                    </xsl:when>
-                    <xsl:when test="starts-with(@ref, 'viaf')">
+                    <xsl:when test="contains(@ref, 'viaf')">
                         <xsl:attribute name="href">
                             <xsl:value-of select="concat('https://viaf.org/viaf/', substring-after(@ref, 'viaf:'))"/>
                         </xsl:attribute>
                         <xsl:attribute name="title">
                             <xsl:text>Link to this entity at VIAF</xsl:text>
                         </xsl:attribute>
-                        <!-- <xsl:text>viaf</xsl:text>-->
-                        <!-- add a symbol for a person -->
-                        <!-- <xsl:copy-of select="document('../assets/icons/user.svg')"/> -->
                     </xsl:when>
+                    <xsl:when test="contains(@ref, 'geon')">
+                        <xsl:attribute name="href">
+                            <xsl:value-of select="concat('http://www.geonames.org/', substring-after(@ref, 'geon:'))"/>
+                        </xsl:attribute>
+                        <xsl:attribute name="title">
+                            <xsl:text>Link to this toponym on GeoNames</xsl:text>
+                        </xsl:attribute>
+                    </xsl:when>
+                     <xsl:when test="contains(@ref, 'oclc')">
+                        <xsl:attribute name="href">
+                            <xsl:value-of select="concat('https://www.worldcat.org/oclc/', substring-after(@ref, 'oclc:'))"/>
+                        </xsl:attribute>
+                        <xsl:attribute name="title">
+                            <xsl:text>Link to this bibliographic item on WorldCat</xsl:text>
+                        </xsl:attribute>
+                     </xsl:when>
                 </xsl:choose>
                 <xsl:copy-of select="$p_content"/>
             </a>
@@ -1095,14 +1173,37 @@
     </xsl:template>
     <xsl:template match="tei:date[ancestor::tei:body]">
         <xsl:variable name="v_icon" select="document('../assets/icons/calendar.svg')"/>
+        <span class="c_toggle-popup">
         <xsl:copy>
             <xsl:call-template name="templHtmlAttrLang">
                 <xsl:with-param name="pInput" select="."/>
             </xsl:call-template>
             <xsl:apply-templates select="@* | node()"/>
         </xsl:copy>
-        <!-- add icon -->
+            <!-- add icon -->
         <span class="c_icon-entity"><xsl:copy-of select="$v_icon"/></span>
+            <!-- generate a pop-up label -->
+            <xsl:if test="@datingMethod != ''">
+                <xsl:call-template name="t_pop-up-note">
+                    <xsl:with-param name="p_lang" select="'en'"/>
+                    <xsl:with-param name="p_content">
+                        <span class="c_li">@datingMethod: <xsl:value-of select="@datingMethod"/></span>
+                        <xsl:if test="@when-custom">
+                            <span class="c_li">@when-custom: <xsl:value-of select="@when-custom"/></span>
+                        </xsl:if>
+                        <xsl:if test="@when">
+                            <span class="c_li">@when: <xsl:value-of select="@when"/></span>
+                        </xsl:if>
+                        <xsl:if test="@notBefore">
+                            <span class="c_li">@notBefore: <xsl:value-of select="@notBefore"/></span>
+                        </xsl:if>
+                        <xsl:if test="@notAfter">
+                            <span class="c_li">@notAfter: <xsl:value-of select="@notAfter"/></span>
+                        </xsl:if>
+                    </xsl:with-param>
+                </xsl:call-template>
+            </xsl:if>
+        </span>
     </xsl:template>
 
 
@@ -1143,6 +1244,15 @@
     <xsl:template match="xi:include">
         <xsl:if test="$p_process-xinclude = true()">
             <xsl:variable name="v_id-element" select="@xpointer"/>
+            <!-- provide some source information -->
+            <a href="{concat(@href,'#',$v_id-element)}">
+            <xsl:call-template name="t_source-reference-for-div">
+                <xsl:with-param name="p_input" select="document(@href)//node()[@xml:id = $v_id-element]"/>
+            </xsl:call-template>
+            </a>
+            <!-- add pb preceding the included fragment -->
+            <xsl:apply-templates select="document(@href)//node()[@xml:id = $v_id-element]/preceding::tei:pb[@ed = 'print'][1]"/>
+            <!-- include the XML fragment -->
             <xsl:apply-templates select="document(@href)//node()[@xml:id = $v_id-element]"/>
         </xsl:if>
     </xsl:template>
