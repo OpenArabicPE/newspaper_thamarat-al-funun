@@ -61,3 +61,10 @@ This repository contains the following files:
         * headlines in at least five issues:  {thamarat-oib-23-1082;thamarat-oib-23-1084;thamarat-oib-23-1086;thamarat-oib-23-1089;thamarat-oib-23-1090}
     + *ḥādithat Harsuk*
         * headlines in at least eight issues: {thamarat-oib-1-21;thamarat-oib-1-22;thamarat-oib-1-23;thamarat-oib-1-24;thamarat-oib-1-25;thamarat-oib-1-26;thamarat-oib-1-27;thamarat-oib-1-28}
+- entries are confusing
+    + around 1900, *Thamarāt al-Funūn* ran a section titled *ʿilm al-ijtimāʿ al-basharī* (sociology)
+        * the index contains
+            - one reference to this section without naming the actual article title (p.50)
+            - one faulty reference to an article in this section, without mentioning the section (p.142)
+            - only two entries for #1306, #1308, issues of 8 pages.
+            - only one entry for #1307, #1309
