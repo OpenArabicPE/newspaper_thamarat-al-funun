@@ -62,7 +62,7 @@
                         </tei:imprint>
                         <tei:biblScope from="3" to="3" unit="volume" xml:id="biblScope_110.d1e12252"/>
                         <tei:biblScope from="107" to="107" unit="issue" xml:id="biblScope_110.d1e12254"/>
-                        <biblScope from="1" to="4" unit="page" xml:id="biblScope_110.d1e12256"/>
+                        <biblScope from="1" to="6" unit="page" xml:id="biblScope_110.d1e12256"/>
                     </tei:monogr>
                     <note n="p_weekdays-published" type="param" xml:id="note_215.d1e12259">Thursday</note>
                     <note n="p_step" type="param" xml:id="note_216.d1e12262">daily</note>
@@ -86,6 +86,12 @@
       <tei:surface xml:id="facs_4">
          <tei:graphic xml:id="facs_4-g_1" url="../images/issues/oclc_792755216-i_107-p_4.jpg" mimeType="image/jpeg"/>
       </tei:surface>
+      <tei:surface xml:id="facs_5">
+         <tei:graphic xml:id="facs_5-g_1" url="../images/issues/oclc_792755216-i_107-p_5.jpg" mimeType="image/jpeg"/>
+      </tei:surface>
+      <tei:surface xml:id="facs_6">
+         <tei:graphic xml:id="facs_5-g_1" url="../images/issues/oclc_792755216-i_107-p_6.jpg" mimeType="image/jpeg"/>
+      </tei:surface>
    </tei:facsimile>
    <tei:text xml:lang="ar" change="#d2e172" xml:id="text_1.d2e203">
       <tei:pb ed="print" n="1" facs="#facs_1" change="#d2e172" xml:id="pb_1.d2e205"/>
@@ -94,6 +100,8 @@
          <tei:pb ed="print" n="2" facs="#facs_2" change="#d2e172" xml:id="pb_1.d2e211"/>
          <tei:pb ed="print" n="3" facs="#facs_3" change="#d2e172" xml:id="pb_1.d2e213"/>
          <tei:pb ed="print" n="4" facs="#facs_4" change="#d2e172" xml:id="pb_1.d2e215"/>
+         <tei:pb ed="print" n="5" facs="#facs_5"  xml:id="pb_1.d2e216"/>
+         <tei:pb ed="print" n="6" facs="#facs_6" xml:id="pb_1.d2e217"/>
       </tei:body>
    </tei:text>
 </tei:TEI>
