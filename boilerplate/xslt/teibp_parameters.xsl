@@ -12,7 +12,7 @@
         </xd:desc>
     </xd:doc>
     
-    <!-- Load all other stylesheets -->
+    <!-- Load all other stylesheets: this should be moved to the main stylesheet as this is not going to be something one will want to change -->
     <!-- import the standard TEI Boilerplate stylesheets. If you link to versions hosted on GitHub make sure to point to a stable version to ensure that future changes won't break your set-up -->
     <xsl:include href="https://openarabicpe.github.io/tei-boilerplate-arabic-editions/boilerplate/xslt/teibp_main.xsl"/>
     <xsl:include href="https://openarabicpe.github.io/tei-boilerplate-arabic-editions/boilerplate/xslt/teibp_sourcedesc.xsl"/>
@@ -26,7 +26,7 @@
     <!-- select whether you want to display page breaks and facsimiles; default: true() -->
     <xsl:param name="p_display-page-breaks" select="true()"/>
     <!-- select whether you want to display online or local facsimiles; default: true() -->
-    <xsl:param name="p_display-online-facsimiles" select="false()"/>
+    <xsl:param name="p_display-online-facsimiles" select="true()"/>
     <!-- select whether you want to display line breaks; default: false() -->
     <xsl:param name="p_display-line-breaks" select="false()"/>
     <!-- select whether you want to display editorial changes; default: false() -->
@@ -41,14 +41,24 @@
     <xsl:param name="p_lang-interface-same-as-text" select="true()"/>
     <!-- select the colour scheme for heads; currently available options: red, blue, green -->
     <xsl:param name="p_color-scheme" select="'blue'"/>
-    <!-- parameter to select the mimeType. In some cases tiff might be more efficient than jpeg -->
+    <!-- parameter to select the mimeType. In some cases tiff might be more efficient than jpeg. Note that JPG is the fallback if the preferred format isn't present -->
     <xsl:param name="p_mimetype" select="'image/tiff'"/>
     <!-- toggle the width of the columns. If set to true(), the facsimiles will take up most of the available space -->
     <xsl:param name="p_facsimile-only" select="true()"/>
-    
+
+    <!-- link authority files: relative links are fine as long as they are valid on the server -->
+    <!-- <xsl:param name="p_bibliography" select="document('https://openarabicpe.github.io/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml')"/> -->
+    <xsl:param name="p_bibliography" select="document('../../../authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml')"/>
+    <!-- <xsl:param name="p_gazetteer" select="document('https://openarabicpe.github.io/authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml')"/> -->
+    <xsl:param name="p_gazetteer" select="document('../../../authority-files/data/tei/gazetteer_OpenArabicPE.TEIP5.xml')"/>
+    <!-- <xsl:param name="p_personography" select="document('https://openarabicpe.github.io/authority-files/data/tei/personography_OpenArabicPE.TEIP5.xml')"/> -->
+    <xsl:param name="p_personography" select="document('../../../authority-files/data/tei/personography_OpenArabicPE.TEIP5.xml')"/>
+    <!-- <xsl:param name="p_organizationography" select="document('https://openarabicpe.github.io/authority-files/data/tei/organizationography_OpenArabicPE.TEIP5.xml')"/> -->
+    <xsl:param name="p_organizationography" select="document('../../../authority-files/data/tei/organizationography_OpenArabicPE.TEIP5.xml')"/>
+
     <!-- original TEI Boilerplate stuff -->
     <xsl:param name="teibpHome" select="'http://dcl.slis.indiana.edu/teibp/'"/>
-    
+
     <!-- special characters -->
     <xsl:param name="quot">
         <text>"</text>
@@ -163,7 +173,7 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:param>
-    
+
     <xsl:param name="p_text-nav_next-issue">
         <span lang="{$v_lang-interface}">
             <xsl:choose>
@@ -250,10 +260,10 @@
             </xsl:choose>
         </span>
     </xsl:param>
-    
-    
+
+
     <!-- parameters for file paths or URLs -->
-    <!-- modify filePrefix to point to boilerplate files on your own server, or to specify a relative path, e.g.: <xsl:param name="filePrefix" select="'http://dcl.slis.indiana.edu/teibp'"/>. 
+    <!-- modify filePrefix to point to boilerplate files on your own server, or to specify a relative path, e.g.: <xsl:param name="filePrefix" select="'http://dcl.slis.indiana.edu/teibp'"/>.
         Remember: relative paths are relative to the file they are called from
     -->
     <xsl:param name="filePrefix" select="'https://openarabicpe.github.io/tei-boilerplate-arabic-editions/boilerplate'"/>
