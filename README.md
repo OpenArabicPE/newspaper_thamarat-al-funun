@@ -68,3 +68,39 @@ This repository contains the following files:
             - one faulty reference to an article in this section, without mentioning the section (p.142)
             - only two entries for #1306, #1308, issues of 8 pages.
             - only one entry for #1307, #1309
+
+- an unknown but potentially large number of entries is erroneous
+    - page 131 records the articles
+        1. "الحرية وتأثيرها في البلاد الحجازية" for #680, while it was indeed published in #1690
+        2. "حقيقة ابراهيم باشا الكردي" for #1680, but it was also published in #1690
+        3. "الحرية الشخصية" for #1681, p.1 is found in #1691, p.2
+
+### quick assessment of a single issue
+#### 1682
+
+The index records seven entries for issue #1682:
+
+- 131,كيف نحفظ كياننا,العظم (جميل),,35,1682,1,2,,
+    - published in #1692
+- 131,ماذا بعد الدستور,الاتحاد العثماني,,35,1682,2,,,
+    - published in #1692
+- 131,المبعوثان في لبنان,جمعية الاتحاد والترقي,,35,1682,3,,,
+    - published in #1692
+- 131,واجباتنا بعد الدستور,حفار (لطفي),,35,1682,6,7,,  
+    - published in #1692
+- 139,جرائد بيروت تردد الصدى,مجاعس (داوود),,35,1682,2,3,,
+    - NOT published in #1692
+- 139,جريدة الاتحاد العثماني,طبارة (احمد حسن),,35,1682,5,,,
+    - published in #1692
+- 139,جريدة شمس العدالة,شهاب (خليل),,35,1682,6,,,
+    - published in #1692
+
+Checking the facsimile of #1682, I found the following articles, none of which are registered in the index
+
+1. "جزيرة سيسام"
+2. "المسلمون في روسيا", two articles with this title are recorded for #1247 and #1250
+    - the subtitle "الاسلام منشأ التعليم العام" is recorded for #1672
+3. "الفواكه". an article with a similar title is recorded for #1672
+4. "السكة الحجازية: افتتاح الخط الحميدي الحجازي"
+5. "فوائد الصحة: الارق اي قلة النوم"  based on الافكار, a somewhat fitting entry is recorded for #1672
+6. "فكاهات ولطائف", recorded for some other issues
